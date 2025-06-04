@@ -23234,7 +23234,4165 @@ var _hoisted_2 = {
   id: "default_layout"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["Header"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["Main"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["Footer"])])])]);
+  var _component_router_view = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("router-view");
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["Header"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_router_view), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["Footer"])])])]);
+}
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Cart.vue?vue&type=template&id=b7f93bea":
+/*!**************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Cart.vue?vue&type=template&id=b7f93bea ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   render: () => (/* binding */ render)
+/* harmony export */ });
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+
+var _hoisted_1 = {
+  id: "cartPage",
+  "class": "container min-h-95",
+  style: {
+    "--sprite-url": "url('https://v4.cdnjs1.com/images/logo_cart_sprite.webp')"
+  }
+};
+function render(_ctx, _cache) {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("main", _hoisted_1, _cache[0] || (_cache[0] = [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
+    "class": "font-medium text-2xl capitalize my-4 text-center md:text-left"
+  }, "Giỏ hàng của bạn", -1 /* HOISTED */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "grid grid-cols-12"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "col-span-12 md:col-span-8 xl:col-span-9 md:pr-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "flex"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "!w-22"
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full <xl:hidden grid grid-cols-12 font-medium uppercase text-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "col-span-7"
+  }, "Sản phẩm"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full col-span-5 grid grid-cols-12"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "col-span-3"
+  }, "Giá"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "col-span-5"
+  }, "Số lượng"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "col-span-3"
+  }, "Tổng cộng"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "col-1"
+  })])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-4 flex gap-2 border-b",
+    "data-test-id": "cart-item"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/160x200,c_2,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278431/5ea127/t/bfab849f4cbbcd78.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain !w-22 h-25 mr-2 btn hover:shadow-custom",
+    alt: "I'm a smartass daughter",
+    title: "Nhấn để xem hình ảnh",
+    fetchpriority: "auto",
+    width: "160",
+    height: "200"
+  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "<md:hidden w-full max-w-[calc(100%-90px)] grid grid-cols-12 h-min gap-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "col-span-12 xl:col-span-7 grid grid-cols-4 gap-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "col-span-4 flex"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-m-a-smartass-daughter/unisex-standard-t-shirt?color=white&size=s",
+    "class": "w-full"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+    "class": "text-overflow-hidden font-bold",
+    title: "I'm a smartass daughter"
+  }, "I'm a smartass daughter")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "xl:hidden btn-text",
+    "data-test-id": "cart-item-remove"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "icon-sen-delete"
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "dropdown relative col-span-4 md:col-span-2",
+    "data-test-id": "cart-item-product-name",
+    "data-test-prop": "true"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    type: "button",
+    "class": "relative text-overflow-hidden btn-border w-full text-sm pl-2 py-1 z-1 pr-5.5"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Unisex Standard T-Shirt"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "float-right absolute right-0 position-center-y z-0 transition rotate-0 icon-sen-menu-down text-2xl"
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "dropdown relative col-span-4 sm:col-span-2 md:col-span-1",
+    "data-test-id": "cart-item-option",
+    "data-test-prop": "color"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    type: "button",
+    "class": "relative capitalize text-overflow-hidden btn-border w-full text-sm pl-2 py-1 pr-5.5"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "flex"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full border-2 hover:border-primary mr-2 border-white",
+    title: "white",
+    "data-test-id": "product-color"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full shadow-color relative h-4 w-4",
+    style: {
+      "background": "rgb(255, 255, 255)"
+    }
+  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "white")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "float-right absolute right-0 position-center-y z-0 transition rotate-0 icon-sen-menu-down text-2xl"
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "dropdown relative col-span-4 sm:col-span-2 md:col-span-1",
+    "data-test-id": "cart-item-option",
+    "data-test-prop": "size"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    type: "button",
+    "class": "relative capitalize text-overflow-hidden btn-border w-full text-sm pl-2 py-1 pr-5.5"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "flex"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "s")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "float-right absolute right-0 position-center-y z-0 transition rotate-0 icon-sen-menu-down text-2xl"
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "col-span-4 <md:text-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", {
+    "class": "pl-5 list-disc mt-3"
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "col-span-12 xl:col-span-5 flex"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "grid xl:grid-cols-10 grid-cols-6 w-full text-center gap-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "<xl:hidden col-span-3 font-medium",
+    "data-test-id": "cart-item-price"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "$21.99")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "col-span-6 sm:col-span-3 md:col-span-2 xl:col-span-4"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "flex justify-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "btn-border h-[30px] min-w-[30px] center-flex",
+    "data-test-id": "cart-item-decrease"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "icon-sen-minus"
+  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "dropdown relative mx-2 w-full",
+    "data-test-id": "cart-item-qty-button"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    type: "button",
+    "class": "relative text-sm btn-border py-1 w-full pr-5.5"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "data-test-id": "cart-item-qty"
+  }, "9"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "float-right absolute right-0 position-center-y z-0 transition rotate-0 icon-sen-menu-down text-2xl"
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "btn-border h-[30px] min-w-[30px] center-flex",
+    "data-test-id": "cart-item-increase"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "icon-sen-plus"
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "<xl:hidden btn-border-fill-red center-flex text-sm py-1 px-2 mt-2 w-full",
+    "data-test-id": "cart-item-add-more"
+  }, "Thêm mục khác")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "col-span-6 sm:col-span-3 md:col-span-2 xl:col-span-3 font-medium <xl:center-flex xl:flex xl:flex-col xl:gap-3",
+    "data-test-id": "cart-item-total-price"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "$197.91"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "<xl:hidden ml-2 btn-text",
+    "data-test-id": "cart-item-remove"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "icon-sen-delete"
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "<md:hidden xl:hidden col-span-6 md:col-span-2 btn-border-fill-red center-flex text-sm py-1 px-2 w-full text-overflow-hidden",
+    title: "Thêm mục khác",
+    "data-test-id": "cart-item-add-more"
+  }, "Thêm mục khác ")])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "md:hidden w-full max-w-[calc(100%-90px)]"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "flex"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-m-a-smartass-daughter/unisex-standard-t-shirt?color=white&size=s",
+    "class": "w-full"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+    "class": "text-overflow-hidden",
+    title: "I'm a smartass daughter",
+    "data-test-id": "cart-item-campaign-title"
+  }, "Unisex Standard T-Shirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "xl:hidden btn-text",
+    "data-test-id": "cart-item-remove"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "icon-sen-delete"
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "font-medium uppercase"
+  }, "white / s"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "mb-1 font-weight-500"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "data-test-id": "cart-item-qty"
+  }, " x9"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "ml-3 font-weight-500"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "data-test-id": "cart-item-total-price"
+  }, "$197.91")])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "flex"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "btn-border-fill-red px-2 py-1 text-sm w-full",
+    "data-test-id": "cart-item-add-more"
+  }, "Thêm mục khác"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "btn-text-red w-fit px-2 ml-3",
+    "data-test-id": "cart-item-edit"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("u", null, "Chỉnh sửa")])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "col-span-12 md:col-span-4 xl:col-span-3 md:pl-2 md:h-max sticky top-[100px] z-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "uppercase font-medium border-b pb-4 mb-4"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Tổng phụ "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "text-primary float-right",
+    "data-test-id": "cart-subtotal"
+  }, "$197.91")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "font-semibold mb-4 text-sm"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Tổng số lượng"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "float-right",
+    "data-test-id": "cart-total-qty"
+  }, "9 món hàng")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "mb-4 text-sm"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "font-semibold"
+  }, "Vận chuyển và phí"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "float-right italic"
+  }, "Tính tại quầy thanh toán")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("form", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
+    id: "email",
+    type: "email",
+    pattern: "^[\\S]+@[\\S]+\\.[A-Za-z]{2,6}$",
+    "class": "italic text-xs border w-full p-2",
+    placeholder: "Nhập email để thanh toán nhanh"
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "<md:bottom-fixed <md:border <md:p-1 <md:z-3 w-full bg-white"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    type: "submit",
+    "class": "btn-fill w-full py-2 md:mt-4 font-medium text-xl md:text-base lg:text-xl z-1",
+    dusk: "proceed-to-checkout-button",
+    "data-test-id": "cart-proceed-to-checkout-button"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "flex gap-1 items-center justify-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "icon-sen-lock"
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Tiến hành thanh toán")])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "payment-gateway-accept",
+    style: {
+      "--sprite-url": "url('https://v4.cdnjs1.com/images/logo_cart_sprite.webp')"
+    }
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "text-sm font-semibold mt-4 mb-2 uppercase"
+  }, " Chúng tôi chấp nhận: "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "icon-card-container"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "icon-card"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "payments-sprite payments-sprite-paypal"
+  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "icon-card"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "payments-sprite payments-sprite-visa"
+  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "icon-card"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "payments-sprite payments-sprite-master"
+  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "icon-card"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "payments-sprite payments-sprite-amex"
+  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "icon-card"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "payments-sprite payments-sprite-sofort"
+  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "icon-card"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "payments-sprite payments-sprite-giropay"
+  })])])])])], -1 /* HOISTED */)]));
+}
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Category.vue?vue&type=template&id=33972369":
+/*!******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Category.vue?vue&type=template&id=33972369 ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   render: () => (/* binding */ render)
+/* harmony export */ });
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+
+var _hoisted_1 = {
+  id: "listingPage",
+  "class": "container flex flex-wrap"
+};
+function render(_ctx, _cache) {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("main", _hoisted_1, _cache[0] || (_cache[0] = [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "md:w-[66%] lg:w-[75%] md:order-2 w-full lg:pl-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "flex flex-wrap justify-between md:p-3 items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "flex items-center max-w-full md:max-w-1/2 <md:flex-wrap"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
+    "class": "text-2xl font-bold text-overflow-hidden"
+  }, "Men: "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "ml-2 min-w-max"
+  }, "2574872 kết quả")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "pr-2"
+  }, "Sắp xếp theo:"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "dropdown relative inline"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    type: "button",
+    "class": "relative btn-text hover:border-primary-hover pr-5.5"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "font-medium"
+  }, "Phổ biến"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "float-right absolute right-0 position-center-y z-0 transition rotate-0 icon-sen-menu-down text-2xl"
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "md:px-3 w-full flex gap-2 md:ml-1 pb-1 small-scroll"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "min-w-max hidden md:block"
+  }, "Bộ sưu tập liên quan: "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full overflow-auto"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/collection/great-dane",
+    "class": "btn-border px-3 py-0 uppercase mx-1",
+    title: "Great Dane"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("small", {
+    "class": "font-semibold whitespace-nowrap"
+  }, "Great Dane")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/collection/pug",
+    "class": "btn-border px-3 py-0 uppercase mx-1",
+    title: "Pug"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("small", {
+    "class": "font-semibold whitespace-nowrap"
+  }, "Pug")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/collection/personalize",
+    "class": "btn-border px-3 py-0 uppercase mx-1",
+    title: "Personalize"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("small", {
+    "class": "font-semibold whitespace-nowrap"
+  }, "Personalize")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/collection/custom-name-shirt",
+    "class": "btn-border px-3 py-0 uppercase mx-1",
+    title: "Custom Name Shirt"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("small", {
+    "class": "font-semibold whitespace-nowrap"
+  }, "Custom Name Shirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/collection/love-dogs",
+    "class": "btn-border px-3 py-0 uppercase mx-1",
+    title: "Love Dogs"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("small", {
+    "class": "font-semibold whitespace-nowrap"
+  }, "Love Dogs")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/collection/science-best-seller",
+    "class": "btn-border px-3 py-0 uppercase mx-1",
+    title: "Science Best Seller"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("small", {
+    "class": "font-semibold whitespace-nowrap"
+  }, "Science Best Seller")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/collection/teescience",
+    "class": "btn-border px-3 py-0 uppercase mx-1",
+    title: "Teescience"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("small", {
+    "class": "font-semibold whitespace-nowrap"
+  }, "Teescience")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/collection/dalmatian-lovers-store",
+    "class": "btn-border px-3 py-0 uppercase mx-1",
+    title: "Dalmatian Lovers Store"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("small", {
+    "class": "font-semibold whitespace-nowrap"
+  }, "Dalmatian Lovers Store")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/collection/jack-russell",
+    "class": "btn-border px-3 py-0 uppercase mx-1",
+    title: "Jack Russell"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("small", {
+    "class": "font-semibold whitespace-nowrap"
+  }, "Jack Russell")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/collection/love-horses",
+    "class": "btn-border px-3 py-0 uppercase mx-1",
+    title: "Love Horses"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("small", {
+    "class": "font-semibold whitespace-nowrap"
+  }, "Love Horses")])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "lg:grid-cols-3 grid grid-cols-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-3"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "relative product-list-item select-none overflow-hidden w-full hover:shadow-custom2",
+    "data-test-id": "product-list-item"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/gardiner-things-d2/men's-standard-t-shirt",
+    "class": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full pt-[125%]"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/600x750,c_2,q_90,ofmt_webp/s4/l_p:563:773:c54a627bf970a675/fl_cutter,fl_layer_apply/u_p:563:773:f97c8fc8d6424662/co_rgb:181818,e_colorize:100/fl_layer_apply/l_p:563:773:950092f4f3593947/fl_layer_apply/u_p:563:cb81aa0b790fd473/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/8915540/d078e4e7bd9510731f6d3889982a13d6?_a=AAClqGX",
+    loading: "lazy",
+    "class": "w-auto object-contain transition-transform duration-200 absolute top-0 left-0",
+    alt: "Men's Standard T-Shirt",
+    title: "GARDINER THINGS D2 - Men's Standard T-Shirt",
+    fetchpriority: "",
+    width: "600",
+    height: "750"
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+    "class": "btn-text md:text-lg font-medium text-overflow-hidden text-center",
+    title: "GARDINER THINGS D2 - Men's Standard T-Shirt"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/gardiner-things-d2/men's-standard-t-shirt",
+    "class": ""
+  }, "GARDINER THINGS D2 - Men's Standard T-Shirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
+    "class": "block h-12 flex flex-wrap justify-center gap-x-2 items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "text-primary font-medium"
+  }, "$25.95")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "<md:text-sm btn-fill w-full py-2 uppercase font-semibold",
+    "data-test-id": "product-list-item-btn"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-3"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "relative product-list-item select-none overflow-hidden w-full hover:shadow-custom2",
+    "data-test-id": "product-list-item"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-like-wine-and-tennis-and-maybe-3-people-t-shirt/unisex-standard-t-shirt",
+    "class": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full pt-[125%]"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/600x750,c_2,q_90,ofmt_webp/s4/l_p:3105952:848395672d227194/fl_cutter,fl_layer_apply/u_p:3105952:5c686d9586bdf838/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:80ecbd_sh/fl_layer_apply/u_p:3105952:49a4b356879b6fab/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/50239962/71408285f15a9175c27d02e6a97b4393/t/05eca29c67cf2ddf.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain transition-transform duration-200 absolute top-0 left-0",
+    alt: "Unisex Standard T-Shirt",
+    title: "I Like Wine And Tennis and Maybe 3 People T-Shirt - Unisex Standard T-Shirt",
+    fetchpriority: "",
+    width: "600",
+    height: "750"
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+    "class": "btn-text md:text-lg font-medium text-overflow-hidden text-center",
+    title: "I Like Wine And Tennis and Maybe 3 People T-Shirt - Unisex Standard T-Shirt"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-like-wine-and-tennis-and-maybe-3-people-t-shirt/unisex-standard-t-shirt",
+    "class": ""
+  }, "I Like Wine And Tennis and Maybe 3 People T-Shirt - Unisex Standard T-Shirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
+    "class": "block h-12 flex flex-wrap justify-center gap-x-2 items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "text-primary font-medium"
+  }, "$23.99")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "<md:text-sm btn-fill w-full py-2 uppercase font-semibold",
+    "data-test-id": "product-list-item-btn"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-3"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "relative product-list-item select-none overflow-hidden w-full hover:shadow-custom2",
+    "data-test-id": "product-list-item"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/great-dane-dad/men's-standard-t-shirt",
+    "class": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full pt-[125%]"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/600x750,c_2,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:181818,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/417592651/501d100054ed84e100e7cfb971588e57/t/9e7f3d7c3d56605c.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain transition-transform duration-200 absolute top-0 left-0",
+    alt: "Men's Standard T-Shirt",
+    title: "Great Dane Dad - Men's Standard T-Shirt",
+    fetchpriority: "",
+    width: "600",
+    height: "750"
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+    "class": "btn-text md:text-lg font-medium text-overflow-hidden text-center",
+    title: "Great Dane Dad - Men's Standard T-Shirt"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/great-dane-dad/men's-standard-t-shirt",
+    "class": ""
+  }, "Great Dane Dad - Men's Standard T-Shirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
+    "class": "block h-12 flex flex-wrap justify-center gap-x-2 items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "text-primary font-medium"
+  }, "$22.99")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "<md:text-sm btn-fill w-full py-2 uppercase font-semibold",
+    "data-test-id": "product-list-item-btn"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-3"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "relative product-list-item select-none overflow-hidden w-full hover:shadow-custom2",
+    "data-test-id": "product-list-item"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/what-i-do-i-read-and-i-know-things-book-lover/unisex-standard-t-shirt",
+    "class": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full pt-[125%]"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/600x750,c_2,q_90,ofmt_webp/s4/l_p:3105952:848395672d227194/fl_cutter,fl_layer_apply/u_p:3105952:5c686d9586bdf838/co_rgb:181818,e_colorize:100/fl_layer_apply/l_p:3105952:80ecbd_sh/fl_layer_apply/u_p:3105952:49a4b356879b6fab/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/59150363/5521989df495a311de5750f5770a1297/t/7e1d3d5a22ff3fc8.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain transition-transform duration-200 absolute top-0 left-0",
+    alt: "Unisex Standard T-Shirt",
+    title: "What I Do I Read And I Know Things Book Lover - Unisex Standard T-Shirt",
+    fetchpriority: "",
+    width: "600",
+    height: "750"
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+    "class": "btn-text md:text-lg font-medium text-overflow-hidden text-center",
+    title: "What I Do I Read And I Know Things Book Lover - Unisex Standard T-Shirt"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/what-i-do-i-read-and-i-know-things-book-lover/unisex-standard-t-shirt",
+    "class": ""
+  }, "What I Do I Read And I Know Things Book Lover - Unisex Standard T-Shirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
+    "class": "block h-12 flex flex-wrap justify-center gap-x-2 items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "text-primary font-medium"
+  }, "$21.99")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "<md:text-sm btn-fill w-full py-2 uppercase font-semibold",
+    "data-test-id": "product-list-item-btn"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-3"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "relative product-list-item select-none overflow-hidden w-full hover:shadow-custom2",
+    "data-test-id": "product-list-item"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/dogs-i-support-putting-animal-abusers-to-sleep-dog-tshirt/unisex-standard-t-shirt",
+    "class": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full pt-[125%]"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/600x750,c_2,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:181818,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/453858497/e74ca8/t/c0be2bfbf354ac6c.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain transition-transform duration-200 absolute top-0 left-0",
+    alt: "Unisex Standard T-Shirt",
+    title: "I Support Putting Animal Abusers To Sleep Dog TShirt - Unisex Standard T-Shirt",
+    fetchpriority: "",
+    width: "600",
+    height: "750"
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+    "class": "btn-text md:text-lg font-medium text-overflow-hidden text-center",
+    title: "I Support Putting Animal Abusers To Sleep Dog TShirt - Unisex Standard T-Shirt"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/dogs-i-support-putting-animal-abusers-to-sleep-dog-tshirt/unisex-standard-t-shirt",
+    "class": ""
+  }, "I Support Putting Animal Abusers To Sleep Dog TShirt - Unisex Standard T-Shirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
+    "class": "block h-12 flex flex-wrap justify-center gap-x-2 items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "text-primary font-medium"
+  }, "$24.99")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "<md:text-sm btn-fill w-full py-2 uppercase font-semibold",
+    "data-test-id": "product-list-item-btn"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-3"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "relative product-list-item select-none overflow-hidden w-full hover:shadow-custom2",
+    "data-test-id": "product-list-item"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/if-the-earth-was-flat-cat-is-would-have-pushed-everything-off-it-by-now/unisex-standard-t-shirt",
+    "class": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full pt-[125%]"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/600x750,c_2,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:181818,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/272317196/c5112be03521962c150e451429d04a09/t/113b008116301d8e.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain transition-transform duration-200 absolute top-0 left-0",
+    alt: "Unisex Standard T-Shirt",
+    title: "If The Earth Was Flat Cat Is Would Have Pushed Everything Off It By Now - Unisex Standard T-Shirt",
+    fetchpriority: "",
+    width: "600",
+    height: "750"
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+    "class": "btn-text md:text-lg font-medium text-overflow-hidden text-center",
+    title: "If The Earth Was Flat Cat Is Would Have Pushed Everything Off It By Now - Unisex Standard T-Shirt"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/if-the-earth-was-flat-cat-is-would-have-pushed-everything-off-it-by-now/unisex-standard-t-shirt",
+    "class": ""
+  }, "If The Earth Was Flat Cat Is Would Have Pushed Everything Off It By Now - Unisex Standard T-Shirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
+    "class": "block h-12 flex flex-wrap justify-center gap-x-2 items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "text-primary font-medium"
+  }, "$24.99")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "<md:text-sm btn-fill w-full py-2 uppercase font-semibold",
+    "data-test-id": "product-list-item-btn"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-3"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "relative product-list-item select-none overflow-hidden w-full hover:shadow-custom2",
+    "data-test-id": "product-list-item"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/every-snack-you-make-every-meal-you-bake-havanese-back-t-shirt/unisex-standard-t-shirt",
+    "class": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full pt-[125%]"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/600x750,c_2,q_90,ofmt_webp/s4/l_p:3105952:848395672d227194/fl_cutter,fl_layer_apply/u_p:3105952:5c686d9586bdf838/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:80ecbd_sh/fl_layer_apply/u_p:3105952:49a4b356879b6fab/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/106414918/c5965977e002a86e45356dba6af4c417/t/720fc8fe603778a5.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain transition-transform duration-200 absolute top-0 left-0",
+    alt: "Unisex Standard T-Shirt",
+    title: "Every snack you make Every meal you bake Havanese (Back) T-Shirt - Unisex Standard T-Shirt",
+    fetchpriority: "",
+    width: "600",
+    height: "750"
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+    "class": "btn-text md:text-lg font-medium text-overflow-hidden text-center",
+    title: "Every snack you make Every meal you bake Havanese (Back) T-Shirt - Unisex Standard T-Shirt"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/every-snack-you-make-every-meal-you-bake-havanese-back-t-shirt/unisex-standard-t-shirt",
+    "class": ""
+  }, "Every snack you make Every meal you bake Havanese (Back) T-Shirt - Unisex Standard T-Shirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
+    "class": "block h-12 flex flex-wrap justify-center gap-x-2 items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "text-primary font-medium"
+  }, "$23.99")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "<md:text-sm btn-fill w-full py-2 uppercase font-semibold",
+    "data-test-id": "product-list-item-btn"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-3"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "relative product-list-item select-none overflow-hidden w-full hover:shadow-custom2",
+    "data-test-id": "product-list-item"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/if-your-1/unisex-sweatshirt",
+    "class": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full pt-[125%]"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/600x750,c_2,q_90,ofmt_webp/s4/l_p:3133799:76eb7db5664bb2d7/fl_cutter,fl_layer_apply/u_p:3133799:56ba75b83ef68e24/co_rgb:181818,e_colorize:100/fl_layer_apply/l_p:3133799:acd6cecd5c71d1c9/fl_layer_apply/u_p:3133799:99f5f7fedf12aaa4/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/6049234/99ae5ded70341ce20ea93ea8c55b41c1?_a=AACkGGX",
+    loading: "lazy",
+    "class": "w-auto object-contain transition-transform duration-200 absolute top-0 left-0",
+    alt: "Unisex Sweatshirt",
+    title: "If YOUR NAME Can't Fix it ! We're all screwed - Unisex Sweatshirt",
+    fetchpriority: "",
+    width: "600",
+    height: "750"
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+    "class": "btn-text md:text-lg font-medium text-overflow-hidden text-center",
+    title: "If YOUR NAME Can't Fix it ! We're all screwed - Unisex Sweatshirt"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/if-your-1/unisex-sweatshirt",
+    "class": ""
+  }, "If YOUR NAME Can't Fix it ! We're all screwed - Unisex Sweatshirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
+    "class": "block h-12 flex flex-wrap justify-center gap-x-2 items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "text-primary font-medium"
+  }, "$33.99")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "<md:text-sm btn-fill w-full py-2 uppercase font-semibold",
+    "data-test-id": "product-list-item-btn"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "italic absolute left-0 top-0 bg-primary text-contrast opacity-70 text-sm py-1 px-2 select-none md:text-md md:py-2 md:px-3",
+    "data-test-id": "personalize-tag"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Cá nhân hóa nó! "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "icon-sen-lead-pencil"
+  })])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-3"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "relative product-list-item select-none overflow-hidden w-full hover:shadow-custom2",
+    "data-test-id": "product-list-item"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/great-dane-mom-aho/men's-standard-t-shirt",
+    "class": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full pt-[125%]"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/600x750,c_2,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:181818,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/417466652/df0e7003dacca0be7053c71a0c6639c0/t/2bad1aa652f4ebb9.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain transition-transform duration-200 absolute top-0 left-0",
+    alt: "Men's Standard T-Shirt",
+    title: "Great Dane Mom - Men's Standard T-Shirt",
+    fetchpriority: "",
+    width: "600",
+    height: "750"
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+    "class": "btn-text md:text-lg font-medium text-overflow-hidden text-center",
+    title: "Great Dane Mom - Men's Standard T-Shirt"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/great-dane-mom-aho/men's-standard-t-shirt",
+    "class": ""
+  }, "Great Dane Mom - Men's Standard T-Shirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
+    "class": "block h-12 flex flex-wrap justify-center gap-x-2 items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "text-primary font-medium"
+  }, "$22.99")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "<md:text-sm btn-fill w-full py-2 uppercase font-semibold",
+    "data-test-id": "product-list-item-btn"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-3"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "relative product-list-item select-none overflow-hidden w-full hover:shadow-custom2",
+    "data-test-id": "product-list-item"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/womens-dalmatian-dog-pattern-friends-tee-dalmatian-dog-lover-v-neck-t-shirt/men's-premium-tshirt",
+    "class": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full pt-[125%]"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/600x750,c_2,q_90,ofmt_webp/s4/l_p:3108552:25d5a439e09e5284/fl_cutter,fl_layer_apply/u_p:3108552:8b7d69718df0e096/co_rgb:181818,e_colorize:100/fl_layer_apply/l_p:3108552:29484a_sh/fl_layer_apply/u_p:3108552:6c4eeda50edcc771/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/28143947/40bf77a691aaaffd591c2d59400eb6c9",
+    loading: "lazy",
+    "class": "w-auto object-contain transition-transform duration-200 absolute top-0 left-0",
+    alt: "Men's Premium Tshirt",
+    title: "Womens Dalmatian Dog Pattern Friends Tee, Dalmatian Dog Lover V-Neck T-Shirt - Men's Premium Tshirt",
+    fetchpriority: "",
+    width: "600",
+    height: "750"
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+    "class": "btn-text md:text-lg font-medium text-overflow-hidden text-center",
+    title: "Womens Dalmatian Dog Pattern Friends Tee, Dalmatian Dog Lover V-Neck T-Shirt - Men's Premium Tshirt"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/womens-dalmatian-dog-pattern-friends-tee-dalmatian-dog-lover-v-neck-t-shirt/men's-premium-tshirt",
+    "class": ""
+  }, "Womens Dalmatian Dog Pattern Friends Tee, Dalmatian Dog Lover V-Neck T-Shirt - Men's Premium Tshirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
+    "class": "block h-12 flex flex-wrap justify-center gap-x-2 items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "text-primary font-medium"
+  }, "$28.99")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "<md:text-sm btn-fill w-full py-2 uppercase font-semibold",
+    "data-test-id": "product-list-item-btn"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-3"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "relative product-list-item select-none overflow-hidden w-full hover:shadow-custom2",
+    "data-test-id": "product-list-item"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/life-is-better-with-a-dalmatian-dog-lover-t-shirt/men's-premium-tshirt",
+    "class": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full pt-[125%]"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/600x750,c_2,q_90,ofmt_webp/s4/l_p:3108552:25d5a439e09e5284/fl_cutter,fl_layer_apply/u_p:3108552:8b7d69718df0e096/co_rgb:181818,e_colorize:100/fl_layer_apply/l_p:3108552:29484a_sh/fl_layer_apply/u_p:3108552:6c4eeda50edcc771/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/28140576/84c50ce3625ee8ad1ee3fd69996b624a",
+    loading: "lazy",
+    "class": "w-auto object-contain transition-transform duration-200 absolute top-0 left-0",
+    alt: "Men's Premium Tshirt",
+    title: "Life Is Better With A Dalmatian Dog Lover T-Shirt - Men's Premium Tshirt",
+    fetchpriority: "",
+    width: "600",
+    height: "750"
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+    "class": "btn-text md:text-lg font-medium text-overflow-hidden text-center",
+    title: "Life Is Better With A Dalmatian Dog Lover T-Shirt - Men's Premium Tshirt"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/life-is-better-with-a-dalmatian-dog-lover-t-shirt/men's-premium-tshirt",
+    "class": ""
+  }, "Life Is Better With A Dalmatian Dog Lover T-Shirt - Men's Premium Tshirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
+    "class": "block h-12 flex flex-wrap justify-center gap-x-2 items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "text-primary font-medium"
+  }, "$28.99")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "<md:text-sm btn-fill w-full py-2 uppercase font-semibold",
+    "data-test-id": "product-list-item-btn"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-3"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "relative product-list-item select-none overflow-hidden w-full hover:shadow-custom2",
+    "data-test-id": "product-list-item"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/jack-russell-dad/men's-standard-t-shirt",
+    "class": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full pt-[125%]"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/600x750,c_2,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:181818,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/417507976/a06e5a5f4c735af5dc72d8b43ca5dbf1/t/e99db8fce222d13b.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain transition-transform duration-200 absolute top-0 left-0",
+    alt: "Men's Standard T-Shirt",
+    title: "Jack Russell Dad - Men's Standard T-Shirt",
+    fetchpriority: "",
+    width: "600",
+    height: "750"
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+    "class": "btn-text md:text-lg font-medium text-overflow-hidden text-center",
+    title: "Jack Russell Dad - Men's Standard T-Shirt"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/jack-russell-dad/men's-standard-t-shirt",
+    "class": ""
+  }, "Jack Russell Dad - Men's Standard T-Shirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
+    "class": "block h-12 flex flex-wrap justify-center gap-x-2 items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "text-primary font-medium"
+  }, "$22.99")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "<md:text-sm btn-fill w-full py-2 uppercase font-semibold",
+    "data-test-id": "product-list-item-btn"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-3"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "relative product-list-item select-none overflow-hidden w-full hover:shadow-custom2",
+    "data-test-id": "product-list-item"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/not-a-pug-zc/men's-standard-t-shirt",
+    "class": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full pt-[125%]"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/600x750,c_2,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/453489102/6be645/t/fc86e733c3cfbc02.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain transition-transform duration-200 absolute top-0 left-0",
+    alt: "Men's Standard T-Shirt",
+    title: "I'm Telling You I'm Not A Pug - Men's Standard T-Shirt",
+    fetchpriority: "",
+    width: "600",
+    height: "750"
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+    "class": "btn-text md:text-lg font-medium text-overflow-hidden text-center",
+    title: "I'm Telling You I'm Not A Pug - Men's Standard T-Shirt"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/not-a-pug-zc/men's-standard-t-shirt",
+    "class": ""
+  }, "I'm Telling You I'm Not A Pug - Men's Standard T-Shirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
+    "class": "block h-12 flex flex-wrap justify-center gap-x-2 items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "text-primary font-medium"
+  }, "$22.99")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "<md:text-sm btn-fill w-full py-2 uppercase font-semibold",
+    "data-test-id": "product-list-item-btn"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-3"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "relative product-list-item select-none overflow-hidden w-full hover:shadow-custom2",
+    "data-test-id": "product-list-item"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/of-a-pug-ahola/men's-standard-t-shirt",
+    "class": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full pt-[125%]"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/600x750,c_2,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/231769793/c87658ee4eec9bec89ed834df82c75f9/t/53d4b816a5ee4a9e.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain transition-transform duration-200 absolute top-0 left-0",
+    alt: "Men's Standard T-Shirt",
+    title: "Anatomy Of A Pug - Men's Standard T-Shirt",
+    fetchpriority: "",
+    width: "600",
+    height: "750"
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+    "class": "btn-text md:text-lg font-medium text-overflow-hidden text-center",
+    title: "Anatomy Of A Pug - Men's Standard T-Shirt"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/of-a-pug-ahola/men's-standard-t-shirt",
+    "class": ""
+  }, "Anatomy Of A Pug - Men's Standard T-Shirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
+    "class": "block h-12 flex flex-wrap justify-center gap-x-2 items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "text-primary font-medium"
+  }, "$22.99")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "<md:text-sm btn-fill w-full py-2 uppercase font-semibold",
+    "data-test-id": "product-list-item-btn"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-3"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "relative product-list-item select-none overflow-hidden w-full hover:shadow-custom2",
+    "data-test-id": "product-list-item"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/donkey-common-sense-is-like/unisex-standard-t-shirt",
+    "class": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full pt-[125%]"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/600x750,c_2,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:181818,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/459364761/dda124/t/dd8aa63d8a24dddd.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain transition-transform duration-200 absolute top-0 left-0",
+    alt: "Unisex Standard T-Shirt",
+    title: "Common sense is like - Unisex Standard T-Shirt",
+    fetchpriority: "",
+    width: "600",
+    height: "750"
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+    "class": "btn-text md:text-lg font-medium text-overflow-hidden text-center",
+    title: "Common sense is like - Unisex Standard T-Shirt"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/donkey-common-sense-is-like/unisex-standard-t-shirt",
+    "class": ""
+  }, "Common sense is like - Unisex Standard T-Shirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
+    "class": "block h-12 flex flex-wrap justify-center gap-x-2 items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "text-primary font-medium"
+  }, "$24.99")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "<md:text-sm btn-fill w-full py-2 uppercase font-semibold",
+    "data-test-id": "product-list-item-btn"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-3"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "relative product-list-item select-none overflow-hidden w-full hover:shadow-custom2",
+    "data-test-id": "product-list-item"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/horse-i-seriously-need-a-speed-bump-between-my-brain-and-my-mouth/unisex-standard-t-shirt",
+    "class": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full pt-[125%]"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/600x750,c_2,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/459283304/5a0aa8/t/4b58cac6230221b8.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain transition-transform duration-200 absolute top-0 left-0",
+    alt: "Unisex Standard T-Shirt",
+    title: "I seriously need a speed bump between my brain and my mouth - Unisex Standard T-Shirt",
+    fetchpriority: "",
+    width: "600",
+    height: "750"
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+    "class": "btn-text md:text-lg font-medium text-overflow-hidden text-center",
+    title: "I seriously need a speed bump between my brain and my mouth - Unisex Standard T-Shirt"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/horse-i-seriously-need-a-speed-bump-between-my-brain-and-my-mouth/unisex-standard-t-shirt",
+    "class": ""
+  }, "I seriously need a speed bump between my brain and my mouth - Unisex Standard T-Shirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
+    "class": "block h-12 flex flex-wrap justify-center gap-x-2 items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "text-primary font-medium"
+  }, "$24.99")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "<md:text-sm btn-fill w-full py-2 uppercase font-semibold",
+    "data-test-id": "product-list-item-btn"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-3"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "relative product-list-item select-none overflow-hidden w-full hover:shadow-custom2",
+    "data-test-id": "product-list-item"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/pew-pew-madafakas-boston-terrier-t-shirt/unisex-standard-t-shirt",
+    "class": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full pt-[125%]"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/600x750,c_2,q_90,ofmt_webp/s4/l_p:3105952:848395672d227194/fl_cutter,fl_layer_apply/u_p:3105952:5c686d9586bdf838/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:80ecbd_sh/fl_layer_apply/u_p:3105952:49a4b356879b6fab/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/28683500/29d83fd9096b010e2e317dc9461a9763",
+    loading: "lazy",
+    "class": "w-auto object-contain transition-transform duration-200 absolute top-0 left-0",
+    alt: "Unisex Standard T-Shirt",
+    title: "Pew Pew Madafakas Boston Terrier T-Shirt - Unisex Standard T-Shirt",
+    fetchpriority: "",
+    width: "600",
+    height: "750"
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+    "class": "btn-text md:text-lg font-medium text-overflow-hidden text-center",
+    title: "Pew Pew Madafakas Boston Terrier T-Shirt - Unisex Standard T-Shirt"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/pew-pew-madafakas-boston-terrier-t-shirt/unisex-standard-t-shirt",
+    "class": ""
+  }, "Pew Pew Madafakas Boston Terrier T-Shirt - Unisex Standard T-Shirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
+    "class": "block h-12 flex flex-wrap justify-center gap-x-2 items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "text-primary font-medium"
+  }, "$23.99")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "<md:text-sm btn-fill w-full py-2 uppercase font-semibold",
+    "data-test-id": "product-list-item-btn"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-3"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "relative product-list-item select-none overflow-hidden w-full hover:shadow-custom2",
+    "data-test-id": "product-list-item"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/relax-1/men's-standard-t-shirt",
+    "class": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full pt-[125%]"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/600x750,c_2,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:181818,e_colorize:100/fl_layer_apply/l_p:3105952:d4a35a30f1dd2716/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/6048876/9be2aa40cb6148afcc520c4b3c58649a?_a=AACkGGX",
+    loading: "lazy",
+    "class": "w-auto object-contain transition-transform duration-200 absolute top-0 left-0",
+    alt: "Men's Standard T-Shirt",
+    title: "Relax YOUR NAME is Here - Men's Standard T-Shirt",
+    fetchpriority: "",
+    width: "600",
+    height: "750"
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+    "class": "btn-text md:text-lg font-medium text-overflow-hidden text-center",
+    title: "Relax YOUR NAME is Here - Men's Standard T-Shirt"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/relax-1/men's-standard-t-shirt",
+    "class": ""
+  }, "Relax YOUR NAME is Here - Men's Standard T-Shirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
+    "class": "block h-12 flex flex-wrap justify-center gap-x-2 items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "text-primary font-medium"
+  }, "$25.99")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "<md:text-sm btn-fill w-full py-2 uppercase font-semibold",
+    "data-test-id": "product-list-item-btn"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "italic absolute left-0 top-0 bg-primary text-contrast opacity-70 text-sm py-1 px-2 select-none md:text-md md:py-2 md:px-3",
+    "data-test-id": "personalize-tag"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Cá nhân hóa nó! "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "icon-sen-lead-pencil"
+  })])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-3"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "relative product-list-item select-none overflow-hidden w-full hover:shadow-custom2",
+    "data-test-id": "product-list-item"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/horse-when-i-told-you-i-was-normal/unisex-standard-t-shirt",
+    "class": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full pt-[125%]"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/600x750,c_2,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/459283193/600779/t/fcc09cc7930d9643.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain transition-transform duration-200 absolute top-0 left-0",
+    alt: "Unisex Standard T-Shirt",
+    title: "When i told you i was normal - Unisex Standard T-Shirt",
+    fetchpriority: "",
+    width: "600",
+    height: "750"
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+    "class": "btn-text md:text-lg font-medium text-overflow-hidden text-center",
+    title: "When i told you i was normal - Unisex Standard T-Shirt"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/horse-when-i-told-you-i-was-normal/unisex-standard-t-shirt",
+    "class": ""
+  }, "When i told you i was normal - Unisex Standard T-Shirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
+    "class": "block h-12 flex flex-wrap justify-center gap-x-2 items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "text-primary font-medium"
+  }, "$24.99")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "<md:text-sm btn-fill w-full py-2 uppercase font-semibold",
+    "data-test-id": "product-list-item-btn"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-3"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "relative product-list-item select-none overflow-hidden w-full hover:shadow-custom2",
+    "data-test-id": "product-list-item"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/sleeps-with-a-chihuahua-zv/men's-tank-top",
+    "class": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full pt-[125%]"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/600x750,c_2,q_90,ofmt_webp/s4/l_p:3144917:483d6e8af3ed7f72/fl_cutter,fl_layer_apply/u_p:3144917:2f2c24b9d924c860/co_rgb:181818,e_colorize:100/fl_layer_apply/l_p:3144917:9d82f2_sh/fl_layer_apply/u_p:3144917:f0118beff7acc31e/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/465534676/fceac3/t/3dcf8315fcc82038.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain transition-transform duration-200 absolute top-0 left-0",
+    alt: "Men's Tank Top",
+    title: "Sleeps With a Chihuahua - Men's Tank Top",
+    fetchpriority: "",
+    width: "600",
+    height: "750"
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+    "class": "btn-text md:text-lg font-medium text-overflow-hidden text-center",
+    title: "Sleeps With a Chihuahua - Men's Tank Top"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/sleeps-with-a-chihuahua-zv/men's-tank-top",
+    "class": ""
+  }, "Sleeps With a Chihuahua - Men's Tank Top")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
+    "class": "block h-12 flex flex-wrap justify-center gap-x-2 items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "text-primary font-medium"
+  }, "$25.99")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "<md:text-sm btn-fill w-full py-2 uppercase font-semibold",
+    "data-test-id": "product-list-item-btn"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-3"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "relative product-list-item select-none overflow-hidden w-full hover:shadow-custom2",
+    "data-test-id": "product-list-item"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-love-dad-jack-russell/men's-standard-t-shirt",
+    "class": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full pt-[125%]"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/600x750,c_2,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/263152134/9eca7ff2921d2548ec51a505fa79e9e9/t/8de63260bf653f7e.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain transition-transform duration-200 absolute top-0 left-0",
+    alt: "Men's Standard T-Shirt",
+    title: "I Love Dad Jack Russell - Men's Standard T-Shirt",
+    fetchpriority: "",
+    width: "600",
+    height: "750"
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+    "class": "btn-text md:text-lg font-medium text-overflow-hidden text-center",
+    title: "I Love Dad Jack Russell - Men's Standard T-Shirt"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-love-dad-jack-russell/men's-standard-t-shirt",
+    "class": ""
+  }, "I Love Dad Jack Russell - Men's Standard T-Shirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
+    "class": "block h-12 flex flex-wrap justify-center gap-x-2 items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "text-primary font-medium"
+  }, "$22.99")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "<md:text-sm btn-fill w-full py-2 uppercase font-semibold",
+    "data-test-id": "product-list-item-btn"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-3"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "relative product-list-item select-none overflow-hidden w-full hover:shadow-custom2",
+    "data-test-id": "product-list-item"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/cats-my-level-of-sarcasm-depends-on-your-level-of-stupidity/unisex-standard-t-shirt",
+    "class": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full pt-[125%]"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/600x750,c_2,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/456889683/fac8a2/t/f62a0ade3d4a55a0.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain transition-transform duration-200 absolute top-0 left-0",
+    alt: "Unisex Standard T-Shirt",
+    title: "My level of sarcasm depends on your level of stupidity - Unisex Standard T-Shirt",
+    fetchpriority: "",
+    width: "600",
+    height: "750"
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+    "class": "btn-text md:text-lg font-medium text-overflow-hidden text-center",
+    title: "My level of sarcasm depends on your level of stupidity - Unisex Standard T-Shirt"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/cats-my-level-of-sarcasm-depends-on-your-level-of-stupidity/unisex-standard-t-shirt",
+    "class": ""
+  }, "My level of sarcasm depends on your level of stupidity - Unisex Standard T-Shirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
+    "class": "block h-12 flex flex-wrap justify-center gap-x-2 items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "text-primary font-medium"
+  }, "$24.99")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "<md:text-sm btn-fill w-full py-2 uppercase font-semibold",
+    "data-test-id": "product-list-item-btn"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-3"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "relative product-list-item select-none overflow-hidden w-full hover:shadow-custom2",
+    "data-test-id": "product-list-item"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/beer-things-d2/unisex-hoodie",
+    "class": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full pt-[125%]"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/600x750,c_2,q_90,ofmt_webp/s4/l_p:3110997:8f2061820ffb7ca0/fl_cutter,fl_layer_apply/u_p:3110997:7640f5b12b57d728/co_rgb:181818,e_colorize:100/fl_layer_apply/l_p:3110997:efe2055b07d7d7cb/fl_layer_apply/u_p:3110997:22569479cfcd21c3/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/9390049/8324d4a67a2d0a24a6da7a74da8a3c35?_a=AAClqGX",
+    loading: "lazy",
+    "class": "w-auto object-contain transition-transform duration-200 absolute top-0 left-0",
+    alt: "Unisex Hoodie",
+    title: "BEER THINGS D2 - Unisex Hoodie",
+    fetchpriority: "",
+    width: "600",
+    height: "750"
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+    "class": "btn-text md:text-lg font-medium text-overflow-hidden text-center",
+    title: "BEER THINGS D2 - Unisex Hoodie"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/beer-things-d2/unisex-hoodie",
+    "class": ""
+  }, "BEER THINGS D2 - Unisex Hoodie")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
+    "class": "block h-12 flex flex-wrap justify-center gap-x-2 items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "text-primary font-medium"
+  }, "$42.95")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "<md:text-sm btn-fill w-full py-2 uppercase font-semibold",
+    "data-test-id": "product-list-item-btn"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-3"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "relative product-list-item select-none overflow-hidden w-full hover:shadow-custom2",
+    "data-test-id": "product-list-item"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/sleeps-with-pugs/men's-standard-t-shirt",
+    "class": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full pt-[125%]"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/600x750,c_2,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:181818,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/465985461/96852f/t/0dc76bc1a66e7ac5.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain transition-transform duration-200 absolute top-0 left-0",
+    alt: "Men's Standard T-Shirt",
+    title: "Sleeps With Pugs - Men's Standard T-Shirt",
+    fetchpriority: "",
+    width: "600",
+    height: "750"
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+    "class": "btn-text md:text-lg font-medium text-overflow-hidden text-center",
+    title: "Sleeps With Pugs - Men's Standard T-Shirt"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/sleeps-with-pugs/men's-standard-t-shirt",
+    "class": ""
+  }, "Sleeps With Pugs - Men's Standard T-Shirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
+    "class": "block h-12 flex flex-wrap justify-center gap-x-2 items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "text-primary font-medium"
+  }, "$22.99")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "<md:text-sm btn-fill w-full py-2 uppercase font-semibold",
+    "data-test-id": "product-list-item-btn"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("nav", {
+    "data-v-34dbb228": "",
+    "class": "-space-x-px flex flex justify-end md:p-3"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "data-v-34dbb228": "",
+    "class": "px-3 h-10 border border-primary bg-primary text-contrast flex items-center !rounded-r-none"
+  }, "1"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "data-v-34dbb228": "",
+    "class": "px-3 h-10 btn-border-fill border-gray-300 flex items-center !rounded-l-none"
+  }, "2"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "data-v-34dbb228": "",
+    "class": "px-3 h-10 flex items-center"
+  }, "..."), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "data-v-34dbb228": "",
+    "class": "px-3 h-10 btn-border-fill border-gray-300 flex items-center !rounded-r-none"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "data-v-34dbb228": "",
+    "class": "icon-sen-chevron-right"
+  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "data-v-34dbb228": "",
+    "class": "px-3 h-10 btn-border-fill border-gray-300 flex items-center !rounded-l-none"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "data-v-34dbb228": "",
+    "class": "icon-sen-chevron-double-right"
+  })])])], -1 /* HOISTED */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "h-max sticky top-[100px] md:order-1 text-[#C4C4C4] w-full md:w-[33%] lg:w-[25%] lg:pr-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "/vi/category/apparel-men",
+    "class": "router-link-active router-link-exact-active btn-fill px-2 rounded-full text-xs"
+  }, "Xóa bộ lọc")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "font-12x mb-3 pb-3 border-b uppercase <md:text-center"
+  }, "Khám phá"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "mb-8"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "flex justify-between items-center p-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "#",
+    "class": "router-link-active router-link-exact-active btn-text-black pl-0 flex items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "text-xl icon-sen-checkbox-blank"
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "ml-2"
+  }, "T-Shirts")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "btn-text-black text-xl icon-sen-plus"
+  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "sub-categories pl-3",
+    style: {
+      "display": "none"
+    }
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "flex justify-between items-center p-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "#",
+    "class": "router-link-active router-link-exact-active btn-text-black pl-0 flex items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "text-xl icon-sen-checkbox-blank"
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "ml-2"
+  }, "V-Neck Shirts")])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "sub-categories pl-3",
+    style: {
+      "display": "none"
+    }
+  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "flex justify-between items-center p-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "#",
+    "class": "router-link-active router-link-exact-active btn-text-black pl-0 flex items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "text-xl icon-sen-checkbox-blank"
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "ml-2"
+  }, "Premium Fitted Tees")])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "sub-categories pl-3",
+    style: {
+      "display": "none"
+    }
+  })])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "flex justify-between items-center p-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "#",
+    "class": "router-link-active router-link-exact-active btn-text-black pl-0 flex items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "text-xl icon-sen-checkbox-blank"
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "ml-2"
+  }, "Long Sleeves")])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "sub-categories pl-3",
+    style: {
+      "display": "none"
+    }
+  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "flex justify-between items-center p-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "#",
+    "class": "router-link-active router-link-exact-active btn-text-black pl-0 flex items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "text-xl icon-sen-checkbox-blank"
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "ml-2"
+  }, "Tank Tops")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "btn-text-black text-xl icon-sen-plus"
+  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "sub-categories pl-3",
+    style: {
+      "display": "none"
+    }
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "flex justify-between items-center p-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "#",
+    "class": "router-link-active router-link-exact-active btn-text-black pl-0 flex items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "text-xl icon-sen-checkbox-blank"
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "ml-2"
+  }, "Unisex Tanks")])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "sub-categories pl-3",
+    style: {
+      "display": "none"
+    }
+  })])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "flex justify-between items-center p-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "#",
+    "class": "router-link-active router-link-exact-active btn-text-black pl-0 flex items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "text-xl icon-sen-checkbox-blank"
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "ml-2"
+  }, "Hoodies")])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "sub-categories pl-3",
+    style: {
+      "display": "none"
+    }
+  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "flex justify-between items-center p-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "#",
+    "class": "router-link-active router-link-exact-active btn-text-black pl-0 flex items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "text-xl icon-sen-checkbox-blank"
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "ml-2"
+  }, "Sweatshirts")])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "sub-categories pl-3",
+    style: {
+      "display": "none"
+    }
+  })])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "font-12x mb-3 pb-3 border-b uppercase <md:text-center"
+  }, "Sản phẩm"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "mb-8"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "#",
+    "class": "router-link-active router-link-exact-active btn-text-black p-1 block flex items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "text-xl icon-sen-checkbox-blank"
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "ml-2 max-line-1 text-left"
+  }, "Unisex Standard T-Shirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "/vi/category/apparel-men?product=3110997",
+    "class": "router-link-active router-link-exact-active btn-text-black p-1 block flex items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "text-xl icon-sen-checkbox-blank"
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "ml-2 max-line-1 text-left"
+  }, "Unisex Hoodie")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "#",
+    "class": "router-link-active router-link-exact-active btn-text-black p-1 block flex items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "text-xl icon-sen-checkbox-blank"
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "ml-2 max-line-1 text-left"
+  }, "Unisex Premium T-Shirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "/vi/category/apparel-men?product=3133799",
+    "class": "router-link-active router-link-exact-active btn-text-black p-1 block flex items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "text-xl icon-sen-checkbox-blank"
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "ml-2 max-line-1 text-left"
+  }, "Unisex Sweatshirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "/vi/category/apparel-men?product=3102696",
+    "class": "router-link-active router-link-exact-active btn-text-black p-1 block flex items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "text-xl icon-sen-checkbox-blank"
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "ml-2 max-line-1 text-left"
+  }, "Men's Long Sleeved T-Shirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "/vi/category/apparel-men?product=3133945",
+    "class": "router-link-active router-link-exact-active btn-text-black p-1 block flex items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "text-xl icon-sen-checkbox-blank"
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "ml-2 max-line-1 text-left"
+  }, "Women's V-Neck T-Shirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "/vi/category/apparel-men?product=3112080",
+    "class": "router-link-active router-link-exact-active btn-text-black p-1 block flex items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "text-xl icon-sen-checkbox-blank"
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "ml-2 max-line-1 text-left"
+  }, "Men's Zip Hoodie")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "/vi/category/apparel-men?product=3144917",
+    "class": "router-link-active router-link-exact-active btn-text-black p-1 block flex items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "text-xl icon-sen-checkbox-blank"
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "ml-2 max-line-1 text-left"
+  }, "Men's Tank Top")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "#",
+    "class": "router-link-active router-link-exact-active btn-text-black p-1 block flex items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "text-xl icon-sen-checkbox-blank"
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "ml-2 max-line-1 text-left"
+  }, "Women's Soft Style Fitted T-Shirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "/vi/category/apparel-men?product=17541628",
+    "class": "router-link-active router-link-exact-active btn-text-black p-1 block flex items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "text-xl icon-sen-checkbox-blank"
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "ml-2 max-line-1 text-left"
+  }, "Unisex Jersey Tank")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "/vi/category/apparel-men?product=3144918",
+    "class": "router-link-active router-link-exact-active btn-text-black p-1 block flex items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "text-xl icon-sen-checkbox-blank"
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "ml-2 max-line-1 text-left"
+  }, "Women's Tank Top")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "/vi/category/apparel-men?product=3133944",
+    "class": "router-link-active router-link-exact-active btn-text-black p-1 block flex items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "text-xl icon-sen-checkbox-blank"
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "ml-2 max-line-1 text-left"
+  }, "Men's V-Neck T-Shirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "/vi/category/apparel-men?product=17531260",
+    "class": "router-link-active router-link-exact-active btn-text-black p-1 block flex items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "text-xl icon-sen-checkbox-blank"
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "ml-2 max-line-1 text-left"
+  }, "Unisex Jersey SS V-Neck T-Shirt")])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "font-12x mb-3 pb-3 border-b uppercase <md:text-center"
+  }, "Giá"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "text-center text-555 mb-3"
+  }, "$0.00 - $55.00"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "vue-slider vue-slider-ltr mb-8 mb-8",
+    style: {
+      "padding": "7px 0px",
+      "width": "auto",
+      "height": "4px"
+    }
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "vue-slider-rail"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "vue-slider-process",
+    style: {
+      "height": "100%",
+      "top": "0px",
+      "left": "0%",
+      "width": "100%",
+      "transition-property": "width, left",
+      "transition-duration": "0.5s"
+    }
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "vue-slider-dot",
+    "aria-valuetext": "0",
+    role: "slider",
+    "aria-valuenow": "0",
+    "aria-valuemin": "0",
+    "aria-valuemax": "55",
+    "aria-orientation": "horizontal",
+    tabindex: "0",
+    style: {
+      "width": "14px",
+      "height": "14px",
+      "transform": "translate(-50%, -50%)",
+      "top": "50%",
+      "left": "0%",
+      "transition": "left 0.5s"
+    }
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "vue-slider-dot-handle"
+  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "vue-slider-dot",
+    "aria-valuetext": "55",
+    role: "slider",
+    "aria-valuenow": "55",
+    "aria-valuemin": "0",
+    "aria-valuemax": "55",
+    "aria-orientation": "horizontal",
+    tabindex: "0",
+    style: {
+      "width": "14px",
+      "height": "14px",
+      "transform": "translate(-50%, -50%)",
+      "top": "50%",
+      "left": "100%",
+      "transition": "left 0.5s"
+    }
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "vue-slider-dot-handle"
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "filter-color mt-3"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "font-12x mb-3 pb-3 border-b uppercase <md:text-center"
+  }, "Màu sắc"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "flex flex-wrap"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "#",
+    "class": "router-link-active router-link-exact-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full shadow-color relative h-8 w-8",
+    style: {
+      "background": "rgb(29, 83, 213)"
+    }
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "#",
+    "class": "router-link-active router-link-exact-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full shadow-color relative h-8 w-8",
+    style: {
+      "background": "rgb(24, 24, 24)"
+    }
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "#",
+    "class": "router-link-active router-link-exact-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full shadow-color relative h-8 w-8",
+    style: {
+      "background": "rgb(238, 28, 52)"
+    }
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "#",
+    "class": "router-link-active router-link-exact-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full shadow-color relative h-8 w-8",
+    style: {
+      "background": "rgb(14, 13, 45)"
+    }
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "#",
+    "class": "router-link-active router-link-exact-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full shadow-color relative h-8 w-8",
+    style: {
+      "background": "rgb(80, 45, 105)"
+    }
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "#",
+    "class": "router-link-active router-link-exact-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full shadow-color relative h-8 w-8",
+    style: {
+      "background": "rgb(0, 148, 69)"
+    }
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "#",
+    "class": "router-link-active router-link-exact-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full shadow-color relative h-8 w-8",
+    style: {
+      "background": "rgb(20, 40, 26)"
+    }
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "#",
+    "class": "router-link-active router-link-exact-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full shadow-color relative h-8 w-8",
+    style: {
+      "background": "rgb(197, 197, 207)"
+    }
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "#",
+    "class": "router-link-active router-link-exact-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full shadow-color relative h-8 w-8",
+    style: {
+      "background": "rgb(58, 60, 67)"
+    }
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "#",
+    "class": "router-link-active router-link-exact-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full shadow-color relative h-8 w-8",
+    style: {
+      "background": "rgb(85, 91, 93)"
+    }
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "#",
+    "class": "router-link-active router-link-exact-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full shadow-color relative h-8 w-8",
+    style: {
+      "background": "rgb(255, 255, 255)"
+    }
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "#",
+    "class": "router-link-active router-link-exact-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full shadow-color relative h-8 w-8",
+    style: {
+      "background": "rgb(255, 82, 38)"
+    }
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "#",
+    "class": "router-link-active router-link-exact-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full shadow-color relative h-8 w-8",
+    style: {
+      "background": "rgb(187, 229, 251)"
+    }
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "#",
+    "class": "router-link-active router-link-exact-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full shadow-color relative h-8 w-8",
+    style: {
+      "background": "rgb(85, 90, 62)"
+    }
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "#",
+    "class": "router-link-active router-link-exact-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full shadow-color relative h-8 w-8",
+    style: {
+      "background": "rgb(91, 43, 66)"
+    }
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "#",
+    "class": "router-link-active router-link-exact-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full shadow-color relative h-8 w-8",
+    style: {
+      "background": "rgb(56, 47, 45)"
+    }
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "#",
+    "class": "router-link-active router-link-exact-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full shadow-color relative h-8 w-8",
+    style: {
+      "background": "rgb(255, 199, 213)"
+    }
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "#",
+    "class": "router-link-active router-link-exact-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full shadow-color relative h-8 w-8",
+    style: {
+      "background": "rgb(248, 166, 40)"
+    }
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "#",
+    "class": "router-link-active router-link-exact-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full shadow-color relative h-8 w-8",
+    style: {
+      "background": "rgb(255, 239, 215)"
+    }
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "#",
+    "class": "router-link-active router-link-exact-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full shadow-color relative h-8 w-8",
+    style: {
+      "background": "rgb(46, 45, 46)"
+    }
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "#",
+    "class": "router-link-active router-link-exact-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full shadow-color relative h-8 w-8",
+    style: {
+      "background": "rgb(1, 149, 71)"
+    }
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "#",
+    "class": "router-link-active router-link-exact-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full shadow-color relative h-8 w-8",
+    style: {
+      "background": "rgb(51, 40, 34)"
+    }
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "#",
+    "class": "router-link-active router-link-exact-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full shadow-color relative h-8 w-8",
+    style: {
+      "background": "rgb(123, 164, 219)"
+    }
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "#",
+    "class": "router-link-active router-link-exact-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full shadow-color relative h-8 w-8",
+    style: {
+      "background": "rgb(238, 238, 238)"
+    }
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "#",
+    "class": "router-link-active router-link-exact-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full shadow-color relative h-8 w-8",
+    style: {
+      "background": "rgb(254, 209, 65)"
+    }
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "#",
+    "class": "router-link-active router-link-exact-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full shadow-color relative h-8 w-8",
+    style: {
+      "background": "rgb(138, 81, 178)"
+    }
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "#",
+    "class": "router-link-active router-link-exact-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full shadow-color relative h-8 w-8",
+    style: {
+      "background": "rgb(50, 121, 255)"
+    }
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "#",
+    "class": "router-link-active router-link-exact-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full shadow-color relative h-8 w-8",
+    style: {
+      "background": "rgb(127, 100, 174)"
+    }
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "#",
+    "class": "router-link-active router-link-exact-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full shadow-color relative h-8 w-8",
+    style: {
+      "background": "rgb(244, 234, 209)"
+    }
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "#",
+    "class": "router-link-active router-link-exact-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full shadow-color relative h-8 w-8",
+    style: {
+      "background": "rgb(196, 198, 197)"
+    }
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "#",
+    "class": "router-link-active router-link-exact-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full shadow-color relative h-8 w-8",
+    style: {
+      "background": "rgb(138, 21, 56)"
+    }
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "#",
+    "class": "router-link-active router-link-exact-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full shadow-color relative h-8 w-8",
+    style: {
+      "background": "rgb(90, 203, 148)"
+    }
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "#",
+    "class": "router-link-active router-link-exact-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full shadow-color relative h-8 w-8",
+    style: {
+      "background": "rgb(67, 225, 255)"
+    }
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "#",
+    "class": "router-link-active router-link-exact-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full shadow-color relative h-8 w-8",
+    style: {
+      "background": "rgb(143, 143, 143)"
+    }
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "#",
+    "class": "router-link-active router-link-exact-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full shadow-color relative h-8 w-8",
+    style: {
+      "background": "rgb(167, 247, 87)"
+    }
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "#",
+    "class": "router-link-active router-link-exact-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full shadow-color relative h-8 w-8",
+    style: {
+      "background": "rgb(125, 32, 40)"
+    }
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "#",
+    "class": "router-link-active router-link-exact-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full shadow-color relative h-8 w-8",
+    style: {
+      "background": "rgb(54, 54, 54)"
+    }
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "#",
+    "class": "router-link-active router-link-exact-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full shadow-color relative h-8 w-8",
+    style: {
+      "background": "rgb(255, 183, 188)"
+    }
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "aria-current": "page",
+    href: "#",
+    "class": "router-link-active router-link-exact-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full shadow-color relative h-8 w-8",
+    style: {
+      "background": "rgb(106, 52, 96)"
+    }
+  })])])])])], -1 /* HOISTED */)]));
+}
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Detail.vue?vue&type=template&id=3cbb35fc":
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Detail.vue?vue&type=template&id=3cbb35fc ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   render: () => (/* binding */ render)
+/* harmony export */ });
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+
+var _hoisted_1 = {
+  id: "campaignPage",
+  "data-test-id": "campaign-container",
+  "class": "container"
+};
+function render(_ctx, _cache) {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("main", _hoisted_1, _cache[0] || (_cache[0] = [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    itemscope: "",
+    itemtype: "http://schema.org/Product"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("meta", {
+    itemprop: "brand",
+    content: "SenPrints"
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("meta", {
+    itemprop: "name",
+    content: "I'm a smartass daughter"
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("meta", {
+    itemprop: "description",
+    content: "I'm a smartass daughter"
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("meta", {
+    itemprop: "productID",
+    content: "468278431"
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("meta", {
+    itemprop: "url",
+    content: "https://senprints.com/i-m-a-smartass-daughter"
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("meta", {
+    itemprop: "image",
+    content: "https://img.cloudimgs.net/rx/1080x1080/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278431/5ea127/t/bfab849f4cbbcd78.jpg"
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    itemprop: "offers",
+    itemscope: "",
+    itemtype: "http://schema.org/Offer"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("link", {
+    itemprop: "availability",
+    href: "http://schema.org/InStock"
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("link", {
+    itemprop: "itemCondition",
+    href: "http://schema.org/NewCondition"
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("meta", {
+    itemprop: "price",
+    content: "21.99"
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("meta", {
+    itemprop: "priceCurrency",
+    content: "USD"
+  })])], -1 /* HOISTED */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
+    "class": "md:text-2xl font-medium capitalize py-2"
+  }, "I'm a smartass daughter", -1 /* HOISTED */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "flex flex-wrap"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full top-0 md:w-1/2 md:pr-4 md:sticky md:h-max lg:w-13/24 md:top-15"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "flex relative w-full pt-[140%] lg:pt-[90%] xl:pt-[110%] viewzone"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "overflow-y-auto w-[100px] p-1 absolute w-1/5 top-0 left-0 h-full"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/160x200,c_2,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278431/5ea127/t/bfab849f4cbbcd78.jpg",
+    loading: "eager",
+    "class": "w-auto object-contain border border-white hover:shadow-custom2 mb-2 !h-auto !border-primary",
+    alt: "I'm a smartass daughter",
+    fetchpriority: "high",
+    width: "160",
+    height: "200"
+  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/160x200,c_2,q_90,ofmt_webp/s4/l_p:3105952:c72817bfd6e66a44/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:8db84b_sh/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/3105952/de5846e5b6114138/t/6d265143fde402ae.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain border border-white hover:shadow-custom2 mb-2 !h-auto",
+    alt: "I'm a smartass daughter",
+    width: "160",
+    height: "200"
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full h-full absolute top-0 right-0 lg:w-4/5"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "absolute center-flex top-1 right-1 z-1 h-7 w-7 rounded-full btn bg-gray-300 hover:bg-gray-400"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "icon-sen-expand"
+  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "splide is-overflow is-initialized splide--loop splide--ltr splide--draggable is-active",
+    id: "splide05",
+    role: "region",
+    "aria-roledescription": "carousel"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "splide__arrows splide__arrows--ltr"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "splide__arrow z-1 absolute position-center-y btn-fill-black opacity-50 rounded-full fill-white bg-gray-400 p-1 h-10 w-10 center-flex <md:w-7 <md:h-7 splide__arrow--prev left-1 rotate-180",
+    type: "button",
+    "aria-label": "Go to last slide",
+    "aria-controls": "splide05-track"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    viewBox: "0 0 40 40",
+    width: "40",
+    height: "40",
+    focusable: "false"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
+    d: "m15.5 0.932-4.3 4.38 14.5 14.6-14.5 14.5 4.3 4.4 14.6-14.6 4.4-4.3-4.4-4.4-14.6-14.6z"
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "splide__arrow z-1 absolute position-center-y btn-fill-black opacity-50 rounded-full fill-white bg-gray-400 p-1 h-10 w-10 center-flex <md:w-7 <md:h-7 splide__arrow--next right-1",
+    type: "button",
+    "aria-label": "Next slide",
+    "aria-controls": "splide05-track"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    viewBox: "0 0 40 40",
+    width: "40",
+    height: "40",
+    focusable: "false"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
+    d: "m15.5 0.932-4.3 4.38 14.5 14.6-14.5 14.5 4.3 4.4 14.6-14.6 4.4-4.3-4.4-4.4-14.6-14.6z"
+  })])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "splide__track splide__track--loop splide__track--ltr splide__track--draggable",
+    id: "splide05-track",
+    "aria-live": "polite",
+    "aria-atomic": "true",
+    style: {
+      "padding-left": "0px",
+      "padding-right": "0px"
+    },
+    "aria-busy": "false"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", {
+    "class": "splide__list",
+    id: "splide05-list",
+    role: "presentation",
+    style: {
+      "transform": "translateX(-1080.25px)"
+    }
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+    "class": "splide__slide center-flex is-active splide__slide--clone",
+    id: "splide05-clone01",
+    role: "tabpanel",
+    "aria-roledescription": "slide",
+    "aria-label": "1 of 2",
+    style: {
+      "width": "calc(100%)"
+    },
+    "aria-hidden": "true"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "zoom-on-hover cursor-zoom-in"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/1000x1250,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278431/5ea127/t/bfab849f4cbbcd78.jpg",
+    loading: "eager",
+    "class": "w-auto object-contain normal",
+    alt: "I'm a smartass daughter",
+    fetchpriority: "high",
+    width: "1000",
+    height: "1250"
+  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/1000x1250,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278431/5ea127/t/bfab849f4cbbcd78.jpg",
+    loading: "eager",
+    "class": "w-auto object-contain zoom",
+    alt: "I'm a smartass daughter",
+    fetchpriority: "high",
+    width: "1000",
+    height: "1250",
+    style: {
+      "scale": "1.6",
+      "left": "154.819px",
+      "top": "153.3px"
+    }
+  })])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+    "class": "splide__slide center-flex splide__slide--clone is-prev",
+    id: "splide05-clone02",
+    role: "tabpanel",
+    "aria-roledescription": "slide",
+    "aria-label": "2 of 2",
+    style: {
+      "width": "calc(100%)"
+    },
+    "aria-hidden": "true"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "zoom-on-hover cursor-zoom-in"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/1000x1250,q_90,ofmt_webp/s4/l_p:3105952:c72817bfd6e66a44/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:8db84b_sh/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/3105952/de5846e5b6114138/t/6d265143fde402ae.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain normal",
+    alt: "I'm a smartass daughter",
+    width: "1000",
+    height: "1250"
+  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/1000x1250,q_90,ofmt_webp/s4/l_p:3105952:c72817bfd6e66a44/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:8db84b_sh/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/3105952/de5846e5b6114138/t/6d265143fde402ae.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain zoom",
+    alt: "I'm a smartass daughter",
+    width: "1000",
+    height: "1250",
+    style: {
+      "scale": "1.6",
+      "left": "162.094px",
+      "top": "33.4969px"
+    }
+  })])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+    "class": "splide__slide center-flex is-active is-visible",
+    id: "splide05-slide01",
+    role: "tabpanel",
+    "aria-roledescription": "slide",
+    "aria-label": "1 of 2",
+    style: {
+      "width": "calc(100%)"
+    }
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "zoom-on-hover cursor-zoom-in"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/1000x1250,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278431/5ea127/t/bfab849f4cbbcd78.jpg",
+    loading: "eager",
+    "class": "w-auto object-contain normal",
+    alt: "I'm a smartass daughter",
+    fetchpriority: "high",
+    width: "1000",
+    height: "1250"
+  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/1000x1250,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278431/5ea127/t/bfab849f4cbbcd78.jpg",
+    loading: "eager",
+    "class": "w-auto object-contain zoom",
+    alt: "I'm a smartass daughter",
+    fetchpriority: "high",
+    width: "1000",
+    height: "1250",
+    style: {
+      "scale": "1.6",
+      "left": "87.6187px",
+      "top": "-57.3px"
+    }
+  })])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+    "class": "splide__slide center-flex is-next",
+    id: "splide05-slide02",
+    role: "tabpanel",
+    "aria-roledescription": "slide",
+    "aria-label": "2 of 2",
+    style: {
+      "width": "calc(100%)"
+    },
+    "aria-hidden": "true"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "zoom-on-hover cursor-zoom-in"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/1000x1250,q_90,ofmt_webp/s4/l_p:3105952:c72817bfd6e66a44/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:8db84b_sh/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/3105952/de5846e5b6114138/t/6d265143fde402ae.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain normal",
+    alt: "I'm a smartass daughter",
+    width: "1000",
+    height: "1250"
+  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/1000x1250,q_90,ofmt_webp/s4/l_p:3105952:c72817bfd6e66a44/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:8db84b_sh/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/3105952/de5846e5b6114138/t/6d265143fde402ae.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain zoom",
+    alt: "I'm a smartass daughter",
+    width: "1000",
+    height: "1250",
+    style: {
+      "scale": "1.6",
+      "left": "162.094px",
+      "top": "-119.7px"
+    }
+  })])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+    "class": "splide__slide center-flex is-active splide__slide--clone",
+    id: "splide05-clone03",
+    role: "tabpanel",
+    "aria-roledescription": "slide",
+    "aria-label": "1 of 2",
+    style: {
+      "width": "calc(100%)"
+    },
+    "aria-hidden": "true"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "zoom-on-hover cursor-zoom-in"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/1000x1250,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278431/5ea127/t/bfab849f4cbbcd78.jpg",
+    loading: "eager",
+    "class": "w-auto object-contain normal",
+    alt: "I'm a smartass daughter",
+    fetchpriority: "high",
+    width: "1000",
+    height: "1250"
+  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/1000x1250,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278431/5ea127/t/bfab849f4cbbcd78.jpg",
+    loading: "eager",
+    "class": "w-auto object-contain zoom",
+    alt: "I'm a smartass daughter",
+    fetchpriority: "high",
+    width: "1000",
+    height: "1250",
+    style: {
+      "scale": "1.6",
+      "left": "154.819px",
+      "top": "153.3px"
+    }
+  })])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+    "class": "splide__slide center-flex splide__slide--clone",
+    id: "splide05-clone04",
+    role: "tabpanel",
+    "aria-roledescription": "slide",
+    "aria-label": "2 of 2",
+    style: {
+      "width": "calc(100%)"
+    },
+    "aria-hidden": "true"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "zoom-on-hover cursor-zoom-in"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/1000x1250,q_90,ofmt_webp/s4/l_p:3105952:c72817bfd6e66a44/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:8db84b_sh/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/3105952/de5846e5b6114138/t/6d265143fde402ae.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain normal",
+    alt: "I'm a smartass daughter",
+    width: "1000",
+    height: "1250"
+  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/1000x1250,q_90,ofmt_webp/s4/l_p:3105952:c72817bfd6e66a44/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:8db84b_sh/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/3105952/de5846e5b6114138/t/6d265143fde402ae.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain zoom",
+    alt: "I'm a smartass daughter",
+    width: "1000",
+    height: "1250",
+    style: {
+      "scale": "1.6",
+      "left": "162.094px",
+      "top": "33.4969px"
+    }
+  })])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", {
+    "class": "splide__pagination py-3 !md:hidden splide__pagination--ltr",
+    role: "tablist",
+    "aria-label": "Select a slide to show"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+    role: "presentation"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "splide__pagination__page btn bg-gray-300 hover:bg-gray-800 rounded-full h-2 w-2 mx-1 is-active",
+    type: "button",
+    role: "tab",
+    "aria-controls": "splide05-slide01",
+    "aria-label": "Go to slide 1",
+    "aria-selected": "true"
+  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+    role: "presentation"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "splide__pagination__page btn bg-gray-300 hover:bg-gray-800 rounded-full h-2 w-2 mx-1",
+    type: "button",
+    role: "tab",
+    "aria-controls": "splide05-slide02",
+    "aria-label": "Go to slide 2",
+    tabindex: "-1"
+  })])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "flex flex-wrap justify-between items-center py-2 <md:hidden"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    id: "share-box"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "flex"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-8 h-8 my-1 mr-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    id: "share-twitter",
+    href: "https://twitter.com/share?url=https%3A%2F%2Fsenprints.com%2Fvi%2Fi-m-a-smartass-daughter",
+    target: "_blank",
+    rel: "noopener noreferrer nofollow"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://v4.cdnjs1.com/images/share/twitter.svg",
+    alt: "Share on Twitter",
+    loading: "lazy"
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-8 h-8 m-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    id: "share-facebook",
+    href: "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsenprints.com%2Fvi%2Fi-m-a-smartass-daughter",
+    target: "_blank",
+    rel: "noopener noreferrer nofollow"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://v4.cdnjs1.com/images/share/facebook.svg",
+    alt: "Share on Facebook",
+    loading: "lazy"
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-8 h-8 m-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    id: "share-telegram",
+    href: "https://t.me/share/url?url=https%3A%2F%2Fsenprints.com%2Fvi%2Fi-m-a-smartass-daughter",
+    target: "_blank",
+    rel: "noopener noreferrer nofollow"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://v4.cdnjs1.com/images/share/telegram.svg",
+    alt: "Share on Telegram",
+    loading: "lazy"
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-8 h-8 m-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    id: "share-pinterest",
+    href: "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsenprints.com%2Fvi%2Fi-m-a-smartass-daughter",
+    target: "_blank",
+    rel: "noopener noreferrer nofollow"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://v4.cdnjs1.com/images/share/pinterest.svg",
+    alt: "Share on Pinterest",
+    loading: "lazy"
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "text-sm lg:text-base"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "mr-1 text-gray-400"
+  }, "Thiết kế và bán bởi"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/artist/angel-dimaria-wxmewy",
+    "class": "text-primary"
+  }, "Angel DiMaria")])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full md:w-1/2 md:pl-4 lg:w-11/24"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
+    "class": "font-medium"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Unisex Standard T-Shirt"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "uppercase"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, " / "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" white")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "uppercase"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, " / "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" s")])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "flex items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "text-2xl font-medium text-primary",
+    "data-test-id": "price"
+  }, "$21.99")])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "product-list flex md:flex-wrap overflow-x-auto mb-3",
+    "campaign-thumb-url": "/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278431/5ea127/t/bfab849f4cbbcd78.jpg"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-m-a-smartass-daughter/unisex-standard-t-shirt",
+    "class": "product-item overflow-hidden h-[100px] w-[80px] min-w-[80px] m-1 hover:shadow-custom cursor-pointer border border-primary",
+    "sp-action": "change_product",
+    "data-test-id": "change-product"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/160x200,c_2,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278431/5ea127/t/bfab849f4cbbcd78.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain",
+    alt: "Unisex Standard T-Shirt",
+    fetchpriority: "auto",
+    width: "160",
+    height: "200"
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-m-a-smartass-daughter/unisex-hoodie",
+    "class": "product-item overflow-hidden h-[100px] w-[80px] min-w-[80px] m-1 hover:shadow-custom cursor-pointer",
+    "sp-action": "change_product",
+    "data-test-id": "change-product"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/160x200,c_2,q_90,ofmt_webp/s4/l_p:3110997:01c1fe_cr/fl_cutter,fl_layer_apply/u_p:3110997:ae6c12_co/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3110997:77b390_sh/fl_layer_apply/u_p:3110997:5026deae4a86e920/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278431/dae8fa/t/af1d3b50344e7009.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain",
+    alt: "Unisex Hoodie",
+    fetchpriority: "auto",
+    width: "160",
+    height: "200"
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-m-a-smartass-daughter/unisex-premium-t-shirt",
+    "class": "product-item overflow-hidden h-[100px] w-[80px] min-w-[80px] m-1 hover:shadow-custom cursor-pointer",
+    "sp-action": "change_product",
+    "data-test-id": "change-product"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/160x200,c_2,q_90,ofmt_webp/s4/l_p:3108552:fef4483311784841/fl_cutter,fl_layer_apply/u_p:3108552:f35a698bb1f8ebef/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3108552:00bdeb_sh/fl_layer_apply/u_p:3108552:0d9d46c30552df18/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278431/56536c/t/e22332f6dfaab4f3.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain",
+    alt: "Unisex Premium T-Shirt",
+    fetchpriority: "auto",
+    width: "160",
+    height: "200"
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-m-a-smartass-daughter/women's-standard-t-shirt",
+    "class": "product-item overflow-hidden h-[100px] w-[80px] min-w-[80px] m-1 hover:shadow-custom cursor-pointer",
+    "sp-action": "change_product",
+    "data-test-id": "change-product"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/160x200,c_2,q_90,ofmt_webp/s4/l_p:3146072:ab653fa6267d68a5/fl_cutter,fl_layer_apply/u_p:3146072:ce86d389c4f44829/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3146072:ef70b4_sh/fl_layer_apply/u_p:3146072:9a0d768cc094e8cc/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278431/57d7de/t/43d8c13b33a7322b.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain",
+    alt: "Women's Standard T-Shirt",
+    fetchpriority: "auto",
+    width: "160",
+    height: "200"
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-m-a-smartass-daughter/unisex-sweatshirt",
+    "class": "product-item overflow-hidden h-[100px] w-[80px] min-w-[80px] m-1 hover:shadow-custom cursor-pointer md:hidden",
+    "sp-action": "change_product",
+    "data-test-id": "change-product"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/160x200,c_2,q_90,ofmt_webp/s4/l_p:3133799:76eb7db5664bb2d7/fl_cutter,fl_layer_apply/u_p:3133799:56ba75b83ef68e24/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3133799:23b059_sh/fl_layer_apply/u_p:3133799:99f5f7fedf12aaa4/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278431/69ac41/t/55a60c943285420a.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain",
+    alt: "Unisex Sweatshirt",
+    fetchpriority: "auto",
+    width: "160",
+    height: "200"
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-m-a-smartass-daughter/men's-long-sleeved-t-shirt",
+    "class": "product-item overflow-hidden h-[100px] w-[80px] min-w-[80px] m-1 hover:shadow-custom cursor-pointer md:hidden",
+    "sp-action": "change_product",
+    "data-test-id": "change-product"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/160x200,c_2,q_90,ofmt_webp/s4/l_p:3102696:edb706c37f315601/fl_cutter,fl_layer_apply/u_p:3102696:1537cd5649d06ec3/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3102696:e59303_sh/fl_layer_apply/u_p:3102696:920a9c57dee89594/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278431/ca111d/t/b50ec583d1635355.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain",
+    alt: "Men's Long Sleeved T-Shirt",
+    fetchpriority: "auto",
+    width: "160",
+    height: "200"
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-m-a-smartass-daughter/women's-v-neck-t-shirt",
+    "class": "product-item overflow-hidden h-[100px] w-[80px] min-w-[80px] m-1 hover:shadow-custom cursor-pointer md:hidden",
+    "sp-action": "change_product",
+    "data-test-id": "change-product"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/160x200,c_2,q_90,ofmt_webp/s4/l_p:3133945:13fd535cb38023e4/fl_cutter,fl_layer_apply/u_p:3133945:a5cc8eb0216771b3/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3133945:480428_sh/fl_layer_apply/u_p:3133945:931a4b42bbaaf907/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278431/43b0ba/t/2ee662e7ade76bc6.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain",
+    alt: "Women's V-Neck T-Shirt",
+    fetchpriority: "auto",
+    width: "160",
+    height: "200"
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-m-a-smartass-daughter/kids-standard-t-shirt",
+    "class": "product-item overflow-hidden h-[100px] w-[80px] min-w-[80px] m-1 hover:shadow-custom cursor-pointer md:hidden",
+    "sp-action": "change_product",
+    "data-test-id": "change-product"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/160x200,c_2,q_90,ofmt_webp/s4/l_p:3134487:3e6cee_cr/fl_cutter,fl_layer_apply/u_p:3134487:4589c1_co/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3134487:816fd2_sh/fl_layer_apply/u_p:3134487:3b457aff2260dfbc/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278431/216867/t/46b24173ea138457.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain",
+    alt: "Kids Standard T-Shirt",
+    fetchpriority: "auto",
+    width: "160",
+    height: "200"
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-m-a-smartass-daughter/men's-tank-top",
+    "class": "product-item overflow-hidden h-[100px] w-[80px] min-w-[80px] m-1 hover:shadow-custom cursor-pointer md:hidden",
+    "sp-action": "change_product",
+    "data-test-id": "change-product"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/160x200,c_2,q_90,ofmt_webp/s4/l_p:3144917:483d6e8af3ed7f72/fl_cutter,fl_layer_apply/u_p:3144917:2f2c24b9d924c860/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3144917:9d82f2_sh/fl_layer_apply/u_p:3144917:f0118beff7acc31e/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278431/bd0af5/t/47e7f4418c079f84.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain",
+    alt: "Men's Tank Top",
+    fetchpriority: "auto",
+    width: "160",
+    height: "200"
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-m-a-smartass-daughter/women's-soft-style-fitted-t-shirt",
+    "class": "product-item overflow-hidden h-[100px] w-[80px] min-w-[80px] m-1 hover:shadow-custom cursor-pointer md:hidden",
+    "sp-action": "change_product",
+    "data-test-id": "change-product"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/160x200,c_2,q_90,ofmt_webp/s4/l_p:3110736:2e42fa69ed79992d/fl_cutter,fl_layer_apply/u_p:3110736:aa3de734e015074e/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3110736:0756be_sh/fl_layer_apply/u_p:3110736:9a0d768cc094e8cc/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278431/3bfc6b/t/8d7e67731d224a28.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain",
+    alt: "Women's Soft Style Fitted T-Shirt",
+    fetchpriority: "auto",
+    width: "160",
+    height: "200"
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-m-a-smartass-daughter/unisex-jersey-tank",
+    "class": "product-item overflow-hidden h-[100px] w-[80px] min-w-[80px] m-1 hover:shadow-custom cursor-pointer md:hidden",
+    "sp-action": "change_product",
+    "data-test-id": "change-product"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/160x200,c_2,q_90,ofmt_webp/s4/l_p:17541628:d59666_cr/fl_cutter,fl_layer_apply/u_p:17541628:6f7f8c_co/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:17541628:315359_sh/fl_layer_apply/u_p:17541628:72945c42efd46ada/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278431/4496a3/t/15896b40f410435f.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain",
+    alt: "Unisex Jersey Tank",
+    fetchpriority: "auto",
+    width: "160",
+    height: "200"
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-m-a-smartass-daughter/women's-tank-top",
+    "class": "product-item overflow-hidden h-[100px] w-[80px] min-w-[80px] m-1 hover:shadow-custom cursor-pointer md:hidden",
+    "sp-action": "change_product",
+    "data-test-id": "change-product"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/160x200,c_2,q_90,ofmt_webp/s4/l_p:3144918:3e7dd38903b2c2bc/fl_cutter,fl_layer_apply/u_p:3144918:d7242df7aede5eda/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3144918:4f992a_sh/fl_layer_apply/u_p:3144918:30fec409d5e51061/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278431/e551b4/t/de417a6f00b125b2.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain",
+    alt: "Women's Tank Top",
+    fetchpriority: "auto",
+    width: "160",
+    height: "200"
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-m-a-smartass-daughter/women's-ideal-racerback-tank",
+    "class": "product-item overflow-hidden h-[100px] w-[80px] min-w-[80px] m-1 hover:shadow-custom cursor-pointer md:hidden",
+    "sp-action": "change_product",
+    "data-test-id": "change-product"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/160x200,c_2,q_90,ofmt_webp/s4/l_p:17717434:633504_cr/fl_cutter,fl_layer_apply/u_p:17717434:75aed9_co/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:17717434:864126_sh/fl_layer_apply/u_p:17717434:e19fbf22fe34134f/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278431/94466a/t/feff77c8dda87e79.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain",
+    alt: "Women's Ideal Racerback Tank",
+    fetchpriority: "auto",
+    width: "160",
+    height: "200"
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-m-a-smartass-daughter/kids-pullover-hoodie",
+    "class": "product-item overflow-hidden h-[100px] w-[80px] min-w-[80px] m-1 hover:shadow-custom cursor-pointer md:hidden",
+    "sp-action": "change_product",
+    "data-test-id": "change-product"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/160x200,c_2,q_90,ofmt_webp/s4/l_p:3134787:a2075d_cr/fl_cutter,fl_layer_apply/u_p:3134787:0df7f1_co/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3134787:82a0f1_sh/fl_layer_apply/u_p:3134787:4b59126f2a0ec9c7/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278431/766d17/t/db92d4edadb63ac7.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain",
+    alt: "Kids Pullover Hoodie",
+    fetchpriority: "auto",
+    width: "160",
+    height: "200"
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-m-a-smartass-daughter/women's-premium-slim-fit-tee",
+    "class": "product-item overflow-hidden h-[100px] w-[80px] min-w-[80px] m-1 hover:shadow-custom cursor-pointer md:hidden",
+    "sp-action": "change_product",
+    "data-test-id": "change-product"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/160x200,c_2,q_90,ofmt_webp/s4/l_p:3145373:de461e_cr/fl_cutter,fl_layer_apply/u_p:3145373:b9f5f2_co/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3145373:9dc023_sh/fl_layer_apply/u_p:3145373:46b4ecac61f50d4f/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278431/bf3e9d/t/a47abfa7e9cd5b55.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain",
+    alt: "Women's Premium Slim Fit Tee",
+    fetchpriority: "auto",
+    width: "160",
+    height: "200"
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-m-a-smartass-daughter/unisex-jersey-ss-v-neck-t-shirt",
+    "class": "product-item overflow-hidden h-[100px] w-[80px] min-w-[80px] m-1 hover:shadow-custom cursor-pointer md:hidden",
+    "sp-action": "change_product",
+    "data-test-id": "change-product"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/160x200,c_2,q_90,ofmt_webp/s4/l_p:17531260:6b9f1a_cr/fl_cutter,fl_layer_apply/u_p:17531260:d2b8a5_co/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:17531260:64e15e_sh/fl_layer_apply/u_p:17531260:f1e303d5f2e66829/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278431/973e52/t/517fbff6abfd22fe.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain",
+    alt: "Unisex Jersey SS V-Neck T-Shirt",
+    fetchpriority: "auto",
+    width: "160",
+    height: "200"
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-m-a-smartass-daughter/toddler-cotton-jersey-t-shirt",
+    "class": "product-item overflow-hidden h-[100px] w-[80px] min-w-[80px] m-1 hover:shadow-custom cursor-pointer md:hidden",
+    "sp-action": "change_product",
+    "data-test-id": "change-product"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/160x200,c_2,q_90,ofmt_webp/s4/l_p:2784722:d3505a4a3c234aa9/fl_cutter,fl_layer_apply/u_p:2784722:6f2790d5df397d39/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:2784722:6eeb3d93784c85a4/fl_layer_apply/u_p:2784722:e8be404ca026a791/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278431/b12d74/t/47e03d2599e64e63.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain",
+    alt: "Toddler Cotton Jersey T-Shirt",
+    fetchpriority: "auto",
+    width: "160",
+    height: "200"
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-m-a-smartass-daughter/kids-standard-sweatshirt",
+    "class": "product-item overflow-hidden h-[100px] w-[80px] min-w-[80px] m-1 hover:shadow-custom cursor-pointer md:hidden",
+    "sp-action": "change_product",
+    "data-test-id": "change-product"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/160x200,c_2,q_90,ofmt_webp/s4/l_p:62043882:2adc13_cr/fl_cutter,fl_layer_apply/u_p:62043882:3da28c_co/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:62043882:c7d0f5_sh/fl_layer_apply/u_p:62043882:14b6cdaeabe11035/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278431/6d6d74/t/38513848105361a2.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain",
+    alt: "Kids Standard Sweatshirt",
+    fetchpriority: "auto",
+    width: "160",
+    height: "200"
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-m-a-smartass-daughter/the-organic-unisex-t-shirt",
+    "class": "product-item overflow-hidden h-[100px] w-[80px] min-w-[80px] m-1 hover:shadow-custom cursor-pointer md:hidden",
+    "sp-action": "change_product",
+    "data-test-id": "change-product"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/160x200,c_2,q_90,ofmt_webp/s4/l_p:91812312:c7fa43_cr/fl_cutter,fl_layer_apply/u_p:91812312:afd2b3_co/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:91812312:059d59_sh/fl_layer_apply/u_p:91812312:0d9d46c30552df18/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278431/1f4175/t/47882f5e58933282.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain",
+    alt: "The Organic Unisex T-shirt",
+    fetchpriority: "auto",
+    width: "160",
+    height: "200"
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "h-[100px] w-[80px] m-1 text-gray-300 hidden hover:shadow-custom hover:text-gray-700 md:flex justify-center items-center text-6xl border cursor-pointer"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "icon-sen-plus"
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "mb-3"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full overflow-auto flex md:flex-wrap"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-m-a-smartass-daughter/unisex-standard-t-shirt?color=white",
+    "class": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full border-2 hover:border-primary m-0.5 p-0.5border-primary",
+    title: "white",
+    "data-test-id": "product-color",
+    "sp-action": "change_color"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full shadow-color relative h-8 w-8",
+    style: {
+      "background": "rgb(255, 255, 255)"
+    }
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "z-1 absolute position-center icon-sen-check text-black"
+  })])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-m-a-smartass-daughter/unisex-standard-t-shirt?color=black",
+    "class": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white",
+    title: "black",
+    "data-test-id": "product-color",
+    "sp-action": "change_color"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full shadow-color relative h-8 w-8",
+    style: {
+      "background": "rgb(24, 24, 24)"
+    }
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-m-a-smartass-daughter/unisex-standard-t-shirt?color=navy",
+    "class": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white",
+    title: "navy",
+    "data-test-id": "product-color",
+    "sp-action": "change_color"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full shadow-color relative h-8 w-8",
+    style: {
+      "background": "rgb(14, 13, 45)"
+    }
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-m-a-smartass-daughter/unisex-standard-t-shirt?color=red",
+    "class": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white",
+    title: "red",
+    "data-test-id": "product-color",
+    "sp-action": "change_color"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full shadow-color relative h-8 w-8",
+    style: {
+      "background": "rgb(238, 28, 52)"
+    }
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-m-a-smartass-daughter/unisex-standard-t-shirt?color=royal",
+    "class": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white",
+    title: "royal",
+    "data-test-id": "product-color",
+    "sp-action": "change_color"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full shadow-color relative h-8 w-8",
+    style: {
+      "background": "rgb(29, 83, 213)"
+    }
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-m-a-smartass-daughter/unisex-standard-t-shirt?color=light+blue",
+    "class": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white",
+    title: "light blue",
+    "data-test-id": "product-color",
+    "sp-action": "change_color"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full shadow-color relative h-8 w-8",
+    style: {
+      "background": "rgb(187, 229, 251)"
+    }
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-m-a-smartass-daughter/unisex-standard-t-shirt?color=irish+green",
+    "class": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white",
+    title: "irish green",
+    "data-test-id": "product-color",
+    "sp-action": "change_color"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full shadow-color relative h-8 w-8",
+    style: {
+      "background": "rgb(0, 148, 69)"
+    }
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-m-a-smartass-daughter/unisex-standard-t-shirt?color=purple",
+    "class": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white",
+    title: "purple",
+    "data-test-id": "product-color",
+    "sp-action": "change_color"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full shadow-color relative h-8 w-8",
+    style: {
+      "background": "rgb(80, 45, 105)"
+    }
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-m-a-smartass-daughter/unisex-standard-t-shirt?color=light+pink",
+    "class": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white",
+    title: "light pink",
+    "data-test-id": "product-color",
+    "sp-action": "change_color"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full shadow-color relative h-8 w-8",
+    style: {
+      "background": "rgb(255, 199, 213)"
+    }
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-m-a-smartass-daughter/unisex-standard-t-shirt?color=dark+heather",
+    "class": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white",
+    title: "dark heather",
+    "data-test-id": "product-color",
+    "sp-action": "change_color"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "rounded-full shadow-color relative h-8 w-8",
+    style: {
+      "background": "rgb(58, 60, 67)"
+    }
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "mb-3"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full overflow-auto flex md:flex-wrap"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-m-a-smartass-daughter/unisex-standard-t-shirt?size=s",
+    "class": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "btn-border-fill min-w-14 text-center my-1 mr-2 p-1 border-gray-300 font-medium uppercase !border-primary text-contrast bg-primary",
+    "sp-action": "change_size",
+    "data-test-id": "product-change-size"
+  }, "s ")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-m-a-smartass-daughter/unisex-standard-t-shirt?size=m",
+    "class": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "btn-border-fill min-w-14 text-center my-1 mr-2 p-1 border-gray-300 font-medium uppercase",
+    "sp-action": "change_size",
+    "data-test-id": "product-change-size"
+  }, "m")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-m-a-smartass-daughter/unisex-standard-t-shirt?size=l",
+    "class": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "btn-border-fill min-w-14 text-center my-1 mr-2 p-1 border-gray-300 font-medium uppercase",
+    "sp-action": "change_size",
+    "data-test-id": "product-change-size"
+  }, "l")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-m-a-smartass-daughter/unisex-standard-t-shirt?size=xl",
+    "class": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "btn-border-fill min-w-14 text-center my-1 mr-2 p-1 border-gray-300 font-medium uppercase",
+    "sp-action": "change_size",
+    "data-test-id": "product-change-size"
+  }, "xl")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-m-a-smartass-daughter/unisex-standard-t-shirt?size=2xl",
+    "class": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "btn-border-fill min-w-14 text-center my-1 mr-2 p-1 border-gray-300 font-medium uppercase",
+    "sp-action": "change_size",
+    "data-test-id": "product-change-size"
+  }, "2xl")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-m-a-smartass-daughter/unisex-standard-t-shirt?size=3xl",
+    "class": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "btn-border-fill min-w-14 text-center my-1 mr-2 p-1 border-gray-300 font-medium uppercase",
+    "sp-action": "change_size",
+    "data-test-id": "product-change-size"
+  }, "3xl")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-m-a-smartass-daughter/unisex-standard-t-shirt?size=4xl",
+    "class": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "btn-border-fill min-w-14 text-center my-1 mr-2 p-1 border-gray-300 font-medium uppercase",
+    "sp-action": "change_size",
+    "data-test-id": "product-change-size"
+  }, "4xl")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-m-a-smartass-daughter/unisex-standard-t-shirt?size=5xl",
+    "class": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "btn-border-fill min-w-14 text-center my-1 mr-2 p-1 border-gray-300 font-medium uppercase",
+    "sp-action": "change_size",
+    "data-test-id": "product-change-size"
+  }, "5xl")])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "btn-text cursor-pointer mt-2 text-blue-400 inline-block"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "font-medium"
+  }, "Hướng dẫn kích thước"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "icon-sen-ruler ml-1"
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "my-4"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("strong", null, "Số lượng")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "flex gap-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "text-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    id: "quantityDropdown",
+    "class": "dropdown relative w-full",
+    "data-test-id": "qty-btn"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    type: "button",
+    "class": "relative btn-border h-12 w-full w-16 pr-5.5"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "1"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "float-right absolute right-0 position-center-y z-0 transition rotate-0 icon-sen-menu-down text-2xl"
+  })])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "flex w-full transition-all"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "uppercase font-bold btn-fill text-xl w-full h-12 md:ml-2",
+    dusk: "add-to-cart-button",
+    "data-test-id": "campaign-add-to-cart"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "icon-sen-cart-plus mr-2 font-bold"
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Thêm vào giỏ hàng")])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "data-v-54da367e": "",
+    "class": "mt-4 mt-3"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "data-v-54da367e": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "data-v-54da367e": "",
+    "class": "cursor-pointer text-gray-500 btn-text font-medium"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "data-v-54da367e": "",
+    "class": "capitalize"
+  }, "Chi tiết mặt hàng"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "data-v-54da367e": "",
+    "class": "float-right transition-default transform rotate-0"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "data-v-54da367e": "",
+    "class": "icon-sen-chevron-down p-3 max-h-50 overflow-y-auto"
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "data-v-54da367e": "",
+    "data-collapse": "collapsed",
+    "class": "transition-default pr-3 max-h-50 overflow-y-auto",
+    style: {
+      "overflow": "hidden",
+      "height": "0px"
+    }
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "data-v-54da367e": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "ql-align-justify"
+  }, "Preshrunk t-shirt in 100% cotton, except:"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+    "class": "ql-align-justify"
+  }, "Sport Grey: 90% US Cotton / 10% Polyester"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+    "class": "ql-align-justify"
+  }, "Dark Heather: 50% US Cotton / 50% Polyester or 35% US Cotton / 65% Polyester"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+    "class": "ql-align-justify"
+  }, "Ash: 99% US Cotton / 1% Polyester")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "ql-align-justify"
+  }, "Seamless twin needle 7/8\" collar."), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "ql-align-justify"
+  }, "Taped neck and shoulders. Rolled forward shoulders for better fit."), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "ql-align-justify"
+  }, "Twin needle sleeve and bottom hems. Quarter-turned to eliminate centre crease."), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("strong", null, "Care Instruction:")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, "Machine wash at max. 30ºC/86ºF with short spin cycle, inside out with like colors"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, "Do not use bleach"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, "Do not iron"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, "Do not dry clean"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, "Do not tumble dry")])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "data-v-54da367e": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "data-v-54da367e": "",
+    "class": "cursor-pointer text-gray-500 btn-text font-medium"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "data-v-54da367e": "",
+    "class": "capitalize"
+  }, "Giao hàng"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "data-v-54da367e": "",
+    "class": "float-right transition-default transform rotate-0"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "data-v-54da367e": "",
+    "class": "icon-sen-chevron-down p-3 max-h-50 overflow-y-auto"
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "data-v-54da367e": "",
+    "data-collapse": "collapsed",
+    "class": "transition-default pr-3 max-h-50 overflow-y-auto",
+    style: {
+      "overflow": "hidden",
+      "height": "0px"
+    }
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "data-v-54da367e": ""
+  }, "Thời gian sản xuất: "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", {
+    "data-v-54da367e": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+    "data-v-54da367e": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Quần áo in (in bình thường/một phần): "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("strong", {
+    "data-v-54da367e": ""
+  }, "3-5 ngày làm việc")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+    "data-v-54da367e": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Đặc biệt cho in Canvas/Poster: "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("strong", {
+    "data-v-54da367e": ""
+  }, "5-7 ngày làm việc")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+    "data-v-54da367e": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Trang phục và sản phẩm in toàn bộ (Full Prints): "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("strong", {
+    "data-v-54da367e": ""
+  }, "7-10 ngày làm việc")])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "data-v-54da367e": ""
+  }, "Thời gian giao hàng: "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", {
+    "data-v-54da367e": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+    "data-v-54da367e": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Quần áo in (in bình thường/một phần): "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("strong", {
+    "data-v-54da367e": ""
+  }, "5-7 ngày làm việc")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+    "data-v-54da367e": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Trang phục và sản phẩm in toàn bộ (Full Prints): "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("strong", {
+    "data-v-54da367e": ""
+  }, "11-14 ngày làm việc")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+    "data-v-54da367e": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Các đơn hàng quốc tế có thể mất thêm thời gian: "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("strong", {
+    "data-v-54da367e": ""
+  }, "1-2 tuần"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(".")])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "data-v-54da367e": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("strong", {
+    "data-v-54da367e": ""
+  }, "Ghi chú: "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "data-v-54da367e": ""
+  }, "Thời gian giao hàng có thể mất từ"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("strong", {
+    "data-v-54da367e": ""
+  }, " 21 đến 25 ngày làm việc"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "data-v-54da367e": ""
+  }, ", the tracking is normal that there might not be timely updates of your parcel, therefore please wait patiently..")])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "data-v-54da367e": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "data-v-54da367e": "",
+    "class": "cursor-pointer text-gray-500 btn-text font-medium"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "data-v-54da367e": "",
+    "class": "capitalize"
+  }, "Chính sách vận chuyển và trả hàng"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "data-v-54da367e": "",
+    "class": "float-right transition-default transform rotate-0"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "data-v-54da367e": "",
+    "class": "icon-sen-chevron-down p-3 max-h-50 overflow-y-auto"
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "data-v-54da367e": "",
+    "data-collapse": "collapsed",
+    "class": "transition-default pr-3 max-h-50 overflow-y-auto",
+    style: {
+      "overflow": "hidden",
+      "height": "0px"
+    }
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "data-v-54da367e": ""
+  }, "Mặc dù chúng tôi muốn mỗi đơn hàng đều hoàn hảo, nhưng đôi khi vẫn có thể xảy ra sai sót. Chúng tôi có thể cung cấp bản sao và hoàn tiền cho các đơn hàng của bạn nếu có lỗi trong đơn hàng. Nếu bạn gửi yêu cầu tái sản xuất hoặc hoàn tiền, vui lòng đính kèm bằng chứng ảnh của sản phẩm trong đơn hàng của bạn."), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "data-v-54da367e": ""
+  }, "Các trường hợp chúng tôi chịu chi phí in lại (bản sao) hoặc hoàn tiền:"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", {
+    "data-v-54da367e": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+    "data-v-54da367e": ""
+  }, "Có vấn đề sản xuất với sản phẩm của bạn."), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+    "data-v-54da367e": ""
+  }, "Sản phẩm trong đơn hàng của bạn bị hỏng hoặc hư hại trong quá trình vận chuyển."), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+    "data-v-54da367e": ""
+  }, "Bạn nhận được sản phẩm sai trong đơn hàng của mình."), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+    "data-v-54da367e": ""
+  }, "Đơn hàng bị mất trong quá trình vận chuyển, và địa chỉ giao hàng ban đầu là đúng."), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+    "data-v-54da367e": ""
+  }, "Đơn hàng bị mất trong quá trình vận chuyển, và thời gian giao hàng thực tế vượt quá khung thời gian giao hàng chung cho các đơn hàng.")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "data-v-54da367e": ""
+  }, "Nếu hàng hóa được giao cho bạn thuộc một trong các tiêu chí đã nêu ở trên, vui lòng làm theo các bước dưới đây để yêu cầu từ dịch vụ khách hàng của chúng tôi: "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", {
+    "data-v-54da367e": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+    "data-v-54da367e": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Bạn phải gửi yêu cầu trả hàng trong vòng "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("strong", {
+    "data-v-54da367e": ""
+  }, "14 ngày làm việc"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" sau khi bạn nhận được hàng hóa của mình. ")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+    "data-v-54da367e": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Sau "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("strong", {
+    "data-v-54da367e": ""
+  }, "14 ngày làm việc"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(", Không có sự trả lại nào sẽ được chấp nhận. Ngoài ra, nếu hàng hóa được trả lại trước khi bạn gửi yêu cầu, những hàng hóa đó sẽ bị tịch thu. ")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+    "data-v-54da367e": ""
+  }, "Xin lưu ý rằng khách hàng chịu trách nhiệm cho nhãn vận chuyển trả lại. Chúng tôi sẽ gửi hướng dẫn trả lại cho bạn riêng qua email."), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+    "data-v-54da367e": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Bạn phải gửi yêu cầu trả hàng trong vòng "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("strong", {
+    "data-v-54da367e": ""
+  }, "14 ngày làm việc"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" sau khi bạn nhận được hàng hóa của mình. ")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+    "data-v-54da367e": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Sẽ mất khoảng "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("strong", {
+    "data-v-54da367e": ""
+  }, "5-10 ngày làm việc"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" để xử lý việc hoàn tiền của bạn.")])])])])])])], -1 /* HOISTED */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"mt-4 flex gap-3\"><span class=\"font-medium hidden md:block whitespace-nowrap\">Bộ sưu tập liên quan:</span><div class=\"flex gap-3 overflow-x-auto\"><a href=\"/vi/collection/family\" class=\"btn-border px-3 py-0 uppercase\" title=\"Family\"><small class=\"font-semibold whitespace-nowrap\">Family</small></a><a href=\"/vi/collection/family-relationships\" class=\"btn-border px-3 py-0 uppercase\" title=\"Family &amp; Relationships\"><small class=\"font-semibold whitespace-nowrap\">Family &amp; Relationships</small></a><a href=\"/vi/collection/fathers-day\" class=\"btn-border px-3 py-0 uppercase\" title=\"Fathers Day\"><small class=\"font-semibold whitespace-nowrap\">Fathers Day</small></a><a href=\"/vi/collection/mothers-day\" class=\"btn-border px-3 py-0 uppercase\" title=\"Mothers Day\"><small class=\"font-semibold whitespace-nowrap\">Mothers Day</small></a><a href=\"/vi/collection/school\" class=\"btn-border px-3 py-0 uppercase\" title=\"School\"><small class=\"font-semibold whitespace-nowrap\">School</small></a><a href=\"/vi/collection/summer\" class=\"btn-border px-3 py-0 uppercase\" title=\"Summer\"><small class=\"font-semibold whitespace-nowrap\">Summer</small></a><a href=\"/vi/collection/teacher\" class=\"btn-border px-3 py-0 uppercase\" title=\"Teacher\"><small class=\"font-semibold whitespace-nowrap\">Teacher</small></a><a href=\"/vi/collection/women\" class=\"btn-border px-3 py-0 uppercase\" title=\"Women\"><small class=\"font-semibold whitespace-nowrap\">Women</small></a><a href=\"/vi/collection/back-to-shool\" class=\"btn-border px-3 py-0 uppercase\" title=\"Back To Shool\"><small class=\"font-semibold whitespace-nowrap\">Back To Shool</small></a><a href=\"/vi/collection/vintage-retro\" class=\"btn-border px-3 py-0 uppercase\" title=\"Vintage Retro\"><small class=\"font-semibold whitespace-nowrap\">Vintage Retro</small></a><a href=\"/vi/collection/tie-dye\" class=\"btn-border px-3 py-0 uppercase\" title=\"Tie Dye\"><small class=\"font-semibold whitespace-nowrap\">Tie Dye</small></a><a href=\"/vi/collection/friends\" class=\"btn-border px-3 py-0 uppercase\" title=\"Friends\"><small class=\"font-semibold whitespace-nowrap\">Friends</small></a><a href=\"/vi/collection/best-friends\" class=\"btn-border px-3 py-0 uppercase\" title=\"Best Friends\"><small class=\"font-semibold whitespace-nowrap\">Best Friends</small></a><a href=\"/vi/collection/funny-quote\" class=\"btn-border px-3 py-0 uppercase\" title=\"Funny Quote\"><small class=\"font-semibold whitespace-nowrap\">Funny Quote</small></a><a href=\"/vi/collection/bestie\" class=\"btn-border px-3 py-0 uppercase\" title=\"Bestie\"><small class=\"font-semibold whitespace-nowrap\">Bestie</small></a><a href=\"/vi/collection/groovy\" class=\"btn-border px-3 py-0 uppercase\" title=\"Groovy\"><small class=\"font-semibold whitespace-nowrap\">Groovy</small></a><a href=\"/vi/collection/back-to-school-tie-dye\" class=\"btn-border px-3 py-0 uppercase\" title=\"Back To School Tie Dye\"><small class=\"font-semibold whitespace-nowrap\">Back To School Tie Dye</small></a></div></div>", 1), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "container mt-10"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", {
+    "class": "text-center uppercase text-3xl"
+  }, "Thường xuyên mua cùng"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "splide is-overflow is-initialized splide--loop splide--ltr splide--draggable is-active",
+    id: "splide06",
+    role: "region",
+    "aria-roledescription": "carousel"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "splide__arrows splide__arrows--ltr"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "splide__arrow z-1 absolute position-center-y btn-fill-black opacity-50 rounded-full fill-white bg-gray-400 p-1 h-10 w-10 center-flex <md:w-7 <md:h-7 splide__arrow--prev left-1 rotate-180",
+    type: "button",
+    "aria-label": "Go to last slide",
+    "aria-controls": "splide06-track"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    viewBox: "0 0 40 40",
+    width: "40",
+    height: "40",
+    focusable: "false"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
+    d: "m15.5 0.932-4.3 4.38 14.5 14.6-14.5 14.5 4.3 4.4 14.6-14.6 4.4-4.3-4.4-4.4-14.6-14.6z"
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "splide__arrow z-1 absolute position-center-y btn-fill-black opacity-50 rounded-full fill-white bg-gray-400 p-1 h-10 w-10 center-flex <md:w-7 <md:h-7 splide__arrow--next right-1",
+    type: "button",
+    "aria-label": "Next slide",
+    "aria-controls": "splide06-track"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    viewBox: "0 0 40 40",
+    width: "40",
+    height: "40",
+    focusable: "false"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
+    d: "m15.5 0.932-4.3 4.38 14.5 14.6-14.5 14.5 4.3 4.4 14.6-14.6 4.4-4.3-4.4-4.4-14.6-14.6z"
+  })])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "splide__track splide__track--loop splide__track--ltr splide__track--draggable",
+    id: "splide06-track",
+    "aria-live": "polite",
+    "aria-atomic": "true",
+    style: {
+      "padding-left": "0px",
+      "padding-right": "0px"
+    }
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", {
+    "class": "splide__list",
+    id: "splide06-list",
+    role: "presentation",
+    style: {
+      "transform": "translateX(-2536px)"
+    }
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+    "class": "splide__slide p-1 is-active splide__slide--clone",
+    id: "splide06-clone01",
+    role: "group",
+    "aria-roledescription": "slide",
+    "aria-label": "1 of 8",
+    style: {
+      "margin-right": "1rem",
+      "width": "calc(25% - 0.75rem)"
+    },
+    "aria-hidden": "true"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "relative product-list-item select-none overflow-hidden w-full hover:shadow-custom2 inline-block",
+    "data-test-id": "product-list-item"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/elephant-1-3/unisex-standard-t-shirt",
+    "class": "",
+    tabindex: "-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full pt-[125%]"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/600x750,c_2,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278411/43e977/t/04aa20b852b2c2c0.jpg",
+    loading: "eager",
+    "class": "w-auto object-contain transition-transform duration-200 absolute top-0 left-0",
+    alt: "Unisex Standard T-Shirt",
+    title: "elephant 1 - Unisex Standard T-Shirt",
+    fetchpriority: "high",
+    width: "600",
+    height: "750"
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+    "class": "btn-text md:text-lg font-medium text-overflow-hidden text-center",
+    title: "elephant 1 - Unisex Standard T-Shirt"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/elephant-1-3/unisex-standard-t-shirt",
+    "class": "",
+    tabindex: "-1"
+  }, "elephant 1 - Unisex Standard T-Shirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
+    "class": "block h-12 flex flex-wrap justify-center gap-x-2 items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "text-primary font-medium"
+  }, "$21.99")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "<md:text-sm btn-fill w-full py-2 uppercase font-semibold",
+    "data-test-id": "product-list-item-btn",
+    tabindex: "-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+    "class": "splide__slide p-1 splide__slide--clone",
+    id: "splide06-clone02",
+    role: "group",
+    "aria-roledescription": "slide",
+    "aria-label": "2 of 8",
+    style: {
+      "margin-right": "1rem",
+      "width": "calc(25% - 0.75rem)"
+    },
+    "aria-hidden": "true"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "relative product-list-item select-none overflow-hidden w-full hover:shadow-custom2 inline-block",
+    "data-test-id": "product-list-item"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/hdng-back-the-f-up-sprinkle-tits/unisex-standard-t-shirt",
+    "class": "",
+    tabindex: "-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full pt-[125%]"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/600x750,c_2,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278391/3841a8/t/1d4c0e10ec8a93dc.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain transition-transform duration-200 absolute top-0 left-0",
+    alt: "Unisex Standard T-Shirt",
+    title: "Funny Unicorn back the f up sprinkle tits - Unisex Standard T-Shirt",
+    width: "600",
+    height: "750"
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+    "class": "btn-text md:text-lg font-medium text-overflow-hidden text-center",
+    title: "Funny Unicorn back the f up sprinkle tits - Unisex Standard T-Shirt"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/hdng-back-the-f-up-sprinkle-tits/unisex-standard-t-shirt",
+    "class": "",
+    tabindex: "-1"
+  }, "Funny Unicorn back the f up sprinkle tits - Unisex Standard T-Shirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
+    "class": "block h-12 flex flex-wrap justify-center gap-x-2 items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "text-primary font-medium"
+  }, "$21.99")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "<md:text-sm btn-fill w-full py-2 uppercase font-semibold",
+    "data-test-id": "product-list-item-btn",
+    tabindex: "-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+    "class": "splide__slide p-1 splide__slide--clone",
+    id: "splide06-clone03",
+    role: "group",
+    "aria-roledescription": "slide",
+    "aria-label": "3 of 8",
+    style: {
+      "margin-right": "1rem",
+      "width": "calc(25% - 0.75rem)"
+    },
+    "aria-hidden": "true"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "relative product-list-item select-none overflow-hidden w-full hover:shadow-custom2 inline-block",
+    "data-test-id": "product-list-item"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-have-three-moods/unisex-standard-t-shirt",
+    "class": "",
+    tabindex: "-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full pt-[125%]"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/600x750,c_2,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278371/14b5a5/t/3f2b96329e083d52.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain transition-transform duration-200 absolute top-0 left-0",
+    alt: "Unisex Standard T-Shirt",
+    title: "I have three moods - Unisex Standard T-Shirt",
+    width: "600",
+    height: "750"
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+    "class": "btn-text md:text-lg font-medium text-overflow-hidden text-center",
+    title: "I have three moods - Unisex Standard T-Shirt"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-have-three-moods/unisex-standard-t-shirt",
+    "class": "",
+    tabindex: "-1"
+  }, "I have three moods - Unisex Standard T-Shirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
+    "class": "block h-12 flex flex-wrap justify-center gap-x-2 items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "text-primary font-medium"
+  }, "$21.99")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "<md:text-sm btn-fill w-full py-2 uppercase font-semibold",
+    "data-test-id": "product-list-item-btn",
+    tabindex: "-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+    "class": "splide__slide p-1 splide__slide--clone",
+    id: "splide06-clone04",
+    role: "group",
+    "aria-roledescription": "slide",
+    "aria-label": "4 of 8",
+    style: {
+      "margin-right": "1rem",
+      "width": "calc(25% - 0.75rem)"
+    },
+    "aria-hidden": "true"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "relative product-list-item select-none overflow-hidden w-full hover:shadow-custom2 inline-block",
+    "data-test-id": "product-list-item"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/being-grandpa/unisex-standard-t-shirt",
+    "class": "",
+    tabindex: "-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full pt-[125%]"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/600x750,c_2,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278291/a90b97/t/cfb4c2d58ae09688.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain transition-transform duration-200 absolute top-0 left-0",
+    alt: "Unisex Standard T-Shirt",
+    title: "being grandpa - Unisex Standard T-Shirt",
+    width: "600",
+    height: "750"
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+    "class": "btn-text md:text-lg font-medium text-overflow-hidden text-center",
+    title: "being grandpa - Unisex Standard T-Shirt"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/being-grandpa/unisex-standard-t-shirt",
+    "class": "",
+    tabindex: "-1"
+  }, "being grandpa - Unisex Standard T-Shirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
+    "class": "block h-12 flex flex-wrap justify-center gap-x-2 items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "text-primary font-medium"
+  }, "$21.99")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "<md:text-sm btn-fill w-full py-2 uppercase font-semibold",
+    "data-test-id": "product-list-item-btn",
+    tabindex: "-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+    "class": "splide__slide p-1 splide__slide--clone",
+    id: "splide06-clone05",
+    role: "group",
+    "aria-roledescription": "slide",
+    "aria-label": "5 of 8",
+    style: {
+      "margin-right": "1rem",
+      "width": "calc(25% - 0.75rem)"
+    },
+    "aria-hidden": "true"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "relative product-list-item select-none overflow-hidden w-full hover:shadow-custom2 inline-block",
+    "data-test-id": "product-list-item"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-never-dreamed-8/unisex-standard-t-shirt",
+    "class": "",
+    tabindex: "-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full pt-[125%]"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/600x750,c_2,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278331/bad950/t/fb16881fe3ce8e02.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain transition-transform duration-200 absolute top-0 left-0",
+    alt: "Unisex Standard T-Shirt",
+    title: "I never dreamed - Unisex Standard T-Shirt",
+    width: "600",
+    height: "750"
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+    "class": "btn-text md:text-lg font-medium text-overflow-hidden text-center",
+    title: "I never dreamed - Unisex Standard T-Shirt"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-never-dreamed-8/unisex-standard-t-shirt",
+    "class": "",
+    tabindex: "-1"
+  }, "I never dreamed - Unisex Standard T-Shirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
+    "class": "block h-12 flex flex-wrap justify-center gap-x-2 items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "text-primary font-medium"
+  }, "$21.99")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "<md:text-sm btn-fill w-full py-2 uppercase font-semibold",
+    "data-test-id": "product-list-item-btn",
+    tabindex: "-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+    "class": "splide__slide p-1 splide__slide--clone",
+    id: "splide06-clone06",
+    role: "group",
+    "aria-roledescription": "slide",
+    "aria-label": "6 of 8",
+    style: {
+      "margin-right": "1rem",
+      "width": "calc(25% - 0.75rem)"
+    },
+    "aria-hidden": "true"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "relative product-list-item select-none overflow-hidden w-full hover:shadow-custom2 inline-block",
+    "data-test-id": "product-list-item"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/dng-flamingo-grandmas/unisex-standard-t-shirt",
+    "class": "",
+    tabindex: "-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full pt-[125%]"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/600x750,c_2,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278311/a86f73/t/0e5aba643dd66920.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain transition-transform duration-200 absolute top-0 left-0",
+    alt: "Unisex Standard T-Shirt",
+    title: "flamingo in a world full of grandmas - Unisex Standard T-Shirt",
+    width: "600",
+    height: "750"
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+    "class": "btn-text md:text-lg font-medium text-overflow-hidden text-center",
+    title: "flamingo in a world full of grandmas - Unisex Standard T-Shirt"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/dng-flamingo-grandmas/unisex-standard-t-shirt",
+    "class": "",
+    tabindex: "-1"
+  }, "flamingo in a world full of grandmas - Unisex Standard T-Shirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
+    "class": "block h-12 flex flex-wrap justify-center gap-x-2 items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "text-primary font-medium"
+  }, "$21.99")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "<md:text-sm btn-fill w-full py-2 uppercase font-semibold",
+    "data-test-id": "product-list-item-btn",
+    tabindex: "-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+    "class": "splide__slide p-1 splide__slide--clone",
+    id: "splide06-clone07",
+    role: "group",
+    "aria-roledescription": "slide",
+    "aria-label": "7 of 8",
+    style: {
+      "margin-right": "1rem",
+      "width": "calc(25% - 0.75rem)"
+    },
+    "aria-hidden": "true"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "relative product-list-item select-none overflow-hidden w-full hover:shadow-custom2 inline-block",
+    "data-test-id": "product-list-item"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/if-we-get-in-trouble-bestie-christmas/unisex-standard-t-shirt",
+    "class": "",
+    tabindex: "-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full pt-[125%]"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/600x750,c_2,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278351/8b9ee3/t/9ac02700b4e340f5.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain transition-transform duration-200 absolute top-0 left-0",
+    alt: "Unisex Standard T-Shirt",
+    title: "If we get in trouble bestie christmas - Unisex Standard T-Shirt",
+    width: "600",
+    height: "750"
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+    "class": "btn-text md:text-lg font-medium text-overflow-hidden text-center",
+    title: "If we get in trouble bestie christmas - Unisex Standard T-Shirt"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/if-we-get-in-trouble-bestie-christmas/unisex-standard-t-shirt",
+    "class": "",
+    tabindex: "-1"
+  }, "If we get in trouble bestie christmas - Unisex Standard T-Shirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
+    "class": "block h-12 flex flex-wrap justify-center gap-x-2 items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "text-primary font-medium"
+  }, "$21.99")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "<md:text-sm btn-fill w-full py-2 uppercase font-semibold",
+    "data-test-id": "product-list-item-btn",
+    tabindex: "-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+    "class": "splide__slide p-1 splide__slide--clone is-prev",
+    id: "splide06-clone08",
+    role: "group",
+    "aria-roledescription": "slide",
+    "aria-label": "8 of 8",
+    style: {
+      "margin-right": "1rem",
+      "width": "calc(25% - 0.75rem)"
+    },
+    "aria-hidden": "true"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "relative product-list-item select-none overflow-hidden w-full hover:shadow-custom2 inline-block",
+    "data-test-id": "product-list-item"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-asked-god-9/unisex-standard-t-shirt",
+    "class": "",
+    tabindex: "-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full pt-[125%]"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/600x750,c_2,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468277648/8c8343/t/07d9473e0674176a.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain transition-transform duration-200 absolute top-0 left-0",
+    alt: "Unisex Standard T-Shirt",
+    title: "I asked God - Unisex Standard T-Shirt",
+    width: "600",
+    height: "750"
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+    "class": "btn-text md:text-lg font-medium text-overflow-hidden text-center",
+    title: "I asked God - Unisex Standard T-Shirt"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-asked-god-9/unisex-standard-t-shirt",
+    "class": "",
+    tabindex: "-1"
+  }, "I asked God - Unisex Standard T-Shirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
+    "class": "block h-12 flex flex-wrap justify-center gap-x-2 items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "text-primary font-medium"
+  }, "$21.99")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "<md:text-sm btn-fill w-full py-2 uppercase font-semibold",
+    "data-test-id": "product-list-item-btn",
+    tabindex: "-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+    "class": "splide__slide p-1 is-active is-visible",
+    id: "splide06-slide01",
+    role: "group",
+    "aria-roledescription": "slide",
+    "aria-label": "1 of 8",
+    style: {
+      "margin-right": "1rem",
+      "width": "calc(25% - 0.75rem)"
+    }
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "relative product-list-item select-none overflow-hidden w-full hover:shadow-custom2 inline-block",
+    "data-test-id": "product-list-item"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/elephant-1-3/unisex-standard-t-shirt",
+    "class": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full pt-[125%]"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/600x750,c_2,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278411/43e977/t/04aa20b852b2c2c0.jpg",
+    loading: "eager",
+    "class": "w-auto object-contain transition-transform duration-200 absolute top-0 left-0",
+    alt: "Unisex Standard T-Shirt",
+    title: "elephant 1 - Unisex Standard T-Shirt",
+    fetchpriority: "high",
+    width: "600",
+    height: "750"
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+    "class": "btn-text md:text-lg font-medium text-overflow-hidden text-center",
+    title: "elephant 1 - Unisex Standard T-Shirt"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/elephant-1-3/unisex-standard-t-shirt",
+    "class": ""
+  }, "elephant 1 - Unisex Standard T-Shirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
+    "class": "block h-12 flex flex-wrap justify-center gap-x-2 items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "text-primary font-medium"
+  }, "$21.99")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "<md:text-sm btn-fill w-full py-2 uppercase font-semibold",
+    "data-test-id": "product-list-item-btn"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+    "class": "splide__slide p-1 is-next is-visible",
+    id: "splide06-slide02",
+    role: "group",
+    "aria-roledescription": "slide",
+    "aria-label": "2 of 8",
+    style: {
+      "margin-right": "1rem",
+      "width": "calc(25% - 0.75rem)"
+    }
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "relative product-list-item select-none overflow-hidden w-full hover:shadow-custom2 inline-block",
+    "data-test-id": "product-list-item"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/hdng-back-the-f-up-sprinkle-tits/unisex-standard-t-shirt",
+    "class": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full pt-[125%]"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/600x750,c_2,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278391/3841a8/t/1d4c0e10ec8a93dc.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain transition-transform duration-200 absolute top-0 left-0",
+    alt: "Unisex Standard T-Shirt",
+    title: "Funny Unicorn back the f up sprinkle tits - Unisex Standard T-Shirt",
+    width: "600",
+    height: "750"
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+    "class": "btn-text md:text-lg font-medium text-overflow-hidden text-center",
+    title: "Funny Unicorn back the f up sprinkle tits - Unisex Standard T-Shirt"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/hdng-back-the-f-up-sprinkle-tits/unisex-standard-t-shirt",
+    "class": ""
+  }, "Funny Unicorn back the f up sprinkle tits - Unisex Standard T-Shirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
+    "class": "block h-12 flex flex-wrap justify-center gap-x-2 items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "text-primary font-medium"
+  }, "$21.99")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "<md:text-sm btn-fill w-full py-2 uppercase font-semibold",
+    "data-test-id": "product-list-item-btn"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+    "class": "splide__slide p-1 is-visible",
+    id: "splide06-slide03",
+    role: "group",
+    "aria-roledescription": "slide",
+    "aria-label": "3 of 8",
+    style: {
+      "margin-right": "1rem",
+      "width": "calc(25% - 0.75rem)"
+    }
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "relative product-list-item select-none overflow-hidden w-full hover:shadow-custom2 inline-block",
+    "data-test-id": "product-list-item"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-have-three-moods/unisex-standard-t-shirt",
+    "class": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full pt-[125%]"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/600x750,c_2,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278371/14b5a5/t/3f2b96329e083d52.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain transition-transform duration-200 absolute top-0 left-0",
+    alt: "Unisex Standard T-Shirt",
+    title: "I have three moods - Unisex Standard T-Shirt",
+    width: "600",
+    height: "750"
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+    "class": "btn-text md:text-lg font-medium text-overflow-hidden text-center",
+    title: "I have three moods - Unisex Standard T-Shirt"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-have-three-moods/unisex-standard-t-shirt",
+    "class": ""
+  }, "I have three moods - Unisex Standard T-Shirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
+    "class": "block h-12 flex flex-wrap justify-center gap-x-2 items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "text-primary font-medium"
+  }, "$21.99")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "<md:text-sm btn-fill w-full py-2 uppercase font-semibold",
+    "data-test-id": "product-list-item-btn"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+    "class": "splide__slide p-1 is-visible",
+    id: "splide06-slide04",
+    role: "group",
+    "aria-roledescription": "slide",
+    "aria-label": "4 of 8",
+    style: {
+      "margin-right": "1rem",
+      "width": "calc(25% - 0.75rem)"
+    }
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "relative product-list-item select-none overflow-hidden w-full hover:shadow-custom2 inline-block",
+    "data-test-id": "product-list-item"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/being-grandpa/unisex-standard-t-shirt",
+    "class": ""
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full pt-[125%]"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/600x750,c_2,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278291/a90b97/t/cfb4c2d58ae09688.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain transition-transform duration-200 absolute top-0 left-0",
+    alt: "Unisex Standard T-Shirt",
+    title: "being grandpa - Unisex Standard T-Shirt",
+    width: "600",
+    height: "750"
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+    "class": "btn-text md:text-lg font-medium text-overflow-hidden text-center",
+    title: "being grandpa - Unisex Standard T-Shirt"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/being-grandpa/unisex-standard-t-shirt",
+    "class": ""
+  }, "being grandpa - Unisex Standard T-Shirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
+    "class": "block h-12 flex flex-wrap justify-center gap-x-2 items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "text-primary font-medium"
+  }, "$21.99")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "<md:text-sm btn-fill w-full py-2 uppercase font-semibold",
+    "data-test-id": "product-list-item-btn"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+    "class": "splide__slide p-1",
+    id: "splide06-slide05",
+    role: "group",
+    "aria-roledescription": "slide",
+    "aria-label": "5 of 8",
+    style: {
+      "margin-right": "1rem",
+      "width": "calc(25% - 0.75rem)"
+    },
+    "aria-hidden": "true"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "relative product-list-item select-none overflow-hidden w-full hover:shadow-custom2 inline-block",
+    "data-test-id": "product-list-item"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-never-dreamed-8/unisex-standard-t-shirt",
+    "class": "",
+    tabindex: "-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full pt-[125%]"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/600x750,c_2,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278331/bad950/t/fb16881fe3ce8e02.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain transition-transform duration-200 absolute top-0 left-0",
+    alt: "Unisex Standard T-Shirt",
+    title: "I never dreamed - Unisex Standard T-Shirt",
+    width: "600",
+    height: "750"
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+    "class": "btn-text md:text-lg font-medium text-overflow-hidden text-center",
+    title: "I never dreamed - Unisex Standard T-Shirt"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-never-dreamed-8/unisex-standard-t-shirt",
+    "class": "",
+    tabindex: "-1"
+  }, "I never dreamed - Unisex Standard T-Shirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
+    "class": "block h-12 flex flex-wrap justify-center gap-x-2 items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "text-primary font-medium"
+  }, "$21.99")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "<md:text-sm btn-fill w-full py-2 uppercase font-semibold",
+    "data-test-id": "product-list-item-btn",
+    tabindex: "-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+    "class": "splide__slide p-1",
+    id: "splide06-slide06",
+    role: "group",
+    "aria-roledescription": "slide",
+    "aria-label": "6 of 8",
+    style: {
+      "margin-right": "1rem",
+      "width": "calc(25% - 0.75rem)"
+    },
+    "aria-hidden": "true"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "relative product-list-item select-none overflow-hidden w-full hover:shadow-custom2 inline-block",
+    "data-test-id": "product-list-item"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/dng-flamingo-grandmas/unisex-standard-t-shirt",
+    "class": "",
+    tabindex: "-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full pt-[125%]"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/600x750,c_2,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278311/a86f73/t/0e5aba643dd66920.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain transition-transform duration-200 absolute top-0 left-0",
+    alt: "Unisex Standard T-Shirt",
+    title: "flamingo in a world full of grandmas - Unisex Standard T-Shirt",
+    width: "600",
+    height: "750"
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+    "class": "btn-text md:text-lg font-medium text-overflow-hidden text-center",
+    title: "flamingo in a world full of grandmas - Unisex Standard T-Shirt"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/dng-flamingo-grandmas/unisex-standard-t-shirt",
+    "class": "",
+    tabindex: "-1"
+  }, "flamingo in a world full of grandmas - Unisex Standard T-Shirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
+    "class": "block h-12 flex flex-wrap justify-center gap-x-2 items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "text-primary font-medium"
+  }, "$21.99")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "<md:text-sm btn-fill w-full py-2 uppercase font-semibold",
+    "data-test-id": "product-list-item-btn",
+    tabindex: "-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+    "class": "splide__slide p-1",
+    id: "splide06-slide07",
+    role: "group",
+    "aria-roledescription": "slide",
+    "aria-label": "7 of 8",
+    style: {
+      "margin-right": "1rem",
+      "width": "calc(25% - 0.75rem)"
+    },
+    "aria-hidden": "true"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "relative product-list-item select-none overflow-hidden w-full hover:shadow-custom2 inline-block",
+    "data-test-id": "product-list-item"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/if-we-get-in-trouble-bestie-christmas/unisex-standard-t-shirt",
+    "class": "",
+    tabindex: "-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full pt-[125%]"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/600x750,c_2,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278351/8b9ee3/t/9ac02700b4e340f5.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain transition-transform duration-200 absolute top-0 left-0",
+    alt: "Unisex Standard T-Shirt",
+    title: "If we get in trouble bestie christmas - Unisex Standard T-Shirt",
+    width: "600",
+    height: "750"
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+    "class": "btn-text md:text-lg font-medium text-overflow-hidden text-center",
+    title: "If we get in trouble bestie christmas - Unisex Standard T-Shirt"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/if-we-get-in-trouble-bestie-christmas/unisex-standard-t-shirt",
+    "class": "",
+    tabindex: "-1"
+  }, "If we get in trouble bestie christmas - Unisex Standard T-Shirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
+    "class": "block h-12 flex flex-wrap justify-center gap-x-2 items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "text-primary font-medium"
+  }, "$21.99")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "<md:text-sm btn-fill w-full py-2 uppercase font-semibold",
+    "data-test-id": "product-list-item-btn",
+    tabindex: "-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+    "class": "splide__slide p-1",
+    id: "splide06-slide08",
+    role: "group",
+    "aria-roledescription": "slide",
+    "aria-label": "8 of 8",
+    style: {
+      "margin-right": "1rem",
+      "width": "calc(25% - 0.75rem)"
+    },
+    "aria-hidden": "true"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "relative product-list-item select-none overflow-hidden w-full hover:shadow-custom2 inline-block",
+    "data-test-id": "product-list-item"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-asked-god-9/unisex-standard-t-shirt",
+    "class": "",
+    tabindex: "-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full pt-[125%]"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/600x750,c_2,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468277648/8c8343/t/07d9473e0674176a.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain transition-transform duration-200 absolute top-0 left-0",
+    alt: "Unisex Standard T-Shirt",
+    title: "I asked God - Unisex Standard T-Shirt",
+    width: "600",
+    height: "750"
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+    "class": "btn-text md:text-lg font-medium text-overflow-hidden text-center",
+    title: "I asked God - Unisex Standard T-Shirt"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-asked-god-9/unisex-standard-t-shirt",
+    "class": "",
+    tabindex: "-1"
+  }, "I asked God - Unisex Standard T-Shirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
+    "class": "block h-12 flex flex-wrap justify-center gap-x-2 items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "text-primary font-medium"
+  }, "$21.99")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "<md:text-sm btn-fill w-full py-2 uppercase font-semibold",
+    "data-test-id": "product-list-item-btn",
+    tabindex: "-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+    "class": "splide__slide p-1 is-active splide__slide--clone",
+    id: "splide06-clone09",
+    role: "group",
+    "aria-roledescription": "slide",
+    "aria-label": "1 of 8",
+    style: {
+      "margin-right": "1rem",
+      "width": "calc(25% - 0.75rem)"
+    },
+    "aria-hidden": "true"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "relative product-list-item select-none overflow-hidden w-full hover:shadow-custom2 inline-block",
+    "data-test-id": "product-list-item"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/elephant-1-3/unisex-standard-t-shirt",
+    "class": "",
+    tabindex: "-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full pt-[125%]"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/600x750,c_2,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278411/43e977/t/04aa20b852b2c2c0.jpg",
+    loading: "eager",
+    "class": "w-auto object-contain transition-transform duration-200 absolute top-0 left-0",
+    alt: "Unisex Standard T-Shirt",
+    title: "elephant 1 - Unisex Standard T-Shirt",
+    fetchpriority: "high",
+    width: "600",
+    height: "750"
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+    "class": "btn-text md:text-lg font-medium text-overflow-hidden text-center",
+    title: "elephant 1 - Unisex Standard T-Shirt"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/elephant-1-3/unisex-standard-t-shirt",
+    "class": "",
+    tabindex: "-1"
+  }, "elephant 1 - Unisex Standard T-Shirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
+    "class": "block h-12 flex flex-wrap justify-center gap-x-2 items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "text-primary font-medium"
+  }, "$21.99")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "<md:text-sm btn-fill w-full py-2 uppercase font-semibold",
+    "data-test-id": "product-list-item-btn",
+    tabindex: "-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+    "class": "splide__slide p-1 splide__slide--clone",
+    id: "splide06-clone10",
+    role: "group",
+    "aria-roledescription": "slide",
+    "aria-label": "2 of 8",
+    style: {
+      "margin-right": "1rem",
+      "width": "calc(25% - 0.75rem)"
+    },
+    "aria-hidden": "true"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "relative product-list-item select-none overflow-hidden w-full hover:shadow-custom2 inline-block",
+    "data-test-id": "product-list-item"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/hdng-back-the-f-up-sprinkle-tits/unisex-standard-t-shirt",
+    "class": "",
+    tabindex: "-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full pt-[125%]"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/600x750,c_2,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278391/3841a8/t/1d4c0e10ec8a93dc.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain transition-transform duration-200 absolute top-0 left-0",
+    alt: "Unisex Standard T-Shirt",
+    title: "Funny Unicorn back the f up sprinkle tits - Unisex Standard T-Shirt",
+    width: "600",
+    height: "750"
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+    "class": "btn-text md:text-lg font-medium text-overflow-hidden text-center",
+    title: "Funny Unicorn back the f up sprinkle tits - Unisex Standard T-Shirt"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/hdng-back-the-f-up-sprinkle-tits/unisex-standard-t-shirt",
+    "class": "",
+    tabindex: "-1"
+  }, "Funny Unicorn back the f up sprinkle tits - Unisex Standard T-Shirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
+    "class": "block h-12 flex flex-wrap justify-center gap-x-2 items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "text-primary font-medium"
+  }, "$21.99")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "<md:text-sm btn-fill w-full py-2 uppercase font-semibold",
+    "data-test-id": "product-list-item-btn",
+    tabindex: "-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+    "class": "splide__slide p-1 splide__slide--clone",
+    id: "splide06-clone11",
+    role: "group",
+    "aria-roledescription": "slide",
+    "aria-label": "3 of 8",
+    style: {
+      "margin-right": "1rem",
+      "width": "calc(25% - 0.75rem)"
+    },
+    "aria-hidden": "true"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "relative product-list-item select-none overflow-hidden w-full hover:shadow-custom2 inline-block",
+    "data-test-id": "product-list-item"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-have-three-moods/unisex-standard-t-shirt",
+    "class": "",
+    tabindex: "-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full pt-[125%]"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/600x750,c_2,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278371/14b5a5/t/3f2b96329e083d52.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain transition-transform duration-200 absolute top-0 left-0",
+    alt: "Unisex Standard T-Shirt",
+    title: "I have three moods - Unisex Standard T-Shirt",
+    width: "600",
+    height: "750"
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+    "class": "btn-text md:text-lg font-medium text-overflow-hidden text-center",
+    title: "I have three moods - Unisex Standard T-Shirt"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-have-three-moods/unisex-standard-t-shirt",
+    "class": "",
+    tabindex: "-1"
+  }, "I have three moods - Unisex Standard T-Shirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
+    "class": "block h-12 flex flex-wrap justify-center gap-x-2 items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "text-primary font-medium"
+  }, "$21.99")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "<md:text-sm btn-fill w-full py-2 uppercase font-semibold",
+    "data-test-id": "product-list-item-btn",
+    tabindex: "-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+    "class": "splide__slide p-1 splide__slide--clone",
+    id: "splide06-clone12",
+    role: "group",
+    "aria-roledescription": "slide",
+    "aria-label": "4 of 8",
+    style: {
+      "margin-right": "1rem",
+      "width": "calc(25% - 0.75rem)"
+    },
+    "aria-hidden": "true"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "relative product-list-item select-none overflow-hidden w-full hover:shadow-custom2 inline-block",
+    "data-test-id": "product-list-item"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/being-grandpa/unisex-standard-t-shirt",
+    "class": "",
+    tabindex: "-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full pt-[125%]"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/600x750,c_2,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278291/a90b97/t/cfb4c2d58ae09688.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain transition-transform duration-200 absolute top-0 left-0",
+    alt: "Unisex Standard T-Shirt",
+    title: "being grandpa - Unisex Standard T-Shirt",
+    width: "600",
+    height: "750"
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+    "class": "btn-text md:text-lg font-medium text-overflow-hidden text-center",
+    title: "being grandpa - Unisex Standard T-Shirt"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/being-grandpa/unisex-standard-t-shirt",
+    "class": "",
+    tabindex: "-1"
+  }, "being grandpa - Unisex Standard T-Shirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
+    "class": "block h-12 flex flex-wrap justify-center gap-x-2 items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "text-primary font-medium"
+  }, "$21.99")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "<md:text-sm btn-fill w-full py-2 uppercase font-semibold",
+    "data-test-id": "product-list-item-btn",
+    tabindex: "-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+    "class": "splide__slide p-1 splide__slide--clone",
+    id: "splide06-clone13",
+    role: "group",
+    "aria-roledescription": "slide",
+    "aria-label": "5 of 8",
+    style: {
+      "margin-right": "1rem",
+      "width": "calc(25% - 0.75rem)"
+    },
+    "aria-hidden": "true"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "relative product-list-item select-none overflow-hidden w-full hover:shadow-custom2 inline-block",
+    "data-test-id": "product-list-item"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-never-dreamed-8/unisex-standard-t-shirt",
+    "class": "",
+    tabindex: "-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full pt-[125%]"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/600x750,c_2,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278331/bad950/t/fb16881fe3ce8e02.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain transition-transform duration-200 absolute top-0 left-0",
+    alt: "Unisex Standard T-Shirt",
+    title: "I never dreamed - Unisex Standard T-Shirt",
+    width: "600",
+    height: "750"
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+    "class": "btn-text md:text-lg font-medium text-overflow-hidden text-center",
+    title: "I never dreamed - Unisex Standard T-Shirt"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-never-dreamed-8/unisex-standard-t-shirt",
+    "class": "",
+    tabindex: "-1"
+  }, "I never dreamed - Unisex Standard T-Shirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
+    "class": "block h-12 flex flex-wrap justify-center gap-x-2 items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "text-primary font-medium"
+  }, "$21.99")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "<md:text-sm btn-fill w-full py-2 uppercase font-semibold",
+    "data-test-id": "product-list-item-btn",
+    tabindex: "-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+    "class": "splide__slide p-1 splide__slide--clone",
+    id: "splide06-clone14",
+    role: "group",
+    "aria-roledescription": "slide",
+    "aria-label": "6 of 8",
+    style: {
+      "margin-right": "1rem",
+      "width": "calc(25% - 0.75rem)"
+    },
+    "aria-hidden": "true"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "relative product-list-item select-none overflow-hidden w-full hover:shadow-custom2 inline-block",
+    "data-test-id": "product-list-item"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/dng-flamingo-grandmas/unisex-standard-t-shirt",
+    "class": "",
+    tabindex: "-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full pt-[125%]"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/600x750,c_2,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278311/a86f73/t/0e5aba643dd66920.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain transition-transform duration-200 absolute top-0 left-0",
+    alt: "Unisex Standard T-Shirt",
+    title: "flamingo in a world full of grandmas - Unisex Standard T-Shirt",
+    width: "600",
+    height: "750"
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+    "class": "btn-text md:text-lg font-medium text-overflow-hidden text-center",
+    title: "flamingo in a world full of grandmas - Unisex Standard T-Shirt"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/dng-flamingo-grandmas/unisex-standard-t-shirt",
+    "class": "",
+    tabindex: "-1"
+  }, "flamingo in a world full of grandmas - Unisex Standard T-Shirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
+    "class": "block h-12 flex flex-wrap justify-center gap-x-2 items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "text-primary font-medium"
+  }, "$21.99")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "<md:text-sm btn-fill w-full py-2 uppercase font-semibold",
+    "data-test-id": "product-list-item-btn",
+    tabindex: "-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+    "class": "splide__slide p-1 splide__slide--clone",
+    id: "splide06-clone15",
+    role: "group",
+    "aria-roledescription": "slide",
+    "aria-label": "7 of 8",
+    style: {
+      "margin-right": "1rem",
+      "width": "calc(25% - 0.75rem)"
+    },
+    "aria-hidden": "true"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "relative product-list-item select-none overflow-hidden w-full hover:shadow-custom2 inline-block",
+    "data-test-id": "product-list-item"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/if-we-get-in-trouble-bestie-christmas/unisex-standard-t-shirt",
+    "class": "",
+    tabindex: "-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full pt-[125%]"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/600x750,c_2,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278351/8b9ee3/t/9ac02700b4e340f5.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain transition-transform duration-200 absolute top-0 left-0",
+    alt: "Unisex Standard T-Shirt",
+    title: "If we get in trouble bestie christmas - Unisex Standard T-Shirt",
+    width: "600",
+    height: "750"
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+    "class": "btn-text md:text-lg font-medium text-overflow-hidden text-center",
+    title: "If we get in trouble bestie christmas - Unisex Standard T-Shirt"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/if-we-get-in-trouble-bestie-christmas/unisex-standard-t-shirt",
+    "class": "",
+    tabindex: "-1"
+  }, "If we get in trouble bestie christmas - Unisex Standard T-Shirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
+    "class": "block h-12 flex flex-wrap justify-center gap-x-2 items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "text-primary font-medium"
+  }, "$21.99")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "<md:text-sm btn-fill w-full py-2 uppercase font-semibold",
+    "data-test-id": "product-list-item-btn",
+    tabindex: "-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+    "class": "splide__slide p-1 splide__slide--clone",
+    id: "splide06-clone16",
+    role: "group",
+    "aria-roledescription": "slide",
+    "aria-label": "8 of 8",
+    style: {
+      "margin-right": "1rem",
+      "width": "calc(25% - 0.75rem)"
+    },
+    "aria-hidden": "true"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "relative product-list-item select-none overflow-hidden w-full hover:shadow-custom2 inline-block",
+    "data-test-id": "product-list-item"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-asked-god-9/unisex-standard-t-shirt",
+    "class": "",
+    tabindex: "-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full pt-[125%]"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "https://img.cloudimgs.net/rx/600x750,c_2,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468277648/8c8343/t/07d9473e0674176a.jpg",
+    loading: "lazy",
+    "class": "w-auto object-contain transition-transform duration-200 absolute top-0 left-0",
+    alt: "Unisex Standard T-Shirt",
+    title: "I asked God - Unisex Standard T-Shirt",
+    width: "600",
+    height: "750"
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "p-1 md:p-2"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+    "class": "btn-text md:text-lg font-medium text-overflow-hidden text-center",
+    title: "I asked God - Unisex Standard T-Shirt"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "/vi/i-asked-god-9/unisex-standard-t-shirt",
+    "class": "",
+    tabindex: "-1"
+  }, "I asked God - Unisex Standard T-Shirt")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
+    "class": "block h-12 flex flex-wrap justify-center gap-x-2 items-center"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "text-primary font-medium"
+  }, "$21.99")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "<md:text-sm btn-fill w-full py-2 uppercase font-semibold",
+    "data-test-id": "product-list-item-btn",
+    tabindex: "-1"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])])])])])])])], -1 /* HOISTED */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"mt-3 flex justify-center md:hidden\"><div id=\"share-box\"><div class=\"flex\"><div class=\"w-8 h-8 my-1 mr-1\"><a id=\"share-twitter\" href=\"https://twitter.com/share?url=https%3A%2F%2Fsenprints.com%2Fvi%2Fi-m-a-smartass-daughter\" target=\"_blank\" rel=\"noopener noreferrer nofollow\"><img src=\"https://v4.cdnjs1.com/images/share/twitter.svg\" alt=\"Share on Twitter\" loading=\"lazy\"></a></div><div class=\"w-8 h-8 m-1\"><a id=\"share-facebook\" href=\"https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsenprints.com%2Fvi%2Fi-m-a-smartass-daughter\" target=\"_blank\" rel=\"noopener noreferrer nofollow\"><img src=\"https://v4.cdnjs1.com/images/share/facebook.svg\" alt=\"Share on Facebook\" loading=\"lazy\"></a></div><div class=\"w-8 h-8 m-1\"><a id=\"share-telegram\" href=\"https://t.me/share/url?url=https%3A%2F%2Fsenprints.com%2Fvi%2Fi-m-a-smartass-daughter\" target=\"_blank\" rel=\"noopener noreferrer nofollow\"><img src=\"https://v4.cdnjs1.com/images/share/telegram.svg\" alt=\"Share on Telegram\" loading=\"lazy\"></a></div><div class=\"w-8 h-8 m-1\"><a id=\"share-pinterest\" href=\"https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fsenprints.com%2Fvi%2Fi-m-a-smartass-daughter\" target=\"_blank\" rel=\"noopener noreferrer nofollow\"><img src=\"https://v4.cdnjs1.com/images/share/pinterest.svg\" alt=\"Share on Pinterest\" loading=\"lazy\"></a></div></div></div></div><div class=\"mt-3 flex justify-center md:hidden\"><div><span class=\"mr-1 text-gray-400\">Thiết kế và bán bởi</span><a class=\"text-primary\" href=\"/vi/artist/angel-dimaria-wxmewy\">Angel DiMaria</a><span class=\"text-primary\">Angel DiMaria</span></div></div><div class=\"mt-3 flex justify-center\"><a href=\"/report?campaign=i-m-a-smartass-daughter\" class=\"flex gap-1 btn-text\"><span><i class=\"icon-sen-alert-outline\"></i></span><span>Báo cáo vi phạm chính sách?</span></a></div>", 3)]));
 }
 
 /***/ }),
@@ -24725,7 +28883,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [_cache[3] || (_cache[3] = (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", {
     "class": "text-center uppercase text-2xl font-semibold my-10"
   }, "Nổi bật", -1 /* HOISTED */)), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["Splide"], {
-    "has-track": false,
+    "has-track": true,
     "aria-label": "...",
     id: "splide01",
     role: "region",
@@ -24760,91 +28918,86 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         focusable: "false"
       }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
         d: "m15.5 0.932-4.3 4.38 14.5 14.6-14.5 14.5 4.3 4.4 14.6-14.6 4.4-4.3-4.4-4.4-14.6-14.6z"
-      })])])], -1 /* HOISTED */)), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["SplideTrack"], null, {
+      })])])], -1 /* HOISTED */)), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["SplideSlide"], null, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["SplideSlide"], null, {
-            "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-              return [_cache[0] || (_cache[0] = (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-                "class": "relative product-list-item select-none overflow-hidden w-full hover:shadow-custom2",
-                "data-test-id": "product-list-item"
-              }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-                href: "/vi/i-m-a-smartass-daughter",
-                "class": "",
-                tabindex: "-1"
-              }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-                "class": "w-full pt-[125%]"
-              }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(""), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-                src: "https://img.cloudimgs.net/rx/600x750,c_2,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278431/5ea127/t/bfab849f4cbbcd78.jpg",
-                loading: "eager",
-                "class": "w-auto object-contain transition-transform duration-200 absolute top-0 left-0",
-                style: {},
-                alt: "I'm a smartass daughter",
-                title: "I'm a smartass daughter",
-                fetchpriority: "high",
-                width: "600",
-                height: "750"
-              })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-                "class": "p-1 md:p-2"
-              }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
-                "class": "btn-text md:text-lg font-medium text-overflow-hidden text-center",
-                title: "I'm a smartass daughter"
-              }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-                href: "/vi/i-m-a-smartass-daughter",
-                "class": "",
-                tabindex: "-1"
-              }, "I'm a smartass daughter")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
-                "class": "block h-12 flex flex-wrap justify-center gap-x-2 items-center"
-              }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
-                "class": "<md:text-sm btn-fill w-full py-2 uppercase font-semibold",
-                "data-test-id": "product-list-item-btn",
-                tabindex: "-1"
-              }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("")], -1 /* HOISTED */)), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("]"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("]")];
-            }),
-            _: 1 /* STABLE */,
-            __: [0]
-          }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["SplideSlide"], null, {
-            "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-              return [_cache[1] || (_cache[1] = (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-                "class": "relative product-list-item select-none overflow-hidden w-full hover:shadow-custom2",
-                "data-test-id": "product-list-item"
-              }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-                href: "/vi/i-m-a-smartass-daughter",
-                "class": "",
-                tabindex: "-1"
-              }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-                "class": "w-full pt-[125%]"
-              }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(""), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-                src: "https://img.cloudimgs.net/rx/600x750,c_2,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278431/5ea127/t/bfab849f4cbbcd78.jpg",
-                loading: "eager",
-                "class": "w-auto object-contain transition-transform duration-200 absolute top-0 left-0",
-                style: {},
-                alt: "I'm a smartass daughter",
-                title: "I'm a smartass daughter",
-                fetchpriority: "high",
-                width: "600",
-                height: "750"
-              })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-                "class": "p-1 md:p-2"
-              }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
-                "class": "btn-text md:text-lg font-medium text-overflow-hidden text-center",
-                title: "I'm a smartass daughter"
-              }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-                href: "/vi/i-m-a-smartass-daughter",
-                "class": "",
-                tabindex: "-1"
-              }, "I'm a smartass daughter")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
-                "class": "block h-12 flex flex-wrap justify-center gap-x-2 items-center"
-              }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
-                "class": "<md:text-sm btn-fill w-full py-2 uppercase font-semibold",
-                "data-test-id": "product-list-item-btn",
-                tabindex: "-1"
-              }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("")], -1 /* HOISTED */)), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("]"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("]")];
-            }),
-            _: 1 /* STABLE */,
-            __: [1]
-          })];
+          return _cache[0] || (_cache[0] = [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+            "class": "relative product-list-item select-none overflow-hidden w-full hover:shadow-custom2",
+            "data-test-id": "product-list-item"
+          }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+            href: "#",
+            "class": "",
+            tabindex: "-1"
+          }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+            "class": "w-full pt-[125%]"
+          }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+            src: "https://img.cloudimgs.net/rx/600x750,c_2,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278431/5ea127/t/bfab849f4cbbcd78.jpg",
+            loading: "eager",
+            "class": "w-auto object-contain transition-transform duration-200 absolute top-0 left-0",
+            style: {},
+            alt: "I'm a smartass daughter",
+            title: "I'm a smartass daughter",
+            fetchpriority: "high",
+            width: "600",
+            height: "750"
+          })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+            "class": "p-1 md:p-2"
+          }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+            "class": "btn-text md:text-lg font-medium text-overflow-hidden text-center",
+            title: "I'm a smartass daughter"
+          }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+            href: "#",
+            "class": "",
+            tabindex: "-1"
+          }, "I'm a smartass daughter")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
+            "class": "block h-12 flex flex-wrap justify-center gap-x-2 items-center"
+          }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+            "class": "<md:text-sm btn-fill w-full py-2 uppercase font-semibold",
+            "data-test-id": "product-list-item-btn",
+            tabindex: "-1"
+          }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])])], -1 /* HOISTED */)]);
         }),
-        _: 1 /* STABLE */
+        _: 1 /* STABLE */,
+        __: [0]
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["SplideSlide"], null, {
+        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+          return _cache[1] || (_cache[1] = [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+            "class": "relative product-list-item select-none overflow-hidden w-full hover:shadow-custom2",
+            "data-test-id": "product-list-item"
+          }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+            href: "#",
+            "class": "",
+            tabindex: "-1"
+          }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+            "class": "w-full pt-[125%]"
+          }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("picture", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+            src: "https://img.cloudimgs.net/rx/600x750,c_2,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278431/5ea127/t/bfab849f4cbbcd78.jpg",
+            loading: "eager",
+            "class": "w-auto object-contain transition-transform duration-200 absolute top-0 left-0",
+            style: {},
+            alt: "I'm a smartass daughter",
+            title: "I'm a smartass daughter",
+            fetchpriority: "high",
+            width: "600",
+            height: "750"
+          })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+            "class": "p-1 md:p-2"
+          }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+            "class": "btn-text md:text-lg font-medium text-overflow-hidden text-center",
+            title: "I'm a smartass daughter"
+          }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+            href: "#",
+            "class": "",
+            tabindex: "-1"
+          }, "I'm a smartass daughter")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", {
+            "class": "block h-12 flex flex-wrap justify-center gap-x-2 items-center"
+          }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+            "class": "<md:text-sm btn-fill w-full py-2 uppercase font-semibold",
+            "data-test-id": "product-list-item-btn",
+            tabindex: "-1"
+          }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])])], -1 /* HOISTED */)]);
+        }),
+        _: 1 /* STABLE */,
+        __: [1]
       })];
     }),
     _: 1 /* STABLE */,
@@ -25728,7 +29881,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
     "class": "absolute btn-text uppercase font-semibold position-center-x bottom-[15%] px-3 py-1 text-lg bg-light-800 bg-opacity-80 hover:shadow-custom2",
     tabindex: "-1"
-  }, "DRINKWARE ")])])])])])], -1 /* HOISTED */)), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["Hot"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["New"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["BestSaller"])]);
+  }, "DRINKWARE ")])])])])])], -1 /* HOISTED */)), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("        <Hot />"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["New"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["BestSaller"])]);
 }
 
 /***/ }),
@@ -26881,96 +31034,6 @@ function render(_ctx, _cache) {
     "data-test-id": "product-list-item-btn",
     tabindex: "-1"
   }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Thêm vào giỏ hàng")])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("]"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("]")])])])], -1 /* HOISTED */)]));
-}
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/pages/About.vue?vue&type=template&id=520b5d54":
-/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/pages/About.vue?vue&type=template&id=520b5d54 ***!
-  \**********************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   render: () => (/* binding */ render)
-/* harmony export */ });
-/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
-
-function render(_ctx, _cache) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("h2", null, "Say hello");
-}
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/pages/Home.vue?vue&type=template&id=b3c5cf30":
-/*!*********************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/pages/Home.vue?vue&type=template&id=b3c5cf30 ***!
-  \*********************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   render: () => (/* binding */ render)
-/* harmony export */ });
-/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
-
-function render(_ctx, _cache) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("h1", null, "Home page");
-}
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/pages/Profile.vue?vue&type=template&id=074da5b0":
-/*!************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/pages/Profile.vue?vue&type=template&id=074da5b0 ***!
-  \************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   render: () => (/* binding */ render)
-/* harmony export */ });
-/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
-
-function render(_ctx, _cache) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("h1", null, "Profile");
-}
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/pages/Security.vue?vue&type=template&id=677e3c6e":
-/*!*************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/pages/Security.vue?vue&type=template&id=677e3c6e ***!
-  \*************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   render: () => (/* binding */ render)
-/* harmony export */ });
-/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
-
-function render(_ctx, _cache) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("h1", null, "Security");
-}
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/pages/Setting.vue?vue&type=template&id=15250252":
-/*!************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/pages/Setting.vue?vue&type=template&id=15250252 ***!
-  \************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   render: () => (/* binding */ render)
-/* harmony export */ });
-/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
-
-function render(_ctx, _cache) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("h1", null, "Setting");
 }
 
 /***/ }),
@@ -31096,13 +35159,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _App_vue_vue_type_template_id_f348271a__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./App.vue?vue&type=template&id=f348271a */ "./resources/js/App.vue?vue&type=template&id=f348271a");
 /* harmony import */ var _App_vue_vue_type_script_setup_true_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./App.vue?vue&type=script&setup=true&lang=js */ "./resources/js/App.vue?vue&type=script&setup=true&lang=js");
-/* harmony import */ var E_Code_print_project_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var _home_hungvm_print_project_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
 
 ;
-const __exports__ = /*#__PURE__*/(0,E_Code_print_project_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_App_vue_vue_type_script_setup_true_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_App_vue_vue_type_template_id_f348271a__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/App.vue"]])
+const __exports__ = /*#__PURE__*/(0,_home_hungvm_print_project_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_App_vue_vue_type_script_setup_true_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_App_vue_vue_type_template_id_f348271a__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/App.vue"]])
 /* hot reload */
 if (false) // removed by dead control flow
 {}
@@ -31162,6 +35225,129 @@ app.use(_routes__WEBPACK_IMPORTED_MODULE_2__["default"]).use(_splidejs_vue_splid
 
 /***/ }),
 
+/***/ "./resources/js/components/Cart.vue":
+/*!******************************************!*\
+  !*** ./resources/js/components/Cart.vue ***!
+  \******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Cart_vue_vue_type_template_id_b7f93bea__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Cart.vue?vue&type=template&id=b7f93bea */ "./resources/js/components/Cart.vue?vue&type=template&id=b7f93bea");
+/* harmony import */ var _home_hungvm_print_project_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+
+const script = {}
+
+;
+const __exports__ = /*#__PURE__*/(0,_home_hungvm_print_project_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_1__["default"])(script, [['render',_Cart_vue_vue_type_template_id_b7f93bea__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/Cart.vue"]])
+/* hot reload */
+if (false) // removed by dead control flow
+{}
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__exports__);
+
+/***/ }),
+
+/***/ "./resources/js/components/Cart.vue?vue&type=template&id=b7f93bea":
+/*!************************************************************************!*\
+  !*** ./resources/js/components/Cart.vue?vue&type=template&id=b7f93bea ***!
+  \************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   render: () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Cart_vue_vue_type_template_id_b7f93bea__WEBPACK_IMPORTED_MODULE_0__.render)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Cart_vue_vue_type_template_id_b7f93bea__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Cart.vue?vue&type=template&id=b7f93bea */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Cart.vue?vue&type=template&id=b7f93bea");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/Category.vue":
+/*!**********************************************!*\
+  !*** ./resources/js/components/Category.vue ***!
+  \**********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Category_vue_vue_type_template_id_33972369__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Category.vue?vue&type=template&id=33972369 */ "./resources/js/components/Category.vue?vue&type=template&id=33972369");
+/* harmony import */ var _home_hungvm_print_project_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+
+const script = {}
+
+;
+const __exports__ = /*#__PURE__*/(0,_home_hungvm_print_project_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_1__["default"])(script, [['render',_Category_vue_vue_type_template_id_33972369__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/Category.vue"]])
+/* hot reload */
+if (false) // removed by dead control flow
+{}
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__exports__);
+
+/***/ }),
+
+/***/ "./resources/js/components/Category.vue?vue&type=template&id=33972369":
+/*!****************************************************************************!*\
+  !*** ./resources/js/components/Category.vue?vue&type=template&id=33972369 ***!
+  \****************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   render: () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Category_vue_vue_type_template_id_33972369__WEBPACK_IMPORTED_MODULE_0__.render)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Category_vue_vue_type_template_id_33972369__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Category.vue?vue&type=template&id=33972369 */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Category.vue?vue&type=template&id=33972369");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/Detail.vue":
+/*!********************************************!*\
+  !*** ./resources/js/components/Detail.vue ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Detail_vue_vue_type_template_id_3cbb35fc__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Detail.vue?vue&type=template&id=3cbb35fc */ "./resources/js/components/Detail.vue?vue&type=template&id=3cbb35fc");
+/* harmony import */ var _home_hungvm_print_project_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+
+const script = {}
+
+;
+const __exports__ = /*#__PURE__*/(0,_home_hungvm_print_project_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_1__["default"])(script, [['render',_Detail_vue_vue_type_template_id_3cbb35fc__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/Detail.vue"]])
+/* hot reload */
+if (false) // removed by dead control flow
+{}
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__exports__);
+
+/***/ }),
+
+/***/ "./resources/js/components/Detail.vue?vue&type=template&id=3cbb35fc":
+/*!**************************************************************************!*\
+  !*** ./resources/js/components/Detail.vue?vue&type=template&id=3cbb35fc ***!
+  \**************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   render: () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Detail_vue_vue_type_template_id_3cbb35fc__WEBPACK_IMPORTED_MODULE_0__.render)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Detail_vue_vue_type_template_id_3cbb35fc__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Detail.vue?vue&type=template&id=3cbb35fc */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Detail.vue?vue&type=template&id=3cbb35fc");
+
+
+/***/ }),
+
 /***/ "./resources/js/components/Footer/Footer.vue":
 /*!***************************************************!*\
   !*** ./resources/js/components/Footer/Footer.vue ***!
@@ -31173,12 +35359,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _Footer_vue_vue_type_template_id_4cfaf658__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Footer.vue?vue&type=template&id=4cfaf658 */ "./resources/js/components/Footer/Footer.vue?vue&type=template&id=4cfaf658");
-/* harmony import */ var E_Code_print_project_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var _home_hungvm_print_project_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 const script = {}
 
 ;
-const __exports__ = /*#__PURE__*/(0,E_Code_print_project_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_1__["default"])(script, [['render',_Footer_vue_vue_type_template_id_4cfaf658__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/Footer/Footer.vue"]])
+const __exports__ = /*#__PURE__*/(0,_home_hungvm_print_project_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_1__["default"])(script, [['render',_Footer_vue_vue_type_template_id_4cfaf658__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/Footer/Footer.vue"]])
 /* hot reload */
 if (false) // removed by dead control flow
 {}
@@ -31215,13 +35401,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _Header_vue_vue_type_template_id_7137ad81__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Header.vue?vue&type=template&id=7137ad81 */ "./resources/js/components/Headers/Header.vue?vue&type=template&id=7137ad81");
 /* harmony import */ var _Header_vue_vue_type_script_setup_true_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header.vue?vue&type=script&setup=true&lang=js */ "./resources/js/components/Headers/Header.vue?vue&type=script&setup=true&lang=js");
-/* harmony import */ var E_Code_print_project_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var _home_hungvm_print_project_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
 
 ;
-const __exports__ = /*#__PURE__*/(0,E_Code_print_project_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_Header_vue_vue_type_script_setup_true_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Header_vue_vue_type_template_id_7137ad81__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/Headers/Header.vue"]])
+const __exports__ = /*#__PURE__*/(0,_home_hungvm_print_project_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_Header_vue_vue_type_script_setup_true_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Header_vue_vue_type_template_id_7137ad81__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/Headers/Header.vue"]])
 /* hot reload */
 if (false) // removed by dead control flow
 {}
@@ -31272,12 +35458,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _HeaderMenu_vue_vue_type_template_id_de987a00__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./HeaderMenu.vue?vue&type=template&id=de987a00 */ "./resources/js/components/Headers/HeaderMenu.vue?vue&type=template&id=de987a00");
-/* harmony import */ var E_Code_print_project_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var _home_hungvm_print_project_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 const script = {}
 
 ;
-const __exports__ = /*#__PURE__*/(0,E_Code_print_project_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_1__["default"])(script, [['render',_HeaderMenu_vue_vue_type_template_id_de987a00__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/Headers/HeaderMenu.vue"]])
+const __exports__ = /*#__PURE__*/(0,_home_hungvm_print_project_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_1__["default"])(script, [['render',_HeaderMenu_vue_vue_type_template_id_de987a00__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/Headers/HeaderMenu.vue"]])
 /* hot reload */
 if (false) // removed by dead control flow
 {}
@@ -31313,12 +35499,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _Navbar_vue_vue_type_template_id_229124f8__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Navbar.vue?vue&type=template&id=229124f8 */ "./resources/js/components/Headers/Navbar.vue?vue&type=template&id=229124f8");
-/* harmony import */ var E_Code_print_project_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var _home_hungvm_print_project_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 const script = {}
 
 ;
-const __exports__ = /*#__PURE__*/(0,E_Code_print_project_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_1__["default"])(script, [['render',_Navbar_vue_vue_type_template_id_229124f8__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/Headers/Navbar.vue"]])
+const __exports__ = /*#__PURE__*/(0,_home_hungvm_print_project_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_1__["default"])(script, [['render',_Navbar_vue_vue_type_template_id_229124f8__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/Headers/Navbar.vue"]])
 /* hot reload */
 if (false) // removed by dead control flow
 {}
@@ -31354,12 +35540,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _BestSaller_vue_vue_type_template_id_9048a6cc__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./BestSaller.vue?vue&type=template&id=9048a6cc */ "./resources/js/components/Main/BestSaller.vue?vue&type=template&id=9048a6cc");
-/* harmony import */ var E_Code_print_project_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var _home_hungvm_print_project_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 const script = {}
 
 ;
-const __exports__ = /*#__PURE__*/(0,E_Code_print_project_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_1__["default"])(script, [['render',_BestSaller_vue_vue_type_template_id_9048a6cc__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/Main/BestSaller.vue"]])
+const __exports__ = /*#__PURE__*/(0,_home_hungvm_print_project_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_1__["default"])(script, [['render',_BestSaller_vue_vue_type_template_id_9048a6cc__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/Main/BestSaller.vue"]])
 /* hot reload */
 if (false) // removed by dead control flow
 {}
@@ -31396,13 +35582,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _Hot_vue_vue_type_template_id_6a0dccc2__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Hot.vue?vue&type=template&id=6a0dccc2 */ "./resources/js/components/Main/Hot.vue?vue&type=template&id=6a0dccc2");
 /* harmony import */ var _Hot_vue_vue_type_script_setup_true_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Hot.vue?vue&type=script&setup=true&lang=js */ "./resources/js/components/Main/Hot.vue?vue&type=script&setup=true&lang=js");
-/* harmony import */ var E_Code_print_project_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var _home_hungvm_print_project_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
 
 ;
-const __exports__ = /*#__PURE__*/(0,E_Code_print_project_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_Hot_vue_vue_type_script_setup_true_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Hot_vue_vue_type_template_id_6a0dccc2__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/Main/Hot.vue"]])
+const __exports__ = /*#__PURE__*/(0,_home_hungvm_print_project_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_Hot_vue_vue_type_script_setup_true_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Hot_vue_vue_type_template_id_6a0dccc2__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/Main/Hot.vue"]])
 /* hot reload */
 if (false) // removed by dead control flow
 {}
@@ -31454,13 +35640,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _Main_vue_vue_type_template_id_29cb69d8__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Main.vue?vue&type=template&id=29cb69d8 */ "./resources/js/components/Main/Main.vue?vue&type=template&id=29cb69d8");
 /* harmony import */ var _Main_vue_vue_type_script_setup_true_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Main.vue?vue&type=script&setup=true&lang=js */ "./resources/js/components/Main/Main.vue?vue&type=script&setup=true&lang=js");
-/* harmony import */ var E_Code_print_project_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var _home_hungvm_print_project_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
 
 ;
-const __exports__ = /*#__PURE__*/(0,E_Code_print_project_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_Main_vue_vue_type_script_setup_true_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Main_vue_vue_type_template_id_29cb69d8__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/Main/Main.vue"]])
+const __exports__ = /*#__PURE__*/(0,_home_hungvm_print_project_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_Main_vue_vue_type_script_setup_true_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Main_vue_vue_type_template_id_29cb69d8__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/Main/Main.vue"]])
 /* hot reload */
 if (false) // removed by dead control flow
 {}
@@ -31511,12 +35697,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _New_vue_vue_type_template_id_d2e5fed6__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./New.vue?vue&type=template&id=d2e5fed6 */ "./resources/js/components/Main/New.vue?vue&type=template&id=d2e5fed6");
-/* harmony import */ var E_Code_print_project_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var _home_hungvm_print_project_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 const script = {}
 
 ;
-const __exports__ = /*#__PURE__*/(0,E_Code_print_project_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_1__["default"])(script, [['render',_New_vue_vue_type_template_id_d2e5fed6__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/Main/New.vue"]])
+const __exports__ = /*#__PURE__*/(0,_home_hungvm_print_project_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_1__["default"])(script, [['render',_New_vue_vue_type_template_id_d2e5fed6__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/Main/New.vue"]])
 /* hot reload */
 if (false) // removed by dead control flow
 {}
@@ -31541,211 +35727,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/pages/About.vue":
-/*!**************************************!*\
-  !*** ./resources/js/pages/About.vue ***!
-  \**************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _About_vue_vue_type_template_id_520b5d54__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./About.vue?vue&type=template&id=520b5d54 */ "./resources/js/pages/About.vue?vue&type=template&id=520b5d54");
-/* harmony import */ var E_Code_print_project_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
-
-const script = {}
-
-;
-const __exports__ = /*#__PURE__*/(0,E_Code_print_project_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_1__["default"])(script, [['render',_About_vue_vue_type_template_id_520b5d54__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/pages/About.vue"]])
-/* hot reload */
-if (false) // removed by dead control flow
-{}
-
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__exports__);
-
-/***/ }),
-
-/***/ "./resources/js/pages/About.vue?vue&type=template&id=520b5d54":
-/*!********************************************************************!*\
-  !*** ./resources/js/pages/About.vue?vue&type=template&id=520b5d54 ***!
-  \********************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   render: () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_About_vue_vue_type_template_id_520b5d54__WEBPACK_IMPORTED_MODULE_0__.render)
-/* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_About_vue_vue_type_template_id_520b5d54__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./About.vue?vue&type=template&id=520b5d54 */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/pages/About.vue?vue&type=template&id=520b5d54");
-
-
-/***/ }),
-
-/***/ "./resources/js/pages/Home.vue":
-/*!*************************************!*\
-  !*** ./resources/js/pages/Home.vue ***!
-  \*************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _Home_vue_vue_type_template_id_b3c5cf30__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Home.vue?vue&type=template&id=b3c5cf30 */ "./resources/js/pages/Home.vue?vue&type=template&id=b3c5cf30");
-/* harmony import */ var E_Code_print_project_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
-
-const script = {}
-
-;
-const __exports__ = /*#__PURE__*/(0,E_Code_print_project_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_1__["default"])(script, [['render',_Home_vue_vue_type_template_id_b3c5cf30__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/pages/Home.vue"]])
-/* hot reload */
-if (false) // removed by dead control flow
-{}
-
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__exports__);
-
-/***/ }),
-
-/***/ "./resources/js/pages/Home.vue?vue&type=template&id=b3c5cf30":
-/*!*******************************************************************!*\
-  !*** ./resources/js/pages/Home.vue?vue&type=template&id=b3c5cf30 ***!
-  \*******************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   render: () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Home_vue_vue_type_template_id_b3c5cf30__WEBPACK_IMPORTED_MODULE_0__.render)
-/* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Home_vue_vue_type_template_id_b3c5cf30__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Home.vue?vue&type=template&id=b3c5cf30 */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/pages/Home.vue?vue&type=template&id=b3c5cf30");
-
-
-/***/ }),
-
-/***/ "./resources/js/pages/Profile.vue":
-/*!****************************************!*\
-  !*** ./resources/js/pages/Profile.vue ***!
-  \****************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _Profile_vue_vue_type_template_id_074da5b0__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Profile.vue?vue&type=template&id=074da5b0 */ "./resources/js/pages/Profile.vue?vue&type=template&id=074da5b0");
-/* harmony import */ var E_Code_print_project_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
-
-const script = {}
-
-;
-const __exports__ = /*#__PURE__*/(0,E_Code_print_project_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_1__["default"])(script, [['render',_Profile_vue_vue_type_template_id_074da5b0__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/pages/Profile.vue"]])
-/* hot reload */
-if (false) // removed by dead control flow
-{}
-
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__exports__);
-
-/***/ }),
-
-/***/ "./resources/js/pages/Profile.vue?vue&type=template&id=074da5b0":
-/*!**********************************************************************!*\
-  !*** ./resources/js/pages/Profile.vue?vue&type=template&id=074da5b0 ***!
-  \**********************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   render: () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Profile_vue_vue_type_template_id_074da5b0__WEBPACK_IMPORTED_MODULE_0__.render)
-/* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Profile_vue_vue_type_template_id_074da5b0__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Profile.vue?vue&type=template&id=074da5b0 */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/pages/Profile.vue?vue&type=template&id=074da5b0");
-
-
-/***/ }),
-
-/***/ "./resources/js/pages/Security.vue":
-/*!*****************************************!*\
-  !*** ./resources/js/pages/Security.vue ***!
-  \*****************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _Security_vue_vue_type_template_id_677e3c6e__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Security.vue?vue&type=template&id=677e3c6e */ "./resources/js/pages/Security.vue?vue&type=template&id=677e3c6e");
-/* harmony import */ var E_Code_print_project_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
-
-const script = {}
-
-;
-const __exports__ = /*#__PURE__*/(0,E_Code_print_project_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_1__["default"])(script, [['render',_Security_vue_vue_type_template_id_677e3c6e__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/pages/Security.vue"]])
-/* hot reload */
-if (false) // removed by dead control flow
-{}
-
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__exports__);
-
-/***/ }),
-
-/***/ "./resources/js/pages/Security.vue?vue&type=template&id=677e3c6e":
-/*!***********************************************************************!*\
-  !*** ./resources/js/pages/Security.vue?vue&type=template&id=677e3c6e ***!
-  \***********************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   render: () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Security_vue_vue_type_template_id_677e3c6e__WEBPACK_IMPORTED_MODULE_0__.render)
-/* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Security_vue_vue_type_template_id_677e3c6e__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Security.vue?vue&type=template&id=677e3c6e */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/pages/Security.vue?vue&type=template&id=677e3c6e");
-
-
-/***/ }),
-
-/***/ "./resources/js/pages/Setting.vue":
-/*!****************************************!*\
-  !*** ./resources/js/pages/Setting.vue ***!
-  \****************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _Setting_vue_vue_type_template_id_15250252__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Setting.vue?vue&type=template&id=15250252 */ "./resources/js/pages/Setting.vue?vue&type=template&id=15250252");
-/* harmony import */ var E_Code_print_project_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
-
-const script = {}
-
-;
-const __exports__ = /*#__PURE__*/(0,E_Code_print_project_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_1__["default"])(script, [['render',_Setting_vue_vue_type_template_id_15250252__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/pages/Setting.vue"]])
-/* hot reload */
-if (false) // removed by dead control flow
-{}
-
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__exports__);
-
-/***/ }),
-
-/***/ "./resources/js/pages/Setting.vue?vue&type=template&id=15250252":
-/*!**********************************************************************!*\
-  !*** ./resources/js/pages/Setting.vue?vue&type=template&id=15250252 ***!
-  \**********************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   render: () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Setting_vue_vue_type_template_id_15250252__WEBPACK_IMPORTED_MODULE_0__.render)
-/* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Setting_vue_vue_type_template_id_15250252__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Setting.vue?vue&type=template&id=15250252 */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/pages/Setting.vue?vue&type=template&id=15250252");
-
-
-/***/ }),
-
 /***/ "./resources/js/routes/index.js":
 /*!**************************************!*\
   !*** ./resources/js/routes/index.js ***!
@@ -31756,63 +35737,47 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! vue-router */ "./node_modules/vue-router/dist/vue-router.mjs");
-/* harmony import */ var _pages_Home_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../pages/Home.vue */ "./resources/js/pages/Home.vue");
-/* harmony import */ var _pages_About_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../pages/About.vue */ "./resources/js/pages/About.vue");
-/* harmony import */ var _pages_Setting_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../pages/Setting.vue */ "./resources/js/pages/Setting.vue");
-/* harmony import */ var _pages_Profile_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../pages/Profile.vue */ "./resources/js/pages/Profile.vue");
-/* harmony import */ var _pages_Security_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../pages/Security.vue */ "./resources/js/pages/Security.vue");
-
+/* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! vue-router */ "./node_modules/vue-router/dist/vue-router.mjs");
+/* harmony import */ var _components_Main_Main_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/Main/Main.vue */ "./resources/js/components/Main/Main.vue");
+/* harmony import */ var _components_Detail_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Detail.vue */ "./resources/js/components/Detail.vue");
+/* harmony import */ var _components_Category_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Category.vue */ "./resources/js/components/Category.vue");
+/* harmony import */ var _components_Cart_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Cart.vue */ "./resources/js/components/Cart.vue");
 
 
 
 
 
 var routes = [{
-  path: '/home',
+  path: '/',
   name: 'home',
-  component: _pages_Home_vue__WEBPACK_IMPORTED_MODULE_0__["default"],
+  component: _components_Main_Main_vue__WEBPACK_IMPORTED_MODULE_0__["default"],
   meta: {
     label: 'Trang chủ',
     icon: '🏠'
   }
 }, {
-  path: '/about',
-  name: 'about',
-  component: _pages_About_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
+  path: 'cart',
+  name: 'cart',
+  component: _components_Cart_vue__WEBPACK_IMPORTED_MODULE_3__["default"]
+}, {
+  path: '/product/:name',
+  name: 'detail',
+  component: _components_Detail_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
   meta: {
-    label: 'Giới thiệu',
+    label: 'Chi tiết sản phẩm',
     icon: 'ℹ️'
   }
 }, {
-  path: '/settings',
-  name: 'Settings',
-  component: _pages_Setting_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
+  path: '/category/:name',
+  name: 'category',
+  component: _components_Category_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
   meta: {
-    showInTaskbar: true,
-    label: 'Cài đặt',
+    label: 'Phân loại sản phẩm',
     icon: '⚙️'
-  },
-  children: [{
-    path: 'profile',
-    name: 'SettingsProfile',
-    component: _pages_Profile_vue__WEBPACK_IMPORTED_MODULE_3__["default"],
-    meta: {
-      showInTaskbar: true,
-      label: 'Hồ sơ'
-    }
-  }, {
-    path: 'security',
-    name: 'SettingsSecurity',
-    component: _pages_Security_vue__WEBPACK_IMPORTED_MODULE_4__["default"],
-    meta: {
-      showInTaskbar: true,
-      label: 'Bảo mật'
-    }
-  }]
+  }
 }];
-var router = (0,vue_router__WEBPACK_IMPORTED_MODULE_5__.createRouter)({
-  history: (0,vue_router__WEBPACK_IMPORTED_MODULE_5__.createWebHistory)(),
+var router = (0,vue_router__WEBPACK_IMPORTED_MODULE_4__.createRouter)({
+  history: (0,vue_router__WEBPACK_IMPORTED_MODULE_4__.createWebHistory)(),
   routes: routes
 });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (router);

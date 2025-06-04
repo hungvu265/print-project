@@ -1,43 +1,31 @@
 import {createRouter, createWebHistory} from "vue-router";
 
-import Home from '../pages/Home.vue'
-import About from "../pages/About.vue";
-import Settings from "../pages/Setting.vue";
-import Profile from "../pages/Profile.vue";
-import Security from "../pages/Security.vue";
+import Main from "../components/Main/Main.vue";
+import Detail from "../components/Detail.vue";
+import Category from "../components/Category.vue";
+import Cart from "../components/Cart.vue";
+import Question from "../components/Question.vue";
 
 const routes = [
     {
-        path: '/home',
+        path: '/',
         name: 'home',
-        component: Home,
+        component: Main,
         meta: { label: 'Trang chủ', icon: '🏠' },
     },
+    { path: 'cart', name: 'cart', component: Cart },
+    { path: 'question', name: 'question', component: Question },
     {
-        path: '/about',
-        name: 'about',
-        component: About,
-        meta: { label: 'Giới thiệu', icon: 'ℹ️' },
+        path: '/product/:name',
+        name: 'detail',
+        component: Detail,
+        meta: { label: 'Chi tiết sản phẩm', icon: 'ℹ️' },
     },
     {
-        path: '/settings',
-        name: 'Settings',
-        component: Settings,
-        meta: { showInTaskbar: true, label: 'Cài đặt', icon: '⚙️' },
-        children: [
-            {
-                path: 'profile',
-                name: 'SettingsProfile',
-                component: Profile,
-                meta: { showInTaskbar: true, label: 'Hồ sơ' },
-            },
-            {
-                path: 'security',
-                name: 'SettingsSecurity',
-                component: Security,
-                meta: { showInTaskbar: true, label: 'Bảo mật' },
-            }
-        ],
+        path: '/category/:name',
+        name: 'category',
+        component: Category,
+        meta: { label: 'Phân loại sản phẩm', icon: '⚙️' },
     },
 ]
 
