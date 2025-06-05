@@ -13,8 +13,8 @@ const routes = [
         component: Main,
         meta: { label: 'Trang chủ', icon: '🏠' },
     },
-    { path: 'cart', name: 'cart', component: Cart },
-    { path: 'question', name: 'question', component: Question },
+    { path: '/cart', name: 'cart', component: Cart },
+    { path: '/question', name: 'question', component: Question },
     {
         path: '/product/:name',
         name: 'detail',

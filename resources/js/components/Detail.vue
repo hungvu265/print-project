@@ -1,146 +1,81 @@
-<script setup lang="ts">
+<script setup>
 
+import {computed, ref} from "vue";
+
+const containerRef = ref(null)
+const left = ref(0)
+const top = ref(0)
+const isZoom = ref(false)
+
+const handleMouseMove = (e) => {
+    const container = containerRef.value
+    if (!container) return
+
+    const rect = container.getBoundingClientRect()
+    left.value = e.offsetX - rect.width
+    top.value = e.offsetY - rect.height
+    console.log(e.offsetX, e.offsetY, rect)
+
+}
+
+const imageStyle = computed(() => {
+    return {
+        position: 'absolute',
+        scale: 1.6,
+        left: `${left.value}px`,
+        top: `${top.value}px`,
+    }
+})
 </script>
 
 <template>
     <main id="campaignPage" data-test-id="campaign-container" class="container">
-        <div itemscope="" itemtype="http://schema.org/Product">
-            <meta itemprop="brand" content="SenPrints">
-            <meta itemprop="name" content="I'm a smartass daughter">
-            <meta itemprop="description" content="I'm a smartass daughter">
-            <meta itemprop="productID" content="468278431">
-            <meta itemprop="url" content="https://senprints.com/i-m-a-smartass-daughter">
-            <meta itemprop="image"
-                  content="https://img.cloudimgs.net/rx/1080x1080/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278431/5ea127/t/bfab849f4cbbcd78.jpg">
-
-            <div itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
-                <link itemprop="availability" href="http://schema.org/InStock">
-                <link itemprop="itemCondition" href="http://schema.org/NewCondition">
-                <meta itemprop="price" content="21.99">
-                <meta itemprop="priceCurrency" content="USD">
-            </div>
-        </div>
         <h1 class="md:text-2xl font-medium capitalize py-2">I'm a smartass daughter</h1>
         <div class="flex flex-wrap">
             <div class="w-full top-0 md:w-1/2 md:pr-4 md:sticky md:h-max lg:w-13/24 md:top-15">
                 <div class="flex relative w-full pt-[140%] lg:pt-[90%] xl:pt-[110%] viewzone">
-                    <div class="overflow-y-auto w-[100px] p-1 absolute w-1/5 top-0 left-0 h-full">
-                        <picture><img
-                            src="https://img.cloudimgs.net/rx/160x200,c_2,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278431/5ea127/t/bfab849f4cbbcd78.jpg"
-                            loading="eager" class="w-auto object-contain border border-white hover:shadow-custom2 mb-2 !h-auto !border-primary" alt="I'm a smartass daughter" fetchpriority="high"
-                            width="160" height="200"></picture>
-                        <picture><img
-                            src="https://img.cloudimgs.net/rx/160x200,c_2,q_90,ofmt_webp/s4/l_p:3105952:c72817bfd6e66a44/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:8db84b_sh/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/3105952/de5846e5b6114138/t/6d265143fde402ae.jpg"
-                            loading="lazy" class="w-auto object-contain border border-white hover:shadow-custom2 mb-2 !h-auto" alt="I'm a smartass daughter" width="160" height="200">
+                    <div ref="containerRef" class="overflow-y-auto w-[100px] p-1 absolute w-1/5 top-0 left-0 h-full">
+                        <picture>
+                            <img
+                                src="https://img.cloudimgs.net/rx/160x200,c_2,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278431/5ea127/t/bfab849f4cbbcd78.jpg"
+                                loading="eager" class="w-auto object-contain border border-white hover:shadow-custom2 mb-2 !h-auto !border-primary" alt="I'm a smartass daughter" fetchpriority="high"
+                                width="160" height="200"></picture>
+                        <picture>
+                            <img
+                                src="https://img.cloudimgs.net/rx/160x200,c_2,q_90,ofmt_webp/s4/l_p:3105952:c72817bfd6e66a44/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:8db84b_sh/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/3105952/de5846e5b6114138/t/6d265143fde402ae.jpg"
+                                loading="lazy" class="w-auto object-contain border border-white hover:shadow-custom2 mb-2 !h-auto" alt="I'm a smartass daughter" width="160" height="200">
                         </picture>
                     </div>
                     <div class="w-full h-full absolute top-0 right-0 lg:w-4/5">
                         <button class="absolute center-flex top-1 right-1 z-1 h-7 w-7 rounded-full btn bg-gray-300 hover:bg-gray-400"><i class="icon-sen-expand"></i></button>
-                        <div class="splide is-overflow is-initialized splide--loop splide--ltr splide--draggable is-active" id="splide05" role="region" aria-roledescription="carousel">
-                            <div class="splide__arrows splide__arrows--ltr">
-                                <button
-                                    class="splide__arrow z-1 absolute position-center-y btn-fill-black opacity-50 rounded-full fill-white bg-gray-400 p-1 h-10 w-10 center-flex &lt;md:w-7 &lt;md:h-7 splide__arrow--prev left-1 rotate-180"
-                                    type="button" aria-label="Go to last slide" aria-controls="splide05-track">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40" focusable="false">
-                                        <path d="m15.5 0.932-4.3 4.38 14.5 14.6-14.5 14.5 4.3 4.4 14.6-14.6 4.4-4.3-4.4-4.4-14.6-14.6z"></path>
-                                    </svg>
-                                </button>
-                                <button
-                                    class="splide__arrow z-1 absolute position-center-y btn-fill-black opacity-50 rounded-full fill-white bg-gray-400 p-1 h-10 w-10 center-flex &lt;md:w-7 &lt;md:h-7 splide__arrow--next right-1"
-                                    type="button" aria-label="Next slide" aria-controls="splide05-track">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40" focusable="false">
-                                        <path d="m15.5 0.932-4.3 4.38 14.5 14.6-14.5 14.5 4.3 4.4 14.6-14.6 4.4-4.3-4.4-4.4-14.6-14.6z"></path>
-                                    </svg>
-                                </button>
-                            </div>
-                            <div class="splide__track splide__track--loop splide__track--ltr splide__track--draggable" id="splide05-track" aria-live="polite" aria-atomic="true"
-                                 style="padding-left: 0px; padding-right: 0px;" aria-busy="false">
-                                <ul class="splide__list" id="splide05-list" role="presentation" style="transform: translateX(-1080.25px);">
-                                    <li class="splide__slide center-flex is-active splide__slide--clone" id="splide05-clone01" role="tabpanel" aria-roledescription="slide" aria-label="1 of 2"
-                                        style="width: calc(100%);" aria-hidden="true">
-                                        <div class="zoom-on-hover cursor-zoom-in">
-                                            <picture><img
-                                                src="https://img.cloudimgs.net/rx/1000x1250,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278431/5ea127/t/bfab849f4cbbcd78.jpg"
-                                                loading="eager" class="w-auto object-contain normal" alt="I'm a smartass daughter" fetchpriority="high" width="1000" height="1250"></picture>
-                                            <picture><img
-                                                src="https://img.cloudimgs.net/rx/1000x1250,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278431/5ea127/t/bfab849f4cbbcd78.jpg"
-                                                loading="eager" class="w-auto object-contain zoom" alt="I'm a smartass daughter" fetchpriority="high" width="1000" height="1250"
-                                                style="scale: 1.6; left: 154.819px; top: 153.3px;"></picture>
-                                        </div>
-                                    </li>
-                                    <li class="splide__slide center-flex splide__slide--clone is-prev" id="splide05-clone02" role="tabpanel" aria-roledescription="slide" aria-label="2 of 2"
-                                        style="width: calc(100%);" aria-hidden="true">
-                                        <div class="zoom-on-hover cursor-zoom-in">
-                                            <picture><img
-                                                src="https://img.cloudimgs.net/rx/1000x1250,q_90,ofmt_webp/s4/l_p:3105952:c72817bfd6e66a44/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:8db84b_sh/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/3105952/de5846e5b6114138/t/6d265143fde402ae.jpg"
-                                                loading="lazy" class="w-auto object-contain normal" alt="I'm a smartass daughter" width="1000" height="1250"></picture>
-                                            <picture><img
-                                                src="https://img.cloudimgs.net/rx/1000x1250,q_90,ofmt_webp/s4/l_p:3105952:c72817bfd6e66a44/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:8db84b_sh/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/3105952/de5846e5b6114138/t/6d265143fde402ae.jpg"
-                                                loading="lazy" class="w-auto object-contain zoom" alt="I'm a smartass daughter" width="1000" height="1250"
-                                                style="scale: 1.6; left: 162.094px; top: 33.4969px;"></picture>
-                                        </div>
-                                    </li>
-                                    <li class="splide__slide center-flex is-active is-visible" id="splide05-slide01" role="tabpanel" aria-roledescription="slide" aria-label="1 of 2"
-                                        style="width: calc(100%);">
-                                        <div class="zoom-on-hover cursor-zoom-in">
-                                            <picture><img
-                                                src="https://img.cloudimgs.net/rx/1000x1250,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278431/5ea127/t/bfab849f4cbbcd78.jpg"
-                                                loading="eager" class="w-auto object-contain normal" alt="I'm a smartass daughter" fetchpriority="high" width="1000" height="1250"></picture>
-                                            <picture><img
-                                                src="https://img.cloudimgs.net/rx/1000x1250,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278431/5ea127/t/bfab849f4cbbcd78.jpg"
-                                                loading="eager" class="w-auto object-contain zoom" alt="I'm a smartass daughter" fetchpriority="high" width="1000" height="1250"
-                                                style="scale: 1.6; left: 87.6187px; top: -57.3px;"></picture>
-                                        </div>
-                                    </li>
-                                    <li class="splide__slide center-flex is-next" id="splide05-slide02" role="tabpanel" aria-roledescription="slide" aria-label="2 of 2" style="width: calc(100%);"
-                                        aria-hidden="true">
-                                        <div class="zoom-on-hover cursor-zoom-in">
-                                            <picture><img
-                                                src="https://img.cloudimgs.net/rx/1000x1250,q_90,ofmt_webp/s4/l_p:3105952:c72817bfd6e66a44/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:8db84b_sh/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/3105952/de5846e5b6114138/t/6d265143fde402ae.jpg"
-                                                loading="lazy" class="w-auto object-contain normal" alt="I'm a smartass daughter" width="1000" height="1250"></picture>
-                                            <picture><img
-                                                src="https://img.cloudimgs.net/rx/1000x1250,q_90,ofmt_webp/s4/l_p:3105952:c72817bfd6e66a44/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:8db84b_sh/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/3105952/de5846e5b6114138/t/6d265143fde402ae.jpg"
-                                                loading="lazy" class="w-auto object-contain zoom" alt="I'm a smartass daughter" width="1000" height="1250"
-                                                style="scale: 1.6; left: 162.094px; top: -119.7px;"></picture>
-                                        </div>
-                                    </li>
-                                    <li class="splide__slide center-flex is-active splide__slide--clone" id="splide05-clone03" role="tabpanel" aria-roledescription="slide" aria-label="1 of 2"
-                                        style="width: calc(100%);" aria-hidden="true">
-                                        <div class="zoom-on-hover cursor-zoom-in">
-                                            <picture><img
-                                                src="https://img.cloudimgs.net/rx/1000x1250,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278431/5ea127/t/bfab849f4cbbcd78.jpg"
-                                                loading="eager" class="w-auto object-contain normal" alt="I'm a smartass daughter" fetchpriority="high" width="1000" height="1250"></picture>
-                                            <picture><img
-                                                src="https://img.cloudimgs.net/rx/1000x1250,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278431/5ea127/t/bfab849f4cbbcd78.jpg"
-                                                loading="eager" class="w-auto object-contain zoom" alt="I'm a smartass daughter" fetchpriority="high" width="1000" height="1250"
-                                                style="scale: 1.6; left: 154.819px; top: 153.3px;"></picture>
-                                        </div>
-                                    </li>
-                                    <li class="splide__slide center-flex splide__slide--clone" id="splide05-clone04" role="tabpanel" aria-roledescription="slide" aria-label="2 of 2"
-                                        style="width: calc(100%);" aria-hidden="true">
-                                        <div class="zoom-on-hover cursor-zoom-in">
-                                            <picture><img
-                                                src="https://img.cloudimgs.net/rx/1000x1250,q_90,ofmt_webp/s4/l_p:3105952:c72817bfd6e66a44/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:8db84b_sh/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/3105952/de5846e5b6114138/t/6d265143fde402ae.jpg"
-                                                loading="lazy" class="w-auto object-contain normal" alt="I'm a smartass daughter" width="1000" height="1250"></picture>
-                                            <picture><img
-                                                src="https://img.cloudimgs.net/rx/1000x1250,q_90,ofmt_webp/s4/l_p:3105952:c72817bfd6e66a44/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:8db84b_sh/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/3105952/de5846e5b6114138/t/6d265143fde402ae.jpg"
-                                                loading="lazy" class="w-auto object-contain zoom" alt="I'm a smartass daughter" width="1000" height="1250"
-                                                style="scale: 1.6; left: 162.094px; top: 33.4969px;"></picture>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                            <ul class="splide__pagination py-3 !md:hidden splide__pagination--ltr" role="tablist" aria-label="Select a slide to show">
-                                <li role="presentation">
-                                    <button class="splide__pagination__page btn bg-gray-300 hover:bg-gray-800 rounded-full h-2 w-2 mx-1 is-active" type="button" role="tab"
-                                            aria-controls="splide05-slide01" aria-label="Go to slide 1" aria-selected="true"></button>
-                                </li>
-                                <li role="presentation">
-                                    <button class="splide__pagination__page btn bg-gray-300 hover:bg-gray-800 rounded-full h-2 w-2 mx-1" type="button" role="tab" aria-controls="splide05-slide02"
-                                            aria-label="Go to slide 2" tabindex="-1"></button>
-                                </li>
-                            </ul>
-                        </div>
+                        <Splide ref="splideRef">
+                            <SplideSlide>
+                                <div class="zoom-on-hover cursor-zoom-in">
+                                    <picture>
+                                        <img
+                                            @mouseenter="() => isZoom = true"
+                                            src="https://img.cloudimgs.net/rx/1000x1250,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278431/5ea127/t/bfab849f4cbbcd78.jpg"
+                                            loading="eager" class="w-auto object-contain normal" alt="I'm a smartass daughter" fetchpriority="high" width="1000" height="1250">
+                                    </picture>
+                                    <img
+                                        ref="containerRef"
+                                        @mousemove="handleMouseMove"
+                                        :style="imageStyle"
+                                        src="https://img.cloudimgs.net/rx/1000x1250,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278431/5ea127/t/bfab849f4cbbcd78.jpg"
+                                        loading="eager" class="w-auto object-contain zoom" alt="I'm a smartass daughter" fetchpriority="high" width="1000" height="1250"
+                                    >
+                                </div>
+                            </SplideSlide>
+                            <SplideSlide>
+                                <div class="zoom-on-hover cursor-zoom-in">
+                                    <picture>
+                                        <img
+                                            src="https://img.cloudimgs.net/rx/1000x1250,q_90,ofmt_webp/s4/l_p:3105952:7d1c3bf281e373b1/fl_cutter,fl_layer_apply/u_p:3105952:f1c6cd79d9b72d3a/co_rgb:FFFFFF,e_colorize:100/fl_layer_apply/l_p:3105952:662974_sh/fl_layer_apply/u_p:3105952:184d580923f94160/fl_layer_apply/c_thumb,w_1280/f_jpg/v1/p/468278431/5ea127/t/bfab849f4cbbcd78.jpg"
+                                            loading="eager" class="w-auto object-contain normal" alt="I'm a smartass daughter" fetchpriority="high" width="1000" height="1250">
+                                    </picture>
+                                </div>
+                            </SplideSlide>
+                        </Splide>
                     </div>
                 </div>
                 <div class="flex flex-wrap justify-between items-center py-2 &lt;md:hidden">

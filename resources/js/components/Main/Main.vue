@@ -418,7 +418,7 @@ import BestSaller from "./BestSaller.vue";
             </div>
         </div>
 
-<!--        <Hot />-->
+        <Hot />
         <New />
         <BestSaller />
     </main>
