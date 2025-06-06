@@ -1,5 +1,47 @@
-<script setup lang="ts">
+<script setup>
+import {reactive} from "vue";
 
+const colors = reactive([
+    {color: 'background: rgb(29, 83, 213)'},
+    {color: 'background: rgb(24, 24, 24)'},
+    {color: 'background: rgb(238, 28, 52)'},
+    {color: 'background: rgb(14, 13, 45)'},
+    {color: 'background: rgb(80, 45, 105)'},
+    {color: 'background: rgb(0, 148, 69)'},
+    {color: 'background: rgb(20, 40, 26)'},
+    {color: 'background: rgb(197, 197, 207)'},
+    {color: 'background: rgb(58, 60, 67)'},
+    {color: 'background: rgb(85, 91, 93)'},
+    {color: 'background: rgb(255, 255, 255)'},
+    {color: 'background: rgb(255, 82, 38)'},
+    {color: 'background: rgb(187, 229, 251)'},
+    {color: 'background: rgb(85, 90, 62)'},
+    {color: 'background: rgb(91, 43, 66)'},
+    {color: 'background: rgb(56, 47, 45)'},
+    {color: 'background: rgb(255, 199, 213)'},
+    {color: 'background: rgb(248, 166, 40)'},
+    {color: 'background: rgb(255, 239, 215)'},
+    {color: 'background: rgb(46, 45, 46)'},
+    {color: 'background: rgb(1, 149, 71)'},
+    {color: 'background: rgb(51, 40, 34)'},
+    {color: 'background: rgb(123, 164, 219)'},
+    {color: 'background: rgb(238, 238, 238)'},
+    {color: 'background: rgb(254, 209, 65)'},
+    {color: 'background: rgb(138, 81, 178)'},
+    {color: 'background: rgb(50, 121, 255)'},
+    {color: 'background: rgb(127, 100, 174)'},
+    {color: 'background: rgb(244, 234, 209)'},
+    {color: 'background: rgb(196, 198, 197)'},
+    {color: 'background: rgb(138, 21, 56)'},
+    {color: 'background: rgb(90, 203, 148)'},
+    {color: 'background: rgb(67, 225, 255)'},
+    {color: 'background: rgb(143, 143, 143)'},
+    {color: 'background: rgb(167, 247, 87)'},
+    {color: 'background: rgb(125, 32, 40)'},
+    {color: 'background: rgb(54, 54, 54)'},
+    {color: 'background: rgb(255, 183, 188)'},
+    {color: 'background: rgb(106, 52, 96)'},
+])
 </script>
 
 <template>
@@ -591,201 +633,13 @@
             </div>
             <div class="filter-color mt-3"><p class="font-12x mb-3 pb-3 border-b uppercase &lt;md:text-center">Màu sắc</p>
                 <div class="flex flex-wrap">
-                    <a aria-current="page" href="#" class="router-link-active router-link-exact-active">
-                        <div class="rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active">
-                            <div class="rounded-full shadow-color relative h-8 w-8" style="background: rgb(29, 83, 213);"></div>
-                        </div>
-                    </a>
-                    <a aria-current="page" href="#" class="router-link-active router-link-exact-active">
-                        <div class="rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active">
-                            <div class="rounded-full shadow-color relative h-8 w-8" style="background: rgb(24, 24, 24);"></div>
-                        </div>
-                    </a>
-                    <a aria-current="page" href="#" class="router-link-active router-link-exact-active">
-                        <div class="rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active">
-                            <div class="rounded-full shadow-color relative h-8 w-8" style="background: rgb(238, 28, 52);"></div>
-                        </div>
-                    </a>
-                    <a aria-current="page" href="#" class="router-link-active router-link-exact-active">
-                        <div class="rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active">
-                            <div class="rounded-full shadow-color relative h-8 w-8" style="background: rgb(14, 13, 45);"></div>
-                        </div>
-                    </a>
-                    <a aria-current="page" href="#" class="router-link-active router-link-exact-active">
-                        <div class="rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active">
-                            <div class="rounded-full shadow-color relative h-8 w-8" style="background: rgb(80, 45, 105);"></div>
-                        </div>
-                    </a>
-                    <a aria-current="page" href="#" class="router-link-active router-link-exact-active">
-                        <div class="rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active">
-                            <div class="rounded-full shadow-color relative h-8 w-8" style="background: rgb(0, 148, 69);"></div>
-                        </div>
-                    </a>
-                    <a aria-current="page" href="#" class="router-link-active router-link-exact-active">
-                        <div class="rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active">
-                            <div class="rounded-full shadow-color relative h-8 w-8" style="background: rgb(20, 40, 26);"></div>
-                        </div>
-                    </a>
-                    <a aria-current="page" href="#" class="router-link-active router-link-exact-active">
-                        <div class="rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active">
-                            <div class="rounded-full shadow-color relative h-8 w-8" style="background: rgb(197, 197, 207);"></div>
-                        </div>
-                    </a>
-                    <a aria-current="page" href="#" class="router-link-active router-link-exact-active">
-                        <div class="rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active">
-                            <div class="rounded-full shadow-color relative h-8 w-8" style="background: rgb(58, 60, 67);"></div>
-                        </div>
-                    </a>
-                    <a aria-current="page" href="#" class="router-link-active router-link-exact-active">
-                        <div class="rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active">
-                            <div class="rounded-full shadow-color relative h-8 w-8" style="background: rgb(85, 91, 93);"></div>
-                        </div>
-                    </a>
-                    <a aria-current="page" href="#" class="router-link-active router-link-exact-active">
-                        <div class="rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active">
-                            <div class="rounded-full shadow-color relative h-8 w-8" style="background: rgb(255, 255, 255);"></div>
-                        </div>
-                    </a>
-                    <a aria-current="page" href="#" class="router-link-active router-link-exact-active">
-                        <div class="rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active">
-                            <div class="rounded-full shadow-color relative h-8 w-8" style="background: rgb(255, 82, 38);"></div>
-                        </div>
-                    </a>
-                    <a aria-current="page" href="#" class="router-link-active router-link-exact-active">
-                        <div class="rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active">
-                            <div class="rounded-full shadow-color relative h-8 w-8" style="background: rgb(187, 229, 251);"></div>
-                        </div>
-                    </a>
-                    <a aria-current="page" href="#" class="router-link-active router-link-exact-active">
-                        <div class="rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active">
-                            <div class="rounded-full shadow-color relative h-8 w-8" style="background: rgb(85, 90, 62);"></div>
-                        </div>
-                    </a>
-                    <a aria-current="page" href="#" class="router-link-active router-link-exact-active">
-                        <div class="rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active">
-                            <div class="rounded-full shadow-color relative h-8 w-8" style="background: rgb(91, 43, 66);"></div>
-                        </div>
-                    </a>
-                    <a aria-current="page" href="#" class="router-link-active router-link-exact-active">
-                        <div class="rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active">
-                            <div class="rounded-full shadow-color relative h-8 w-8" style="background: rgb(56, 47, 45);"></div>
-                        </div>
-                    </a>
-                    <a aria-current="page" href="#" class="router-link-active router-link-exact-active">
-                        <div class="rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active">
-                            <div class="rounded-full shadow-color relative h-8 w-8" style="background: rgb(255, 199, 213);"></div>
-                        </div>
-                    </a>
-                    <a aria-current="page" href="#" class="router-link-active router-link-exact-active">
-                        <div class="rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active">
-                            <div class="rounded-full shadow-color relative h-8 w-8" style="background: rgb(248, 166, 40);"></div>
-                        </div>
-                    </a>
-                    <a aria-current="page" href="#" class="router-link-active router-link-exact-active">
-                        <div class="rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active">
-                            <div class="rounded-full shadow-color relative h-8 w-8" style="background: rgb(255, 239, 215);"></div>
-                        </div>
-                    </a>
-                    <a aria-current="page" href="#" class="router-link-active router-link-exact-active">
-                        <div class="rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active">
-                            <div class="rounded-full shadow-color relative h-8 w-8" style="background: rgb(46, 45, 46);"></div>
-                        </div>
-                    </a>
-                    <a aria-current="page" href="#" class="router-link-active router-link-exact-active">
-                        <div class="rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active">
-                            <div class="rounded-full shadow-color relative h-8 w-8" style="background: rgb(1, 149, 71);"></div>
-                        </div>
-                    </a>
-                    <a aria-current="page" href="#" class="router-link-active router-link-exact-active">
-                        <div class="rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active">
-                            <div class="rounded-full shadow-color relative h-8 w-8" style="background: rgb(51, 40, 34);"></div>
-                        </div>
-                    </a>
-                    <a aria-current="page" href="#" class="router-link-active router-link-exact-active">
-                        <div class="rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active">
-                            <div class="rounded-full shadow-color relative h-8 w-8" style="background: rgb(123, 164, 219);"></div>
-                        </div>
-                    </a>
-                    <a aria-current="page" href="#" class="router-link-active router-link-exact-active">
-                        <div class="rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active">
-                            <div class="rounded-full shadow-color relative h-8 w-8" style="background: rgb(238, 238, 238);"></div>
-                        </div>
-                    </a>
-                    <a aria-current="page" href="#" class="router-link-active router-link-exact-active">
-                        <div class="rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active">
-                            <div class="rounded-full shadow-color relative h-8 w-8" style="background: rgb(254, 209, 65);"></div>
-                        </div>
-                    </a>
-                    <a aria-current="page" href="#" class="router-link-active router-link-exact-active">
-                        <div class="rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active">
-                            <div class="rounded-full shadow-color relative h-8 w-8" style="background: rgb(138, 81, 178);"></div>
-                        </div>
-                    </a>
-                    <a aria-current="page" href="#" class="router-link-active router-link-exact-active">
-                        <div class="rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active">
-                            <div class="rounded-full shadow-color relative h-8 w-8" style="background: rgb(50, 121, 255);"></div>
-                        </div>
-                    </a>
-                    <a aria-current="page" href="#" class="router-link-active router-link-exact-active">
-                        <div class="rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active">
-                            <div class="rounded-full shadow-color relative h-8 w-8" style="background: rgb(127, 100, 174);"></div>
-                        </div>
-                    </a>
-                    <a aria-current="page" href="#" class="router-link-active router-link-exact-active">
-                        <div class="rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active">
-                            <div class="rounded-full shadow-color relative h-8 w-8" style="background: rgb(244, 234, 209);"></div>
-                        </div>
-                    </a>
-                    <a aria-current="page" href="#" class="router-link-active router-link-exact-active">
-                        <div class="rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active">
-                            <div class="rounded-full shadow-color relative h-8 w-8" style="background: rgb(196, 198, 197);"></div>
-                        </div>
-                    </a>
-                    <a aria-current="page" href="#" class="router-link-active router-link-exact-active">
-                        <div class="rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active">
-                            <div class="rounded-full shadow-color relative h-8 w-8" style="background: rgb(138, 21, 56);"></div>
-                        </div>
-                    </a>
-                    <a aria-current="page" href="#" class="router-link-active router-link-exact-active">
-                        <div class="rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active">
-                            <div class="rounded-full shadow-color relative h-8 w-8" style="background: rgb(90, 203, 148);"></div>
-                        </div>
-                    </a>
-                    <a aria-current="page" href="#" class="router-link-active router-link-exact-active">
-                        <div class="rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active">
-                            <div class="rounded-full shadow-color relative h-8 w-8" style="background: rgb(67, 225, 255);"></div>
-                        </div>
-                    </a>
-                    <a aria-current="page" href="#" class="router-link-active router-link-exact-active">
-                        <div class="rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active">
-                            <div class="rounded-full shadow-color relative h-8 w-8" style="background: rgb(143, 143, 143);"></div>
-                        </div>
-                    </a>
-                    <a aria-current="page" href="#" class="router-link-active router-link-exact-active">
-                        <div class="rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active">
-                            <div class="rounded-full shadow-color relative h-8 w-8" style="background: rgb(167, 247, 87);"></div>
-                        </div>
-                    </a>
-                    <a aria-current="page" href="#" class="router-link-active router-link-exact-active">
-                        <div class="rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active">
-                            <div class="rounded-full shadow-color relative h-8 w-8" style="background: rgb(125, 32, 40);"></div>
-                        </div>
-                    </a>
-                    <a aria-current="page" href="#" class="router-link-active router-link-exact-active">
-                        <div class="rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active">
-                            <div class="rounded-full shadow-color relative h-8 w-8" style="background: rgb(54, 54, 54);"></div>
-                        </div>
-                    </a>
-                    <a aria-current="page" href="#" class="router-link-active router-link-exact-active">
-                        <div class="rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active">
-                            <div class="rounded-full shadow-color relative h-8 w-8" style="background: rgb(255, 183, 188);"></div>
-                        </div>
-                    </a>
-                    <a aria-current="page" href="#" class="router-link-active router-link-exact-active">
-                        <div class="rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active">
-                            <div class="rounded-full shadow-color relative h-8 w-8" style="background: rgb(106, 52, 96);"></div>
-                        </div>
-                    </a>
+                    <template v-for="color in colors" :key="color.color">
+                        <a href="#" class="router-link-active router-link-exact-active">
+                            <div class="rounded-full border-2 hover:border-primary m-0.5 p-0.5 border-white hover:shadow-color-active">
+                                <div class="rounded-full shadow-color relative h-8 w-8" :style="color.color"></div>
+                            </div>
+                        </a>
+                    </template>
                 </div>
             </div>
         </div>
