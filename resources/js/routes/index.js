@@ -5,6 +5,7 @@ import Detail from "../components/Detail.vue";
 import Category from "../components/Category.vue";
 import Cart from "../components/Cart.vue";
 import Question from "../components/Question.vue";
+import Campaign from "../components/Campaign.vue";
 
 const routes = [
     {
@@ -13,6 +14,7 @@ const routes = [
         component: Main,
         meta: { label: 'Trang chủ', icon: '🏠' },
     },
+    { path: '/campaign', name: 'campaign', component: Campaign },
     { path: '/cart', name: 'cart', component: Cart },
     { path: '/question', name: 'question', component: Question },
     {
