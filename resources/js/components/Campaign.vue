@@ -1,81 +1,54 @@
-<script setup>
-const stageConfig = {
-    width: 512,
-    height: 512
-}
-
-const rectWidth = 300
-const rectHeight = 400
-const rectX = (stageConfig.width - rectWidth) / 2
-const rectY = (stageConfig.height - rectHeight) / 2
-
-// Checkerboard pattern
-const squareSize = 32
-const checkerSquares = []
-for (let y = 0; y < stageConfig.height; y += squareSize) {
-    for (let x = 0; x < stageConfig.width; x += squareSize) {
-        const isWhite = (x / squareSize + y / squareSize) % 2 === 0
-        checkerSquares.push({
-            x,
-            y,
-            width: squareSize,
-            height: squareSize,
-            fill: isWhite ? '#ffffff' : '#cccccc'
-        })
-    }
-}
-
-// Scene function to create "hole" in overlay
-function drawOverlay(ctx, shape) {
-    const {width, height} = shape.getStage().attrs
-
-    ctx.fillStyle = shape.fill()
-    ctx.fillRect(0, 0, width, height)
-
-    // Clear center rectangle
-    ctx.globalCompositeOperation = 'destination-out'
-    ctx.fillRect(rectX, rectY, rectWidth, rectHeight)
-
-    ctx.globalCompositeOperation = 'source-over'
-}
-</script>
-
 <template>
-    <v-stage :config="stageConfig">
-        <v-layer ref="layer">
-            <!-- Checkerboard Background -->
-            <v-rect
-                v-for="(square, index) in checkerSquares"
-                :key="index"
-                :config="square"
-            />
-
-            <!-- Overlay layer -->
-            <v-rect :config="{
-                x: 0,
-                y: 0,
-          width: stageConfig.width,
-          height: stageConfig.height,
-          fill: 'rgba(128, 128, 128, 0.5)',
-          sceneFunc: drawOverlay
-            }"
-            />
-
-            <!-- Blue border around transparent area -->
-            <v-rect
-                :config="{
-          x: rectX,
-          y: rectY,
-          width: rectWidth,
-          height: rectHeight,
-          stroke: 'blue',
-          strokeWidth: 1
-        }"
-            />
-        </v-layer>
-    </v-stage>
+  <canvas id="myCanvas" width="500" height="500"></canvas>
 </template>
 
-<style scoped>
+<script setup>
+import { ref, onMounted, watchEffect } from 'vue'
 
-</style>
+onMounted(() => {
+  const canvas = document.getElementById('myCanvas');
+  const ctx = canvas.getContext('2d');
+
+  const width = canvas.width;
+  const height = canvas.height;
+
+  const tileSize = 20;
+  const holeSize = 300;
+  const holeX = (width - holeSize) / 2;
+  const holeY = (height - holeSize) / 2;
+
+  // 1. Draw checkerboard background on main canvas
+  for (let y = 0; y < height; y += tileSize) {
+    for (let x = 0; x < width; x += tileSize) {
+      const isEven = ((x / tileSize + y / tileSize) % 2 === 0);
+      ctx.fillStyle = isEven ? '#ccc' : '#fff';
+      ctx.fillRect(x, y, tileSize, tileSize);
+    }
+  }
+
+  // 2. Create an offscreen overlay canvas
+  const overlayCanvas = document.createElement('canvas');
+  overlayCanvas.width = width;
+  overlayCanvas.height = height;
+  const overlayCtx = overlayCanvas.getContext('2d');
+
+  // Draw dark overlay
+  overlayCtx.fillStyle = 'rgba(0, 0, 0, 0.5)';
+  overlayCtx.fillRect(0, 0, width, height);
+
+  // Punch transparent hole
+  overlayCtx.globalCompositeOperation = 'destination-out';
+  overlayCtx.fillStyle = 'rgba(0, 0, 0, 1)';
+  overlayCtx.fillRect(holeX, holeY, holeSize, holeSize);
+
+  overlayCtx.globalCompositeOperation = 'source-over';
+
+  // 3. Draw the overlay onto main canvas
+  ctx.drawImage(overlayCanvas, 0, 0);
+
+  // 4. Draw border
+  ctx.strokeStyle = 'blue';
+  ctx.lineWidth = 1;
+  ctx.strokeRect(holeX, holeY, holeSize, holeSize);
+})
+</script>

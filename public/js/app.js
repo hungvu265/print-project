@@ -23118,58 +23118,60 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-var rectWidth = 300;
-var rectHeight = 400;
-var squareSize = 32;
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   __name: 'Campaign',
   setup: function setup(__props, _ref) {
     var __expose = _ref.expose;
     __expose();
-    var stageConfig = {
-      width: 512,
-      height: 512
-    };
-    var rectX = (stageConfig.width - rectWidth) / 2;
-    var rectY = (stageConfig.height - rectHeight) / 2;
+    (0,vue__WEBPACK_IMPORTED_MODULE_0__.onMounted)(function () {
+      var canvas = document.getElementById('myCanvas');
+      var ctx = canvas.getContext('2d');
+      var width = canvas.width;
+      var height = canvas.height;
+      var tileSize = 20;
+      var holeSize = 300;
+      var holeX = (width - holeSize) / 2;
+      var holeY = (height - holeSize) / 2;
 
-    // Checkerboard pattern
-    var checkerSquares = [];
-    for (var y = 0; y < stageConfig.height; y += squareSize) {
-      for (var x = 0; x < stageConfig.width; x += squareSize) {
-        var isWhite = (x / squareSize + y / squareSize) % 2 === 0;
-        checkerSquares.push({
-          x: x,
-          y: y,
-          width: squareSize,
-          height: squareSize,
-          fill: isWhite ? '#ffffff' : '#cccccc'
-        });
+      // 1. Draw checkerboard background on main canvas
+      for (var y = 0; y < height; y += tileSize) {
+        for (var x = 0; x < width; x += tileSize) {
+          var isEven = (x / tileSize + y / tileSize) % 2 === 0;
+          ctx.fillStyle = isEven ? '#ccc' : '#fff';
+          ctx.fillRect(x, y, tileSize, tileSize);
+        }
       }
-    }
 
-    // Scene function to create "hole" in overlay
-    function drawOverlay(ctx, shape) {
-      var _shape$getStage$attrs = shape.getStage().attrs,
-        width = _shape$getStage$attrs.width,
-        height = _shape$getStage$attrs.height;
-      ctx.fillStyle = shape.fill();
-      ctx.fillRect(0, 0, width, height);
+      // 2. Create an offscreen overlay canvas
+      var overlayCanvas = document.createElement('canvas');
+      overlayCanvas.width = width;
+      overlayCanvas.height = height;
+      var overlayCtx = overlayCanvas.getContext('2d');
 
-      // Clear center rectangle
-      ctx.globalCompositeOperation = 'destination-out';
-      ctx.fillRect(rectX, rectY, rectWidth, rectHeight);
-      ctx.globalCompositeOperation = 'source-over';
-    }
+      // Draw dark overlay
+      overlayCtx.fillStyle = 'rgba(0, 0, 0, 0.5)';
+      overlayCtx.fillRect(0, 0, width, height);
+
+      // Punch transparent hole
+      overlayCtx.globalCompositeOperation = 'destination-out';
+      overlayCtx.fillStyle = 'rgba(0, 0, 0, 1)';
+      overlayCtx.fillRect(holeX, holeY, holeSize, holeSize);
+      overlayCtx.globalCompositeOperation = 'source-over';
+
+      // 3. Draw the overlay onto main canvas
+      ctx.drawImage(overlayCanvas, 0, 0);
+
+      // 4. Draw border
+      ctx.strokeStyle = 'blue';
+      ctx.lineWidth = 1;
+      ctx.strokeRect(holeX, holeY, holeSize, holeSize);
+    });
     var __returned__ = {
-      stageConfig: stageConfig,
-      rectWidth: rectWidth,
-      rectHeight: rectHeight,
-      rectX: rectX,
-      rectY: rectY,
-      squareSize: squareSize,
-      checkerSquares: checkerSquares,
-      drawOverlay: drawOverlay
+      ref: vue__WEBPACK_IMPORTED_MODULE_0__.ref,
+      onMounted: vue__WEBPACK_IMPORTED_MODULE_0__.onMounted,
+      watchEffect: vue__WEBPACK_IMPORTED_MODULE_0__.watchEffect
     };
     Object.defineProperty(__returned__, '__isScriptSetup', {
       enumerable: false,
@@ -23610,48 +23612,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
+var _hoisted_1 = {
+  id: "myCanvas",
+  width: "500",
+  height: "500"
+};
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  var _component_v_rect = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("v-rect");
-  var _component_v_layer = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("v-layer");
-  var _component_v_stage = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("v-stage");
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_v_stage, {
-    config: $setup.stageConfig
-  }, {
-    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_v_layer, {
-        ref: "layer"
-      }, {
-        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Checkerboard Background "), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($setup.checkerSquares, function (square, index) {
-            return (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_v_rect, {
-              key: index,
-              config: square
-            }, null, 8 /* PROPS */, ["config"]);
-          }), 64 /* STABLE_FRAGMENT */)), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Overlay layer "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_v_rect, {
-            config: {
-              x: 0,
-              y: 0,
-              width: $setup.stageConfig.width,
-              height: $setup.stageConfig.height,
-              fill: 'rgba(128, 128, 128, 0.5)',
-              sceneFunc: $setup.drawOverlay
-            }
-          }, null, 8 /* PROPS */, ["config"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Blue border around transparent area "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_v_rect, {
-            config: {
-              x: $setup.rectX,
-              y: $setup.rectY,
-              width: $setup.rectWidth,
-              height: $setup.rectHeight,
-              stroke: 'blue',
-              strokeWidth: 1
-            }
-          }, null, 8 /* PROPS */, ["config"])];
-        }),
-        _: 1 /* STABLE */
-      }, 512 /* NEED_PATCH */)];
-    }),
-    _: 1 /* STABLE */
-  });
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("canvas", _hoisted_1);
 }
 
 /***/ }),
