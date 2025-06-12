@@ -8,13 +8,6 @@ const top = ref(0)
 const isZoom = ref(false)
 
 const handleMouseMove = (e) => {
-    const container = containerRef.value
-    if (!container) return
-
-    const rect = container.getBoundingClientRect()
-    left.value = e.offsetX - rect.width
-    top.value = e.offsetY - rect.height
-    console.log(e.offsetX, e.offsetY, rect)
 
 }
 

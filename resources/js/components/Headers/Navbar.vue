@@ -45,11 +45,16 @@
                         alt="flag-VN" src="https://v4.cdnjs1.com/images/country-flag/vn.svg"><!----></div><!---->
                 </button><!----></div>
             <a href="#" class="btn-text uppercase text-xl icon-sen-info-outline <md:hidden"
-               id="headerPageFAQ" title="Câu hỏi thường gặp"></a><a href="#"
-                                                                    class="btn-text uppercase text-xl font-semibold relative"
-                                                                    id="headerCartButton" title="Xem giỏ hàng"
-                                                                    data-test-id="header-cart-button"><i
-            class="icon-sen-cart" style="line-height: 1.3;"></i><span class="badge bg-red-600">0</span></a></div>
+               id="headerPageFAQ" title="Câu hỏi thường gặp"></a>
+            <router-link to="/cart" class="btn-text uppercase text-xl font-semibold relative">
+                <i class="icon-sen-cart" style="line-height: 1.3;"></i>
+                <span class="badge bg-red-600">0</span>
+            </router-link>
+<!--            <a href="#" class="btn-text uppercase text-xl font-semibold relative"-->
+<!--               id="headerCartButton" title="Xem giỏ hàng">-->
+<!--                -->
+<!--            </a>-->
+        </div>
         <!--]--></nav>
 </template>
 
