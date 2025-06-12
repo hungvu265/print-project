@@ -9,50 +9,67 @@
             <div class="w-full lg:w-[40%] lg:order-2 flex flex-wrap text-center lg:text-left mt-10">
                 <div class="pt-3 hidden"><a href="/vi/bot" class="">Bot</a></div>
                 <div class="w-full md:w-1/2 <md:my-5"><p class="uppercase font-semibold">Thông tin &amp; hỗ trợ</p>
-
-                    <div class="pt-3 capitalize"><a href="/vi/page/about" class="btn-text">About Us</a></div>
-                    <div class="pt-3 capitalize"><a href="/vi/order/track" class="btn-text">Theo dõi đơn
-                        hàng</a></div>
-                    <div class="pt-3 capitalize"><a href="/vi/page/faq" class="btn-text">Câu hỏi thường gặp</a>
+                    <div class="pt-3 capitalize">
+                        <a href=# class="btn-text">About Us</a>
                     </div>
-                    <div class="pt-3 capitalize"><a href="/vi/page/contact-us" class="btn-text">Contact Us</a>
+                    <div class="pt-3 capitalize">
+                        <a href="#" class="btn-text">Theo dõi đơn hàng</a>
+                    </div>
+                    <div class="pt-3 capitalize">
+                        <a href=# class="btn-text">Câu hỏi thường gặp</a>
+                    </div>
+                    <div class="pt-3 capitalize">
+                        <a href="#" class="btn-text">Contact Us</a>
                     </div>
                 </div>
-                <div class="w-full md:w-1/2 <md:my-5"><p class="uppercase font-semibold">Chính sách</p>
-                    <div class="pt-3 capitalize"><a href="/vi/page/return-policy" class="btn-text">Return
-                        Policy</a></div>
-                    <div class="pt-3 capitalize"><a href="/vi/page/shipping-policy" class="btn-text">Chính sách
-                        vận chuyển</a></div>
-                    <div class="pt-3 capitalize"><a href="/vi/page/terms-of-service" class="btn-text">Terms
-                        &amp; Conditions</a></div>
-                    <div class="pt-3 capitalize"><a href="/vi/page/privacy" class="btn-text">Privacy Policy</a>
+                <div class="w-full md:w-1/2 <md:my-5">
+                    <p class="uppercase font-semibold">Chính sách</p>
+                    <div class="pt-3 capitalize">
+                        <a href="#" class="btn-text">Return Policy</a>
                     </div>
-                    <div class="pt-3 capitalize"><a href="/vi/page/dmca" class="btn-text">DMCA</a></div>
+                    <div class="pt-3 capitalize">
+                        <a href="#" class="btn-text">Chính sách vận chuyển</a></div>
+                    <div class="pt-3 capitalize">
+                        <a href="#" class="btn-text">Terms &amp; Conditions</a></div>
+                    <div class="pt-3 capitalize">
+                        <a href=# class="btn-text">Privacy Policy</a>
+                    </div>
+                    <div class="pt-3 capitalize">
+                        <a href=# class="btn-text">DMCA</a>
+                    </div>
                 </div>
             </div>
             <div class="md:hidden w-full flex justify-center mt-5 flex-wrap">
                 <div id="languageSelect" class="dropdown relative px-1 mt-5">
                     <button type="button" class="relative border pr-5.5">
-                        <div class="flex items-center p-1" data-test-id="language-select-btn"><span
-                            class="vti__flag vn"></span><span>Tiếng Việt</span></div>
+                        <div class="flex items-center p-1" data-test-id="language-select-btn">
+                            <span class="vti__flag vn"></span>
+                            <span>Tiếng Việt</span>
+                        </div>
                         <i class="float-right absolute right-0 position-center-y z-0 transition rotate-0 icon-sen-menu-down text-2xl"></i>
-                    </button><!----></div>
+                    </button>
+                </div>
                 <div id="currencySelect" class="dropdown relative px-1 mt-5">
                     <button type="button" class="relative border pr-5.5">
                         <div class="flex items-center p-1 min-w-20" data-test-id="currency-select-btn"><span
                             class="vti__flag us"></span><span>$</span><span class="ml-2">US Dollar</span></div>
                         <i class="float-right absolute right-0 position-center-y z-0 transition rotate-0 icon-sen-menu-down text-2xl"></i>
-                    </button><!----></div>
+                    </button>
+                </div>
             </div>
             <div class="w-full md:w-1/2 lg:w-[30%] lg:order-1 text-sm mt-10">
-                <div class="flex <lg:justify-center my-5"><a aria-current="page" href="/vi"
-                                                             class="router-link-active router-link-exact-active">
-                    <picture><!----><img id="footerLogo"
-                                         src="https://img.cloudimgs.net/rx/256x256,q_90,ofmt_webp/s2/s/1/cf8b6471bc35cc73.png"
-                                         loading="lazy" class="w-auto object-contain h-10 -z-1" style="" alt="SenPrints"
-                                         fetchpriority="auto" width="256" height="256"></picture>
-                </a></div><!----><!----><!---->
-                <div class="flex <lg:justify-center items-center"><span>Số điện thoại: </span>
+                <div class="flex <lg:justify-center my-5">
+                    <a aria-current="page" href="/vi" class="router-link-active router-link-exact-active">
+                        <picture>
+                            <img id="footerLogo"
+                                 src="https://img.cloudimgs.net/rx/256x256,q_90,ofmt_webp/s2/s/1/cf8b6471bc35cc73.png"
+                                 loading="lazy" class="w-auto object-contain h-10 -z-1" style="" alt="SenPrints"
+                                 fetchpriority="auto" width="256" height="256">
+                        </picture>
+                    </a>
+                </div>
+                <div class="flex <lg:justify-center items-center">
+                    <span>Số điện thoại: </span>
                     <div id="contactPhoneDropdown" class="dropdown relative ml-0.5">
                         <button type="button" class="px-3 py-1 pr-5.5 relative">
                             <div class="flex items-center"><img
@@ -60,9 +77,10 @@
                                 loading="lazy"><span>+1 (424) 389-4044</span></div>
                             <i
                                 class="rotate-0 icon-sen-menu-down text-2xl float-right absolute right-0 position-center-y z-0 transition"></i>
-                        </button><!----></div>
+                        </button>
+                    </div>
                 </div>
-                <div><span>Cần hỗ trợ? <a href="/vi/page/contact-us" class="text-primary hover:text-primary-hover">Gửi vé</a></span>
+                <div><span>Cần hỗ trợ? <a href="#" class="text-primary hover:text-primary-hover">Gửi vé</a></span>
                 </div>
             </div>
             <div class="w-full md:w-1/2 lg:w-[30%] lg:order-3 mt-10"><p class="font-semibold uppercase mb-5">
@@ -95,7 +113,7 @@
                     class="icon-sen-facebook"></i></span></a><a href="https://www.instagram.com/senprints/"
                                                                 target="_blank" class="mr-2" aria-label="instagram"
                                                                 rel="noopener noreferrer nofollow"><span><i
-                    class="icon-sen-instagram"></i></span></a><!----><!----><!----><!----><!----></div>
+                    class="icon-sen-instagram"></i></span></a></div>
             </div>
         </div>
         <div></div>
@@ -109,13 +127,15 @@
                             <div class="flex items-center p-1" data-test-id="language-select-btn"><span
                                 class="vti__flag vn"></span><span>Tiếng Việt</span></div>
                             <i class="float-right absolute right-0 position-center-y z-0 transition rotate-0 icon-sen-menu-down text-2xl"></i>
-                        </button><!----></div>
+                        </button>
+                    </div>
                     <div id="currencySelect" class="dropdown relative">
                         <button type="button" class="relative border pr-5.5">
                             <div class="flex items-center p-1 min-w-20" data-test-id="currency-select-btn"><span
                                 class="vti__flag us"></span><span>$</span><span class="ml-2">US Dollar</span></div>
                             <i class="float-right absolute right-0 position-center-y z-0 transition rotate-0 icon-sen-menu-down text-2xl"></i>
-                        </button><!----></div>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
